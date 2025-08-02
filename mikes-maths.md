@@ -7,7 +7,7 @@ $$
 (2a+1)(2b+1)
 $$
 
-where \(a\) and \(b\) are integers. Now we expand the brackets and re-arrange the terms a little we get
+where \\(a\\) and \\(b\\) are integers. Now we expand the brackets and re-arrange the terms a little we get
 
 $$
 2(2ab + a + b) + 1
@@ -23,7 +23,7 @@ The trick is to draw 4 lines from the corners to the central point and then reas
 
 ### Proof of the Power Rule for Logarithms
 
-Prove that \(log_ax^n = nlog_ax\)
+Prove that \\(log_ax^n = nlog_ax\\)
 
 $$
 \textrm{Let} \: m=log_ax
@@ -35,7 +35,7 @@ $$
 a^m = x
 $$
 
-Now raise both sides to \(n\)
+Now raise both sides to \\(n\\)
 
 $$
 a^{mn} = x^n
@@ -47,11 +47,11 @@ $$
 mn = log_a x^n
 $$
 
-We note that, by definition, the LHS is simply \(mn\). Now substitute \(m\) and we have the result.
+We note that, by definition, the LHS is simply \\(mn\\). Now substitute \\(m\\) and we have the result.
 
 ### Logarithm Notes
 
-\(log_b x\) is how many \(b\)'s do we need to multiply together to get \(x\)
+\\(log_b x\\) is how many \\(b\\)'s do we need to multiply together to get \\(x\\)
 
 - Where `b` isn't given `log` is typically a "common" logarithm `(b = 10)`. and `ln` is a "natural" logarithm `(b = e)`.
 - Logarithms can be used to solve for an exponent.
