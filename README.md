@@ -1,10 +1,12 @@
 ### Prove that the Product of 2 Odd Numbers is Odd
 
-We define an odd number as $`2n+1`$ where `n` is an integer
+We define an odd number as \(2n+1\) where `n` is an integer
 
 So we can express the product of 2 odd numbers as
 
-$$(2a+1)(2b+1) \quad \textrm{where a \& b are integers}$$
+$$
+(2a+1)(2b+1) \quad \textrm{where a \& b are integers}
+$$
 
 Now we expand the brackets and re-arrange the terms a little we get
 
