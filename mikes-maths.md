@@ -1,6 +1,6 @@
 ### Prove that the Product of 2 Odd Numbers is Odd
 
-We define an odd number as \(2n+1\) where \(n\) is an integer.
+We define an odd number as \\(2n+1\\) where \\(n\\) is an integer.
 Therefore we can express the product of 2 odd numbers as
 
 $$
