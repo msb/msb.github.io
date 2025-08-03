@@ -1,3 +1,25 @@
+### Prove that \\(\sqrt{2}\\) is irrational
+
+We begin by assuming that opposite is true and that \\(\sqrt{2}\\) is rational.
+Therefore we can say that \\(\sqrt{2} = \frac{p}{q}\\) where \\(a\\) and \\(b\\) are integers and have are [coprime](https://en.wikipedia.org/wiki/Coprime_integers).
+This can be re-written as
+
+$$
+p ^ 2 = 2 q ^ 2
+$$
+
+which means that \\(p ^ 2\\) is even
+[which means that \\(p\\) is also even](https://math.stackexchange.com/questions/2708654/if-the-square-of-an-integer-number-x-is-even-then-x-has-to-be-even/2708668#2708668).
+This allows us to write \\(p = 2k\\) where \\(k\\) is an integer.
+If we plug this back into the original equation and re-write we get
+
+$$
+q ^ 2 = 2 k ^ 2
+$$
+
+which means that \\(q\\) is also even.
+However our \\(p\\) and \\(q\\) can't both be even and coprime so our assumption is false and \\(\sqrt{2}\\) must be irrational.
+
 ### Prove that the Product of 2 Odd Numbers is Odd
 
 We define an odd number as \\(2n+1\\) where \\(n\\) is an integer.
