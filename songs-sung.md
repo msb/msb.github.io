@@ -1,7 +1,7 @@
-## Songs sung by Cambridge Ukulele on 17/08/2025
+### Songs sung by Cambridge Ukulele on 17/08/2025
 
 
-## Songs sung by Cambridge Ukulele on 03/08/2025
+### Songs sung by Cambridge Ukulele on 03/08/2025
 
 - Johnny B. Goode - Chuck Berry
 - It's A Heartache - Bonnie Tyler
@@ -30,7 +30,7 @@
 - Price Tag (abridged) - Jessie J
 - Moon River - Andy Williams
 
-## Songs sung by Cambridge Ukulele on 06/07/2025
+### Songs sung by Cambridge Ukulele on 06/07/2025
 
 - Castle On The Hill - Ed Sheeran
 - Charlie Brown & Yakety Yak - Leiber and Stoller
@@ -53,7 +53,7 @@
 - Word up - Cameo
 - Yellow - Coldplay
 
-## Songs sung by Cambridge Ukulele on 22/06/2025
+### Songs sung by Cambridge Ukulele on 22/06/2025
 
 - Beach Boys Medley
 - Best Of My Love - Eagles
@@ -79,7 +79,7 @@
 - Why Does it Always Rain on Me - Travis
 - Why Don't We Start from Here - Lucy Spraggan
 
-## Songs sung by Cambridge Ukulele on 25/05/2025
+### Songs sung by Cambridge Ukulele on 25/05/2025
 
 - Bad Moon Rising - Creedence Clearwater Revival
 - Blister in the Sun - The Violent Femmes
