@@ -1,3 +1,9 @@
+---
+title: Really Easy Mushroom Risotto
+---
+
+![Really Easy Mushroom Risotto](https://msb.me.uk/resources/really-easy-mushroom-risotto.jpg)
+
 ### Ingredients
 
 * 1 tbsp dried porcini mushrooms

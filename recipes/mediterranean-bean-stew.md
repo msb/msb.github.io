@@ -1,3 +1,9 @@
+---
+title: Mediterranean Bean Stew
+---
+
+![Mediterranean Bean Stew](https://msb.me.uk/resources/mediterranean-bean-stew.jpg)
+
 ### Ingredients
 
 * red onion, chopped

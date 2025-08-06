@@ -1,3 +1,9 @@
+---
+title: Profiteroles
+---
+
+![Profiteroles](https://msb.me.uk/resources/profiteroles.jpg)
+
 ### Ingredients
 
 * 50g butter (preferably unsalted), cut into cubes

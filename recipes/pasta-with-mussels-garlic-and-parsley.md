@@ -1,3 +1,9 @@
+---
+title: Pasta With Mussels Garlic And Parsley
+---
+
+![Pasta With Mussels Garlic And Parsley](https://msb.me.uk/resources/pasta-with-mussels-garlic-and-parsley.jpg)
+
 ### Ingredients
 
 1 vacuum pack of mussels

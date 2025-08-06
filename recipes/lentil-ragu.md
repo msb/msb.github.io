@@ -1,3 +1,9 @@
+---
+title: Lentil Ragu
+---
+
+![Lentil Ragu](https://msb.me.uk/resources/lentil-ragu.jpg)
+
 ### Ingredients
 
 * 3 tbsp olive oil

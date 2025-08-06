@@ -1,3 +1,9 @@
+---
+title: Dhal Baked Eggs with Chickpeas
+---
+
+![Dhal Baked Eggs with Chickpeas](https://msb.me.uk/resources/dhal-baked-eggs-with-chickpeas.jpg)
+
 ### Ingredients
 
 * Oil, to fry

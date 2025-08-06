@@ -1,3 +1,9 @@
+---
+title: Quick Houmous
+---
+
+![Quick Houmous](https://msb.me.uk/resources/quick-houmous.jpg)
+
 ### Ingredients
 
 * 200g/7oz canned chickpeas

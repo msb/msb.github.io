@@ -1,3 +1,9 @@
+---
+title: Easy Fish Pie
+---
+
+![Easy Fish Pie](https://msb.me.uk/resources/easy-fish-pie.jpg)
+
 ### Ingredients
 
 * 1kg Maris Piper potatoes, peeled and halved

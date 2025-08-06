@@ -1,3 +1,9 @@
+---
+title: Oven Baked Fish Cakes
+---
+
+![Oven Baked Fish Cakes](https://msb.me.uk/resources/oven-baked-fish-cakes.jpg)
+
 ### Ingredients
 
 * 450g firm white fish fillets

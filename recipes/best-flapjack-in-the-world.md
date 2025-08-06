@@ -1,3 +1,9 @@
+---
+title: Best Flapjack in the World
+---
+
+![Best Flapjack in the World](https://msb.me.uk/resources/best-flapjack-in-the-world.jpg)
+
 ### Ingredients
 
 * 250g dried dates destoned & chopped

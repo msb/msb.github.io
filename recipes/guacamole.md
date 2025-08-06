@@ -1,3 +1,9 @@
+---
+title: Guacamole
+---
+
+![Guacamole](https://msb.me.uk/resources/guacamole.jpg)
+
 ### Ingredients
 
 * 2 avocado

@@ -1,3 +1,9 @@
+---
+title: Quick Kimchi
+---
+
+![Quick Kimchi](https://msb.me.uk/resources/quick-kimchi.jpg)
+
 ### Ingredients
 
 * 1 Chinese cabbage (use Savoy as replacement)

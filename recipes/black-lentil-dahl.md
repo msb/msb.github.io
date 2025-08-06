@@ -1,3 +1,9 @@
+---
+title: Black Lentil Dahl
+---
+
+![Black Lentil Dahl](https://msb.me.uk/resources/black-lentil-dahl.jpg)
+
 ### Ingredients
 
 * 4 tbsp oil

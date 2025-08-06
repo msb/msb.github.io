@@ -1,3 +1,9 @@
+---
+title: Roasted Fish Topped With Tapenade
+---
+
+![Roasted Fish Topped With Tapenade](https://msb.me.uk/resources/roasted-fish-topped-with-tapenade.jpg)
+
 ### Ingredients
 
 * 2 pieces of cod or haddock fillets

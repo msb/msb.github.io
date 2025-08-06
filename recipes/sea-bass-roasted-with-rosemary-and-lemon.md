@@ -1,3 +1,9 @@
+---
+title: Sea Bass Roasted With Rosemary And Lemon
+---
+
+![Sea Bass Roasted With Rosemary And Lemon](https://msb.me.uk/resources/sea-bass-roasted-with-rosemary-and-lemon.jpg)
+
 ### Ingredients
 
 * 1 x 1kg/2.2lb sea bass

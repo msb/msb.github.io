@@ -1,3 +1,9 @@
+---
+title: Salsa
+---
+
+![Salsa](https://msb.me.uk/resources/salsa.jpg)
+
 ### Ingredients
 
 * 4 large firm tomatoes, skinned and deseeded (you can use green tomatoes)

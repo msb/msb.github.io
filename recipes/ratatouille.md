@@ -1,3 +1,9 @@
+---
+title: Ratatouille
+---
+
+![Ratatouille](https://msb.me.uk/resources/ratatouille.jpg)
+
 ### Ingredients
 
 * onions, sliced

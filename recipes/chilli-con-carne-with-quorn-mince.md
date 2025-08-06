@@ -1,3 +1,9 @@
+---
+title: Chilli Con Carne With Quorn Mince
+---
+
+![Chilli Con Carne With Quorn Mince](https://msb.me.uk/resources/chilli-con-carne-with-quorn-mince.jpg)
+
 ### Ingredients
 
 * 900g Quorn Mince

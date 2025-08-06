@@ -1,3 +1,9 @@
+---
+title: Ultimate Vegan Burger
+---
+
+![Ultimate Vegan Burger](https://msb.me.uk/resources/ultimate-vegan-burger.jpg)
+
 ### Ingredients
 
 * 400g tin black beans, rinsed and drained well

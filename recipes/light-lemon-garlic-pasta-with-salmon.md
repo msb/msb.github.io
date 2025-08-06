@@ -1,3 +1,9 @@
+---
+title: Light Lemon Garlic Pasta With Salmon
+---
+
+![Light Lemon Garlic Pasta With Salmon](https://msb.me.uk/resources/light-lemon-garlic-pasta-with-salmon.jpg)
+
 ### Ingredients (Serves 2)
 
 * 170g pasta

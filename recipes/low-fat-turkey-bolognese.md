@@ -1,3 +1,9 @@
+---
+title: Low Fat Turkey Bolognese
+---
+
+![Low Fat Turkey Bolognese](https://msb.me.uk/resources/low-fat-turkey-bolognese.jpg)
+
 ### Ingredients
 
 * 400g lean turkey mince

@@ -1,3 +1,9 @@
+---
+title: Easy Bread Rolls
+---
+
+![Easy Bread Rolls](https://msb.me.uk/resources/easy-bread-rolls.jpg)
+
 ### Ingredients
 
 * 500g strong white bread flour, plus extra for dusting

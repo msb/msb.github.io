@@ -1,3 +1,9 @@
+---
+title: 20 Minute Seafood Pasta
+---
+
+![20 Minute Seafood Pasta](https://msb.me.uk/resources/20-minute-seafood-pasta.jpg)
+
 ### Ingredients
 
 * 1 tbsp olive oil

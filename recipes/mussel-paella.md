@@ -1,3 +1,9 @@
+---
+title: Mussel Paella
+---
+
+![Mussel Paella](https://msb.me.uk/resources/mussel-paella.jpg)
+
 ### Ingredients
 
 * 3 tbsp olive oil

@@ -1,3 +1,9 @@
+---
+title: Prawn, Mango & Avocado Salad
+---
+
+![Prawn, Mango & Avocado Salad](https://msb.me.uk/resources/prawn-mango-avocado-salad.jpg)
+
 ### Ingredients
 
 * 400g cooked tiger prawns 

@@ -1,3 +1,9 @@
+---
+title: One Pan Fish Tomato Curry
+---
+
+![One Pan Fish Tomato Curry](https://msb.me.uk/resources/one-pan-fish-tomato-curry.jpg)
+
 ### Ingredients
 
 * 2 tbsp sunflower oil

@@ -1,3 +1,9 @@
+---
+title: Salt Cod Soup
+---
+
+![Salt Cod Soup](https://msb.me.uk/resources/salt-cod-soup.jpg)
+
 ### Ingredients
 
 * 310 g salt cod, or 600g fresh cod, haddock or monkfish fillets, from sustainable sources, ask your fishmonger

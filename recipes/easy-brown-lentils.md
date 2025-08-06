@@ -1,3 +1,9 @@
+---
+title: Easy Brown Lentils
+---
+
+![Easy Brown Lentils](https://msb.me.uk/resources/easy-brown-lentils.jpg)
+
 ### Ingredients
 
 * 1 tablespoon olive oil

@@ -1,3 +1,9 @@
+---
+title: Mike's Spaghetti Vongole
+---
+
+![Mike's Spaghetti Vongole](https://msb.me.uk/resources/mike-s-spaghetti-vongole.jpg)
+
 ### Ingredients
 
 * 200g spaghetti/linguine
