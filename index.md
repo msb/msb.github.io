@@ -1,2 +1,3 @@
+- [Random recipes](./chickpea-curry)
 - [Random bits of maths](./mikes-maths)
 - [Songs sung by Cambridge Ukulele](./songs-sung)
