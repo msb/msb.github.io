@@ -1,3 +1,9 @@
+---
+title: Chickpea Curry
+---
+
+![Chickpea Curry](https://msb.me.uk/resources/chickpea-curry.jpg)
+
 ### Ingredients
 
 * 800g canned chickpeas or 720g jar giant chickpeas
