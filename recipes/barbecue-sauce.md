@@ -1,3 +1,9 @@
+---
+title: Barbecue Sauce
+---
+
+![Barbecue Sauce](https://www.kitchentreaty.com/wp-content/uploads/2013/04/bbq-sauce-recipe-1-420x560.jpg)
+
 ### Ingredients
 
 * 5 tablespoons dry cider or wine

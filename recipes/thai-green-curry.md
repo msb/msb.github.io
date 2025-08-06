@@ -1,3 +1,9 @@
+---
+title: Thai Green Curry
+---
+
+![Thai Green Curry](https://images.immediate.co.uk/production/volatile/sites/30/2020/08/thai-green-prawn-curry-503844c.jpg?quality=90&webp=true&resize=440,400)
+
 ### Ingredients
 
 * 4-5 spring onions, finely chopped

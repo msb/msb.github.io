@@ -1,3 +1,9 @@
+---
+title: Ginger, Lemon And Garlic Swordfish Steak
+---
+
+![Ginger, Lemon And Garlic Swordfish Steak](https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/23/38/44/zbaEuKY4T5OI5vmo2m7c_263-grilled-swordfish.jpg)
+
 ### Ingredients
 
 * 2cm gingerroot, peeled and finely chopped

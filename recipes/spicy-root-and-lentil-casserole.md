@@ -1,3 +1,9 @@
+---
+title: Spicy Root And Lentil Casserole
+---
+
+![Spicy Root And Lentil Casserole](https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-488691_11-ca2ba1d.jpg?quality=90&webp=true&resize=440,400)
+
 ### Ingredients
 
 * 2 tbsp sunflower or vegetable oil

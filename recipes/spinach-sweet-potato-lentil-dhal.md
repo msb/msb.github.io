@@ -1,3 +1,9 @@
+---
+title: Spinach Sweet Potato Lentil Dhal
+---
+
+![Spinach Sweet Potato Lentil Dhal](https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spinach-sweet-potato-and-lentil-dhal-be8fae5.jpg?quality=90&webp=true&resize=440,400)
+
 ### Ingredients
 
 * 1 tbsp sesame oil

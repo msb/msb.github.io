@@ -1,3 +1,9 @@
+---
+title: Paella
+---
+
+![Paella](https://tastesbetterfromscratch.com/wp-content/uploads/2020/04/Paella-7.jpg)
+
 ### Ingredients
 
 * 4 cloves garlic finely chopped
