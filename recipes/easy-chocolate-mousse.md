@@ -2,7 +2,7 @@
 title: Easy Chocolate Mousse
 ---
 
-![Easy Chocolate Moussegʻv Soup](https://images.immediate.co.uk/production/volatile/sites/30/2024/11/6-561fa3b.jpg?quality=90&webp=true&fit=80)
+![Easy Chocolate Moussegʻv Soup](https://images.immediate.co.uk/production/volatile/sites/30/2024/11/6-561fa3b.jpg?quality=90&webp=true&fit=800)
 
 ### Ingredients
 
