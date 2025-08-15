@@ -1,9 +1,8 @@
 ---
 title: Easy Chocolate Mousse
-published: false
 ---
 
-![Easy Chocolate Moussegʻv Soup](https://realfood.tesco.com/media/images/RFO-1400x919--cdb61265-c5a8-4297-b243-e335ad51d3d8-0-1400x919.jpg)
+![Easy Chocolate Moussegʻv Soup](https://images.immediate.co.uk/production/volatile/sites/30/2024/11/6-561fa3b.jpg?quality=90&webp=true&fit=80)
 
 ### Ingredients
 
