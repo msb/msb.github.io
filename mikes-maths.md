@@ -5,36 +5,36 @@ format_maths: true
 
 ### Prove that $\sqrt{2}$ is irrational
 
-We begin by assuming that opposite is true and that \\(\sqrt{2}\\) is rational.
-Therefore we can say that \\(\sqrt{2} = \frac{p}{q}\\) where \\(p\\) and \\(q\\) are integers and [coprime](https://en.wikipedia.org/wiki/Coprime_integers).
+We begin by assuming that opposite is true and that $\sqrt{2}$ is rational.
+Therefore we can say that $\sqrt{2} = \frac{p}{q}$ where $p$ and $q$ are integers and [coprime](https://en.wikipedia.org/wiki/Coprime_integers).
 This can be re-written as
 
 $$
 p ^ 2 = 2 q ^ 2
 $$
 
-which means that \\(p ^ 2\\) is even
-[and hence \\(p\\) is also even](https://math.stackexchange.com/questions/2708654/if-the-square-of-an-integer-number-x-is-even-then-x-has-to-be-even/2708668#2708668).
-This allows us to write \\(p = 2k\\) where \\(k\\) is an integer.
+which means that $p ^ 2$ is even
+[and hence $p$ is also even](https://math.stackexchange.com/questions/2708654/if-the-square-of-an-integer-number-x-is-even-then-x-has-to-be-even/2708668#2708668).
+This allows us to write $p = 2k$ where $k$ is an integer.
 If we plug this back into the original equation and re-write we get
 
 $$
 q ^ 2 = 2 k ^ 2
 $$
 
-which means that \\(q\\) is also even.
-However our \\(p\\) and \\(q\\) can't both be even and coprime so our assumption is false and \\(\sqrt{2}\\) must be irrational.
+which means that $q$ is also even.
+However our $p$ and $q$ can't both be even and coprime so our assumption is false and $\sqrt{2}$ must be irrational.
 
 ### Prove that the Product of 2 Odd Numbers is Odd
 
-We define an odd number as \\(2n+1\\) where \\(n\\) is an integer.
+We define an odd number as $2n+1$ where $n$ is an integer.
 Therefore we can express the product of 2 odd numbers as
 
 $$
 (2a+1)(2b+1)
 $$
 
-where \\(a\\) and \\(b\\) are integers. Now we expand the brackets and re-arrange the terms a little we get
+where $a$ and $b$ are integers. Now we expand the brackets and re-arrange the terms a little we get
 
 $$
 2(2ab + a + b) + 1
@@ -50,7 +50,7 @@ The trick is to draw 4 lines from the corners to the central point and then reas
 
 ### Proof of the Power Rule for Logarithms
 
-Prove that \\(log_ax^n = nlog_ax\\)
+Prove that $log_ax^n = nlog_ax$
 
 $$
 \textrm{Let} \: m=log_ax
@@ -62,7 +62,7 @@ $$
 a^m = x
 $$
 
-Now raise both sides to \\(n\\)
+Now raise both sides to $n$
 
 $$
 a^{mn} = x^n
@@ -74,11 +74,11 @@ $$
 mn = log_a x^n
 $$
 
-We note that, by definition, the LHS is simply \\(mn\\). Now substitute \\(m\\) and we have the result.
+We note that, by definition, the LHS is simply $mn$. Now substitute $m$ and we have the result.
 
 ### Logarithm Notes
 
-\\(log_b x\\) is how many \\(b\\)'s do we need to multiply together to get \\(x\\)
+$log_b x$ is how many $b$'s do we need to multiply together to get $x$
 
 - Where `b` isn't given `log` is typically a "common" logarithm `(b = 10)`. and `ln` is a "natural" logarithm `(b = e)`.
 - Logarithms can be used to solve for an exponent.
