@@ -1,5 +1,6 @@
 ---
 title: Random bits of maths
+format_maths: true
 ---
 
 ### Prove that $\sqrt{2}$ is irrational
