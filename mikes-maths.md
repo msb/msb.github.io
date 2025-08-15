@@ -2,7 +2,7 @@
 title: Random bits of maths
 ---
 
-### Prove that \\(\sqrt{2}\\) is irrational
+### Prove that $\sqrt{2}$ is irrational
 
 We begin by assuming that opposite is true and that \\(\sqrt{2}\\) is rational.
 Therefore we can say that \\(\sqrt{2} = \frac{p}{q}\\) where \\(p\\) and \\(q\\) are integers and [coprime](https://en.wikipedia.org/wiki/Coprime_integers).
