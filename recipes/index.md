@@ -12,6 +12,7 @@ title: Random recipes
 - [Dhal Baked Eggs with Chickpeas](./dhal-baked-eggs-with-chickpeas)
 - [Easy Bread Rolls](./easy-bread-rolls)
 - [Easy Brown Lentils](./easy-brown-lentils)
+- [Easy Chocolate Mousse](./easy-chocolate-mousse)
 - [Easy Fish Pie](./easy-fish-pie)
 - [Ginger, Lemon And Garlic Swordfish Steak](./ginger-lemon-and-garlic-swordfish-steak)
 - [Guacamole](./guacamole)
