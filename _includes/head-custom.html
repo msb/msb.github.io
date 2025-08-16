@@ -16,4 +16,28 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 {% endif %}
 
+<script>
+    // wraps the header in an anchor navigating back to index
+    function wrap(el, wrapper) {
+        el.parentNode.insertBefore(wrapper, el);
+        wrapper.appendChild(el);
+    }
+    window.onload = function() {
+        const anchor = document.createElement('a')
+        anchor.href = '/'
+        anchor.id = 'back-to-index'
+        wrap(document.querySelector('header.page-header'), anchor);
+    };
+</script>
+
+<style>
+    a#back-to-index:hover {
+        text-decoration: none;
+    }
+    header.page-header {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+</style>
+
 <!-- end custom head snippets -->
