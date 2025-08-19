@@ -30,19 +30,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: source input
-        run: ls -lr ./
+      - name: Generate indexes
+        run: .\src\index.py
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
-      - name: site output
-        run: ls -lr ./_site
-      - name: ruby?
-        run: ruby -v
-      - name: python?
-        run: python -v
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
