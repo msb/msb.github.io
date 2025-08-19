@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple draughts game using backward induction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .game-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .game-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .current-player {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .board {
+            display: grid;
+            grid-template-columns: repeat(8, 60px);
+            grid-template-rows: repeat(8, 60px);
+            gap: 0;
+            border: 3px solid #333;
+            margin: 0 auto;
+        }
+        
+        .square {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .light { background-color: #f0d9b5; }
+        .dark { background-color: #b58863; }
+        
+        .piece {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: 3px solid #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .red { background-color: #dc3545; color: white; }
+        .black { background-color: #343a40; color: white; }
+        
+        .king::after {
+            content: '♔';
+            font-size: 24px;
+        }
+        
+        .selected {
+            background-color: #ffc107 !important;
+            transform: scale(1.1);
+        }
+        
+        .valid-move {
+            background-color: rgba(40, 167, 69, 0.5) !important;
+        }
+        
+        .status {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        
+        .score {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+        
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        
+        button:hover {
+            background: #0056b3;
+        }
+        
+        .reset-btn {
+            width: 45%;
+        }
+        
+        .output-btn {
+            width: 45%;
+        }
+
+        #depth {
+            width: 5%;
+            height: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-info">
+            <h1>Draughts</h1>
+            <div class="current-player" id="currentPlayer">Your turn (Red)</div>
+            <div class="score">
+                <span>Red pieces: <span id="redCount"></span></span>
+                <span>Moves: <span id="moves"></span></span>
+                <span>Black pieces: <span id="blackCount"></span></span>
+            </div>
+        
+        <div class="board" id="board"></div>
+        
+        <div class="status" id="status">Click a red piece to start playing</div>
+        
+        <button class="reset-btn" onclick="initGame()">New Game</button>
+        <button class="output-btn" onclick="outputGame()">Output Game</button>
+        <input id="depth" type="text" value="8">
+    </div>
+
+    <script>
+        let theBoard = [];
+        let currentPlayer = 'red';
+        let selectedPiece = null;
+        let gameOver = false;
+        let moveCount = 0;
+        
+        function initGame() {
+            theBoard = Array(8).fill().map(() => Array(8).fill(null));
+            selectedPiece = null;
+            gameOver = false;
+            moveCount = 0;
+            currentPlayer = 'red';
+
+            // Place red pieces (bottom)
+            for (let row = 5; row < 8; row++) {
+                for (let col = 0; col < 8; col++) {
+                    if ((row + col) % 2 === 1) {
+                        theBoard[row][col] = { color: 'red', king: false };
+                    }
+                }
+            }
+            // Place black pieces (top)
+            for (let row = 0; row < 3; row++) {
+                for (let col = 0; col < 8; col++) {
+                    if ((row + col) % 2 === 1) {
+                        theBoard[row][col] = { color: 'black', king: false };
+                    }
+                }
+            }
+
+            renderBoard();
+            updateStatus();
+        }
+
+        function outputGame() {
+            let gameOutput = ""
+            for (const {row, col, piece} of pieceGenerator(theBoard)) {
+                gameOutput += `theBoard[${row}][${col}]=${JSON.stringify(piece)};`
+            }
+            console.log(gameOutput)
+        }
+
+        function createNextGameState(board, move) {
+            let nextBoard = board.map(row => row.map(col => {
+                if (col === null) return null
+                return {...col}
+            }))
+            updateBoard(nextBoard, move)
+            return nextBoard
+        }
+
+        const kingFactor = 4;
+
+        function getPayoffs(board) {
+            const count = countPieces(board)
+            const kings = countKings(board)
+            return {
+                red: count.red - count.black + (kings.red - kings.black) * kingFactor, 
+                black: count.black - count.red + (kings.black - kings.red) * kingFactor
+            }
+        }
+
+        function getMoves(player, board) {
+            return Object.values(getMoveMap(player, board)).flat()
+        }
+
+        function nextPlayer(player) {
+            return player === 'red' ? 'black' : 'red'
+        }
+
+        function losingPayoffs(player) {
+            const payoffs = {}
+            payoffs[player] = Number.MIN_SAFE_INTEGER
+            payoffs[nextPlayer(player)] = Number.MAX_SAFE_INTEGER
+            return {payoffs}
+        }
+
+        function selectMove(player, gameState, depth) {
+
+            const moves = getMoves(player, gameState)
+            if (moves.length == 0) {
+                return losingPayoffs(player)
+            }
+
+            let gameStates = moves.map(move => ({
+                move,
+                gameState: createNextGameState(gameState, move),
+            }))
+            if (depth > 0) {
+                gameStates = gameStates.map(({gameState, ...rest}) => ({
+                    ...rest, gameState, ...selectMove(nextPlayer(player), gameState, depth - 1)}
+                ))
+            } else {
+                gameStates = gameStates.map(({gameState, ...rest}) => ({
+                    ...rest, payoffs: getPayoffs(gameState)}
+                ))
+            }
+
+            const selection = gameStates.reduce((accumulator, currentValue) => (
+                currentValue.payoffs[player] > accumulator.payoffs[player] ? currentValue : accumulator
+            ))
+
+            return {payoffs: selection.payoffs, selectedMove: selection.move}
+        }
+
+        function renderBoard(validMoves = []) {
+            const boardElement = document.getElementById('board');
+            boardElement.innerHTML = '';
+            
+            for (let row = 0; row < 8; row++) {
+                for (let col = 0; col < 8; col++) {
+                    const square = document.createElement('div');
+                    square.className = `square ${(row + col) % 2 === 0 ? 'light' : 'dark'}`;
+                    
+                    let move = validMoves.find(move => move.to.row === row && move.to.col === col)
+
+                    if (move) {
+                        square.classList.add('valid-move');
+                    }
+
+                    square.onclick = () => handleSquareClick(row, col, move);
+
+                    if (theBoard[row][col]) {
+                        const piece = document.createElement('div');
+                        piece.className = `piece ${theBoard[row][col].color}`;
+                        if (theBoard[row][col].king) {
+                            piece.classList.add('king');
+                        }
+                        
+                        if (selectedPiece && selectedPiece.row === row && selectedPiece.col === col) {
+                            piece.classList.add('selected');
+                        }
+                        
+                        square.appendChild(piece);
+                    }
+                    
+                    boardElement.appendChild(square);
+                }
+            }
+        }
+        
+        function handleSquareClick(row, col, move) {
+            if (gameOver) return;
+            // If clicking on a valid move
+            if (move) {
+                makeMove(move);
+                return;
+            }
+            // If clicking on own piece
+            if (theBoard[row][col] && theBoard[row][col].color === currentPlayer) {
+                selectedPiece = { row, col };
+                const moves = getMoveMap(currentPlayer, theBoard)
+                renderBoard(moves[row * 8 + col] || []);
+            } else {
+                selectedPiece = null;
+                renderBoard();
+            }
+        }
+        
+        function getMoveMap(player, board) {
+            const simpleMoves = {}
+            const captureMoves = {}
+            for (const {row, col, piece} of pieceGenerator(board, player)) {
+
+                const directions = piece.king ? 
+                    [[-1, -1], [-1, 1], [1, -1], [1, 1]] : 
+                    piece.color === 'red' ? [[-1, -1], [-1, 1]] : [[1, -1], [1, 1]]
+
+                for (const [dr, dc] of directions) {
+                    const newRow = row + dr
+                    const newCol = col + dc
+                    
+                    if (isValidSquare(newRow, newCol)) {
+                        if (Object.keys(captureMoves).length === 0 && !board[newRow][newCol]) {
+                            // Simple move
+                            if (!simpleMoves[row * 8 + col]) {
+                                simpleMoves[row * 8 + col] = []
+                            }
+                            simpleMoves[row * 8 + col].push({
+                                from: { row, col },
+                                to: { row: newRow, col: newCol },
+                                capture: null
+                            })
+                        } else if (board[newRow][newCol] && board[newRow][newCol].color !== piece.color) {
+                            // Capture move
+                            const jumpRow = newRow + dr
+                            const jumpCol = newCol + dc
+                            if (isValidSquare(jumpRow, jumpCol) && !board[jumpRow][jumpCol]) {
+                                if (!captureMoves[row * 8 + col]) {
+                                    captureMoves[row * 8 + col] = []
+                                }
+                                captureMoves[row * 8 + col].push({
+                                    from: { row, col },
+                                    to: { row: jumpRow, col: jumpCol },
+                                    capture: { row: newRow, col: newCol } 
+                                })
+                            }
+                        }
+                    }
+                }
+            }
+
+            return Object.keys(captureMoves).length === 0 ? simpleMoves : captureMoves
+        }
+        
+        function isValidSquare(row, col) {
+            return row >= 0 && row < 8 && col >= 0 && col < 8
+        }
+        
+        function updateBoard(board, move) {
+            // Move piece
+            board[move.to.row][move.to.col] = board[move.from.row][move.from.col]
+            board[move.from.row][move.from.col] = null
+            
+            // Handle capture
+            if (move.capture) {
+                board[move.capture.row][move.capture.col] = null
+            }
+            
+            // Check for king promotion
+            if ((board[move.to.row][move.to.col].color === 'red' && move.to.row === 0) ||
+                (board[move.to.row][move.to.col].color === 'black' && move.to.row === 7)) {
+                board[move.to.row][move.to.col].king = true
+            }
+        }
+        
+        function makeMove(move) {
+            updateBoard(theBoard, move)
+            moveCount ++
+
+            selectedPiece = null
+            
+            // Switch turns
+            currentPlayer = nextPlayer(currentPlayer)
+            
+            renderBoard()
+            updateStatus()
+            
+            // AI move for black
+            if (currentPlayer === 'black' && !gameOver) {
+                setTimeout(makeAIMove, 500)
+            }
+        }
+        
+        function makeAIMove() {
+            const depth = document.getElementById('depth').value
+            const {selectedMove, ...rest} = selectMove('black', theBoard, parseInt(depth), moveCount)
+            makeMove(selectedMove)
+        }
+        
+        function updateStatus() {
+            const count = countPieces(theBoard)
+            
+            document.getElementById('redCount').textContent = count.red;
+            document.getElementById('blackCount').textContent = count.black;
+ 
+            document.getElementById('moves').textContent = moveCount;
+ 
+            if (count.red === 0) {
+                gameOver = true;
+                document.getElementById('status').textContent = 'Game Over - Black wins!';
+                document.getElementById('currentPlayer').textContent = 'Game Over';
+            } else if (count.black === 0) {
+                gameOver = true;
+                document.getElementById('status').textContent = 'Game Over - You win!';
+                document.getElementById('currentPlayer').textContent = 'Game Over';
+            } else {
+                document.getElementById('currentPlayer').textContent = 
+                    currentPlayer === 'red' ? 'Your turn (Red)' : 'AI thinking... (Black)';
+                document.getElementById('status').textContent = 
+                    currentPlayer === 'red' ? 'Click a red piece to move' : 'AI is making a move...';
+            }
+        }
+
+        function countPieces(board) {
+            const count = {red: 0, black: 0}
+            for (const {piece} of pieceGenerator(board)) {
+                count[piece.color] ++
+            }
+            return count
+        }
+
+        function countKings(board) {
+            let count = {red: 0, black: 0}
+            for (const {piece} of pieceGenerator(board)) {
+                if (piece.king) {
+                    count[piece.color] ++
+                }
+            }
+            return count
+        }
+
+        function* pieceGenerator(board, player=null) {
+            for (let row = 0; row < 8; row ++) {
+                for (let col = 0; col < 8; col ++) {
+                    const piece = board[row][col]
+                    if (piece && (!player || player == piece.color)) {
+                        yield {row, col, piece}
+                    }
+                }
+            }
+        }
+        
+        // Initialize the game
+        initGame();
+    </script>
+</body>
+</html>
