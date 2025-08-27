@@ -3,6 +3,50 @@ title: Random bits of maths
 format_maths: true
 ---
 
+### Simplist inductive proof: $\sum_{j=0}^n j = \frac{n(n+1)}{2}$ where $n$ is a whole number.
+
+If $n=1$ then clearly the above statement is true (the **base case**).
+
+Now we assume that the above statement is true for $n=k$ (the **inductive hypothesis**) ..
+
+$$
+\sum_{j=0}^k j = \frac{k(k+1)}{2}
+$$
+
+.. and try to prove the statement for $n=k+1$ (the **inductive step**) ..
+
+$$
+\sum_{j=0}^{k+1} j = \frac{(k+1)(k+2)}{2}
+$$
+
+The LHS can be written as
+
+$$
+\sum_{j=0}^k j + (k+1)
+$$
+
+and again as
+
+$$
+\frac{k(k+1)}{2} + (k+1)
+$$
+
+Factor out $(k+1)$:
+
+$$
+(k+1)(\frac{k}{2} + 1)
+$$
+
+.. and simplify
+
+$$
+\frac{(k+1)(k+2)}{2}
+$$
+
+.. which is the RHS so we have proved the inductive step.
+
+[Proof by induction exercises](https://madasmaths.com/archive/maths_booklets/further_topics/various/proof_by_induction.pdf)
+
 ### Prove that $\sqrt{2}$ is irrational
 
 We begin by assuming that opposite is true and that $\sqrt{2}$ is rational.
@@ -87,13 +131,9 @@ $log_b x$ is how many $b$'s do we need to multiply together to get $x$
 
 ![Rules of Logarithms](https://www.chilimath.com/wp-content/uploads/2020/03/log-rules.gif)
 
-[Logarithms Practice](https://madasmaths.com/archive/maths_booklets/basic_topics/various/logarithms_practice.pdf)
+[Logarithm Exercises](https://madasmaths.com/archive/maths_booklets/basic_topics/various/logarithms_practice.pdf)
 
-### Proof that ..
-
-$$
-cos(\theta)^2+sin(\theta)^2=1
-$$
+### Proving that $cos(\theta)^2+sin(\theta)^2=1$
 
 We know that
 
@@ -144,6 +184,8 @@ $$
 $$
 f'(x) = \lim_{h\to 0}\frac{f(x+h)-f(x)}{h}
 $$
+
+[](https://madasmaths.com/archive/maths_booklets/further_topics/various/differentiation_from_first_principles.pdf)
 
 ### References
 
