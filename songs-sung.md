@@ -4,6 +4,33 @@ title: Songs sung by Cambridge Ukulele
 
 ### Songs sung by Cambridge Ukulele on 31/08/2025
 
+- Blitzkrieg Bop - The Ramones
+- All My Loving - The Beatles
+- Alright - Supergrass
+- Peaceful Easy Feeling - Eagles
+- Price Tag (abridged) - Jessie J
+- Riptide - Vance Joy
+- It Doesn't Matter Anymore - Buddy Holly
+- Karma Chameleon - Culture Club
+- King of the Road - Roger Miller
+- Lion Sleeps Tonight, The - The Tokens
+- Loco-motion, The - Little Eva
+- Losing My Religion - REM
+- Dock of the Bay - Otis Redding
+- Texas Hold'em - Beyonce
+- Echo Beach - Martha and the Muffins
+- Monkey Man - Toots and the Maytals
+- Folsom Prison Blues - Johnny Cash
+- Faith - George Michael
+- Human - The Killers
+- Emmylou - First Aid Kit
+- Dream A Little Dream Of Me - The Mamas And The Papas
+- Every Breath You Take - The Police
+- Driftwood - Travis
+- Dreams - Fleetwood Mac
+- Wagon Wheel - Old Crow Medicine Show
+- Can't Stop (abridged) - Red Hot Chili Peppers
+- Kokomo - The Beach Boys
 
 ### Songs sung by Cambridge Ukulele on 17/08/2025
 
@@ -67,6 +94,12 @@ title: Songs sung by Cambridge Ukulele
 
 ### Songs sung by Cambridge Ukulele on 06/07/2025
 
+- Viva La Vida - Coldplay
+- In My Life - The Beatles
+- Valerie - Amy Winehouse
+- Wish You Were Here - Pink Floyd
+- With A Little Help From My Friends - The Beatles
+- Wonderful World - Sam Cooke
 - Castle On The Hill - Ed Sheeran
 - Charlie Brown & Yakety Yak - Leiber and Stoller
 - Close To You - The Carpenters
@@ -77,68 +110,62 @@ title: Songs sung by Cambridge Ukulele
 - Half the World Away - Oasis
 - Handbags And Gladrags - Stereophonics
 - If You Could Read My Mind - Gordon Lightfoot
-- In My Life - The Beatles
 - Made Of Stone - The Stone Roses
 - Total Eclipse of the Heart (abridged) - Bonnie Tyler
-- Valerie - Amy Winehouse
-- Viva La Vida - Coldplay
-- Wish You Were Here - Pink Floyd
-- With A Little Help From My Friends - The Beatles
-- Wonderful World - Sam Cooke
 - Word up - Cameo
 - Yellow - Coldplay
 
 ### Songs sung by Cambridge Ukulele on 22/06/2025
 
-- Beach Boys Medley
-- Best Of My Love - Eagles
+- Viva La Vida - Coldplay
+- Losing My Religion - REM
+- Make Me Smile - Steve Harley
+- Sunny Afternoon - The Kinks
+- Monkey Man - Toots and the Maytals
 - Faith - George Michael
 - Fields Of Gold - Sting
-- I Shot The Sheriff - Bob Marley
 - I'll Fly Away - Alison Krauss and Gillian Welch
 - Lola - The Kinks
-- Losing My Religion - REM
 - Mad World - Gary Jules
-- Make Me Smile - Steve Harley
 - Meet Me On The Corner - Lindisfarne
+- Beach Boys Medley
+- Best Of My Love - Eagles
+- I Shot The Sheriff - Bob Marley
 - Midnight Special - Lead Belly
-- Monkey Man - Toots and the Maytals
 - Stand By Me - Oasis & Ben E King
-- Sunny Afternoon - The Kinks
 - Take it Easy - The Eagles
 - Titanium - David Guetta ft. Sia
 - TRUSTFALL - P!nk
 - Try A Little Tenderness - Otis Reading
-- Viva La Vida - Coldplay
 - When The Night Feels My Song - Bedouin Soundclash
 - Why Does it Always Rain on Me - Travis
 - Why Don't We Start from Here - Lucy Spraggan
 
 ### Songs sung by Cambridge Ukulele on 25/05/2025
 
+- Viva La Vida - Coldplay
+- Sunny Afternoon - The Kinks
+- Blitzkrieg Bop - The Ramones
+- I Predict a Riot - Kaiser Chiefs
+- Meet Me On The Corner - Lindisfarne
+- Summer In The City - The Lovin' Spoonful
+- Summertime Blues - Eddie Cochran
+- Three Little Birds - Bob Marley
 - Bad Moon Rising - Creedence Clearwater Revival
 - Blister in the Sun - The Violent Femmes
-- Blitzkrieg Bop - The Ramones
 - Chelsea Dagger - The Fratellis
 - Cracklin Rosie - Neil Diamond
 - Dreams - Cranberries, The
 - Hard Days Night - The Beatles
 - Have You Ever Seen the Rain - Creedence Clearwater
 - I Only Want to Be With You - Dusty Springfield
-- I Predict a Riot - Kaiser Chiefs
 - Love Shack - The B-52s
-- Meet Me On The Corner - Lindisfarne
 - Mercedes Benz - Janis Joplin
-- Summer In The City - The Lovin' Spoonful
 - Summer of 69 - Bryan Adams
-- Summertime Blues - Eddie Cochran
-- Sunny Afternoon - The Kinks
 - Sympathy For The Devil - The Rolling Stones
 - There She Goes - The La's
 - They're Red Hot - Robert Johnson
 - Think It Over - Buddy Holly
 - This is the Life - Amy MacDonald
 - Thorn in my Side - Eurythmics
-- Three Little Birds - Bob Marley
-- Viva La Vida - Coldplay
 
