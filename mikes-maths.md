@@ -3,6 +3,52 @@ title: Random bits of maths
 format_maths: true
 ---
 
+### Deriving the formula for a geometric series.
+
+A **sequence** is an ordered list of number: $a_1, a_2, a_3, ..$
+
+A **series** is the sum of the terms of a sequence: $a_1 + a_2 + a_3 + ..$
+
+A **geometric sequence** (or progression) is a sequence of numbers where each term (after the 1st) is derived by multiplying the previous one with a fixed, non-zero number call a **common ratio**.
+
+If we express a **geometric series** with $n$ terms as follows ..
+
+$$
+S_n = a_1 + a_2 + a_3 + .. + a_n
+$$
+
+.. where it's common ratio is $r$ then we can rewrite the expression as follows:
+
+$$
+S_n = a_1 + r a_1 + r^2 a_1 + .. + r^{n-1} a_n
+$$
+
+As a step towards deriving a formula, we'll multiply both sides of the expression by $r$
+
+$$
+r S_n = r a_1 + r^2 a_1 + r^3 a_1 + .. + r^n a_n
+$$
+
+Now if we subtract the 2nd expression from the 1st we note that all terms on the RHS cancel out apart from $a_1$ and $r^n a_n$ and so we are left with ..
+
+$$
+S_n - r S_n = a_1 + r^n a_n
+$$
+
+.. which can be re-arranged as ..
+
+$$
+S_n = \frac{a_1 (1 - r^n)}{1 - r}
+$$
+
+.. and so we have derived a formula for calculating a geometric series of arbitrary length $n$.
+We can look at what happens when we allow $n$ to approach infinity. 
+If $r \geq |1|$ then the formula shoots off to infinity. However, if $r < |1|$ then we get the following result:
+
+$$
+\lim_{n \to \infty} S_n = \frac{a_1 (1 - 0)}{1 - r} = \frac{a_1}{1 - r}
+$$
+
 ### Simplist inductive proof: $\sum_{j=0}^n j = \frac{n(n+1)}{2}$ where $n$ is a whole number.
 
 If $n=1$ then clearly the above statement is true (the **base case**).
@@ -130,6 +176,8 @@ $log_b x$ is how many $b$'s do we need to multiply together to get $x$
 #### Rules of Logarithms:
 
 ![Rules of Logarithms](https://www.chilimath.com/wp-content/uploads/2020/03/log-rules.gif)
+
+(we note that rules 2 & 3 are corollaries of rule 1)
 
 [Logarithm Exercises](https://madasmaths.com/archive/maths_booklets/basic_topics/various/logarithms_practice.pdf)
 
