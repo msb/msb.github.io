@@ -4,6 +4,33 @@ title: Songs sung by Cambridge Ukulele
 
 ### Songs sung by Cambridge Ukulele on 31/08/2025
 
+- Blitzkrieg Bop - The Ramones
+- All My Loving - The Beatles
+- Alright - Supergrass
+- Peaceful Easy Feeling - Eagles
+- Price Tag (abridged) - Jessie J
+- Riptide - Vance Joy
+- It Doesn't Matter Anymore - Buddy Holly
+- Karma Chameleon - Culture Club
+- King of the Road - Roger Miller
+- Lion Sleeps Tonight, The - The Tokens
+- Loco-motion, The - Little Eva
+- Losing My Religion - REM
+- Dock of the Bay - Otis Redding
+- Texas Hold'em - Beyonce
+- Echo Beach - Martha and the Muffins
+- Monkey Man - Toots and the Maytals
+- Folsom Prison Blues - Johnny Cash
+- Faith - George Michael
+- Human - The Killers
+- Emmylou - First Aid Kit
+- Dream A Little Dream Of Me - The Mamas And The Papas
+- Every Breath You Take - The Police
+- Driftwood - Travis
+- Dreams - Fleetwood Mac
+- Wagon Wheel - Old Crow Medicine Show
+- Can't Stop (abridged) - Red Hot Chili Peppers
+- Kokomo - The Beach Boys
 
 ### Songs sung by Cambridge Ukulele on 17/08/2025
 
@@ -18,7 +45,7 @@ title: Songs sung by Cambridge Ukulele
 - Three Little Birds - Bob Marley
 - Que Sera Sera - Doris Day
 - Rainbow Connection, The - Kermit The Frog
-- Little Lion Man - Mumford And Sons
+- Lion Sleeps Tonight, The - The Tokens
 - Lola - The Kinks
 - Losing My Religion - REM
 - Mad World - Gary Jules
@@ -91,20 +118,20 @@ title: Songs sung by Cambridge Ukulele
 ### Songs sung by Cambridge Ukulele on 22/06/2025
 
 - Viva La Vida - Coldplay
+- Losing My Religion - REM
 - Make Me Smile - Steve Harley
 - Sunny Afternoon - The Kinks
+- Monkey Man - Toots and the Maytals
+- Faith - George Michael
 - Fields Of Gold - Sting
 - I'll Fly Away - Alison Krauss and Gillian Welch
 - Lola - The Kinks
-- Losing My Religion - REM
 - Mad World - Gary Jules
 - Meet Me On The Corner - Lindisfarne
 - Beach Boys Medley
 - Best Of My Love - Eagles
-- Faith - George Michael
 - I Shot The Sheriff - Bob Marley
 - Midnight Special - Lead Belly
-- Monkey Man - Toots and the Maytals
 - Stand By Me - Oasis & Ben E King
 - Take it Easy - The Eagles
 - Titanium - David Guetta ft. Sia
@@ -118,6 +145,7 @@ title: Songs sung by Cambridge Ukulele
 
 - Viva La Vida - Coldplay
 - Sunny Afternoon - The Kinks
+- Blitzkrieg Bop - The Ramones
 - I Predict a Riot - Kaiser Chiefs
 - Meet Me On The Corner - Lindisfarne
 - Summer In The City - The Lovin' Spoonful
@@ -125,7 +153,6 @@ title: Songs sung by Cambridge Ukulele
 - Three Little Birds - Bob Marley
 - Bad Moon Rising - Creedence Clearwater Revival
 - Blister in the Sun - The Violent Femmes
-- Blitzkrieg Bop - The Ramones
 - Chelsea Dagger - The Fratellis
 - Cracklin Rosie - Neil Diamond
 - Dreams - Cranberries, The
