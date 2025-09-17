@@ -2,6 +2,36 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 28/09/2025
+
+
+### Songs sung by Cambridge Ukulele on 14/09/2025
+
+- San Francisco Bay Blues - Jesse Fuller
+- Save Tonight - Eagle Eye Cherry
+- Should I Stay or Should I Go - The Clash
+- Sit Down - James
+- Sitting On Top Of The World - Doc Watson
+- Folsom Prison Blues - Johnny Cash
+- Friday I'm in Love - The Cure
+- One For Sorrow - Steps
+- Only You - Yazoo
+- Our House - Crosby, Stills, Nash, Young
+- Peace, Perfect Peace - Toots and the Maytals
+- People Are Strange - The Doors
+- Angels - Robbie Williams
+- Anyone Else But You - The Moldy Peaches
+- As It Was - Harry Styles
+- Five Foot Two - Lewis, Young And Henderson
+- Bad Romance - Lady Gaga
+- Mr Brightside - The Killers
+- Heart Like A Wheel - Kate & Anna McGarrigle
+- Heroes - David Bowie
+- Hey There Delilah - Plain White T's
+- Cecilia - Simon and Garfunkel
+- If You Could Read My Mind - Gordon Lightfoot
+- Sweet Caroline - Neil Diamond
+
 ### Songs sung by Cambridge Ukulele on 31/08/2025
 
 - Blitzkrieg Bop - The Ramones
@@ -95,6 +125,7 @@ title: Songs sung by Cambridge Ukulele
 ### Songs sung by Cambridge Ukulele on 06/07/2025
 
 - Viva La Vida - Coldplay
+- If You Could Read My Mind - Gordon Lightfoot
 - In My Life - The Beatles
 - Valerie - Amy Winehouse
 - Wish You Were Here - Pink Floyd
@@ -109,7 +140,6 @@ title: Songs sung by Cambridge Ukulele
 - Everybody Hurts - REM
 - Half the World Away - Oasis
 - Handbags And Gladrags - Stereophonics
-- If You Could Read My Mind - Gordon Lightfoot
 - Made Of Stone - The Stone Roses
 - Total Eclipse of the Heart (abridged) - Bonnie Tyler
 - Word up - Cameo
@@ -121,13 +151,13 @@ title: Songs sung by Cambridge Ukulele
 - Losing My Religion - REM
 - Make Me Smile - Steve Harley
 - Sunny Afternoon - The Kinks
-- Monkey Man - Toots and the Maytals
 - Faith - George Michael
 - Fields Of Gold - Sting
 - I'll Fly Away - Alison Krauss and Gillian Welch
 - Lola - The Kinks
 - Mad World - Gary Jules
 - Meet Me On The Corner - Lindisfarne
+- Monkey Man - Toots and the Maytals
 - Beach Boys Medley
 - Best Of My Love - Eagles
 - I Shot The Sheriff - Bob Marley
