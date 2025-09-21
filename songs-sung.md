@@ -2,9 +2,6 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
-### Songs sung by Cambridge Ukulele on 28/09/2025
-
-
 ### Songs sung by Cambridge Ukulele on 14/09/2025
 
 - San Francisco Bay Blues - Jesse Fuller
