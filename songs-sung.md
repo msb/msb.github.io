@@ -2,6 +2,60 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 12/10/2025
+
+- Summer In The City - The Lovin' Spoonful
+- Stuck in the Middle with You - Stealers Wheel
+- Stand By Me - Oasis & Ben E King
+- Johnny B. Goode - Chuck Berry
+- Jolene - Dolly Parton
+- All About You - McFly
+- Obviously - McFly
+- Oh, Pretty Woman - Roy Orbison
+- Two Princes - Spin Doctors
+- Peaceful Easy Feeling - Eagles
+- Super Trouper - Abba
+- You've Got A Friend - Carole King
+- You've Got A Friend In Me - Randy Newman
+- Faith - George Michael
+- Make Me Smile - Steve Harley
+- Gold - Spandau Ballet
+- Meet Me On The Corner - Lindisfarne
+- It Must Be Love - Madness
+- It's A Heartache - Bonnie Tyler
+- No Surprises - Radiohead
+- Little Lion Man - Mumford And Sons
+- Lion Sleeps Tonight, The - The Tokens
+- You've Got A Friend In Me - Randy Newman
+
+### Songs sung by Cambridge Ukulele on 28/09/2025
+
+- Always Look on the Bright Side of Life - Monty Python
+- Always on my Mind - Pet Shop Boys
+- Johnny B. Goode - Chuck Berry
+- Jolene - Dolly Parton
+- Karma Chameleon - Culture Club
+- Kids in America - Kim Wilde
+- King of the Road - Roger Miller
+- Don't Fence Me In - Bing Crosby
+- Paint it Black - The Rolling Stones
+- Save The Last Dance For Me - The Drifters
+- Rolling in the Deep - Adele
+- Route 66 - Chuck Berry
+- Runaround Sue - Dion
+- This is the Life - Amy MacDonald
+- Mr Rock And Roll - Amy Macdonald
+- Three Little Birds - Bob Marley
+- Tide is High, The - Blondie
+- Time After Time - Cindy Lauper
+- Till There Was You - The Beatles
+- Top Of The World - The Carpenters
+- True Colours (abridged) - Cindy Lauper
+- True Blue - Madonna
+- Torn - Natalie Imbruglia
+- Total Eclipse of the Heart (abridged) - Bonnie Tyler
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 14/09/2025
 
 - San Francisco Bay Blues - Jesse Fuller
@@ -121,6 +175,14 @@ title: Songs sung by Cambridge Ukulele
 
 ### Songs sung by Cambridge Ukulele on 06/07/2025
 
+- Viva La Vida - Coldplay
+- If You Could Read My Mind - Gordon Lightfoot
+- In My Life - The Beatles
+- Total Eclipse of the Heart (abridged) - Bonnie Tyler
+- Valerie - Amy Winehouse
+- Wish You Were Here - Pink Floyd
+- With A Little Help From My Friends - The Beatles
+- Wonderful World - Sam Cooke
 - Castle On The Hill - Ed Sheeran
 - Charlie Brown & Yakety Yak - Leiber and Stoller
 - Close To You - The Carpenters
@@ -130,69 +192,61 @@ title: Songs sung by Cambridge Ukulele
 - Everybody Hurts - REM
 - Half the World Away - Oasis
 - Handbags And Gladrags - Stereophonics
-- If You Could Read My Mind - Gordon Lightfoot
-- In My Life - The Beatles
 - Made Of Stone - The Stone Roses
-- Total Eclipse of the Heart (abridged) - Bonnie Tyler
-- Valerie - Amy Winehouse
-- Viva La Vida - Coldplay
-- Wish You Were Here - Pink Floyd
-- With A Little Help From My Friends - The Beatles
-- Wonderful World - Sam Cooke
 - Word up - Cameo
 - Yellow - Coldplay
 
 ### Songs sung by Cambridge Ukulele on 22/06/2025
 
-- Beach Boys Medley
-- Best Of My Love - Eagles
+- Viva La Vida - Coldplay
+- Make Me Smile - Steve Harley
 - Faith - George Michael
+- Meet Me On The Corner - Lindisfarne
+- Losing My Religion - REM
+- Sunny Afternoon - The Kinks
+- Stand By Me - Oasis & Ben E King
 - Fields Of Gold - Sting
-- I Shot The Sheriff - Bob Marley
 - I'll Fly Away - Alison Krauss and Gillian Welch
 - Lola - The Kinks
-- Losing My Religion - REM
 - Mad World - Gary Jules
-- Make Me Smile - Steve Harley
-- Meet Me On The Corner - Lindisfarne
-- Midnight Special - Lead Belly
 - Monkey Man - Toots and the Maytals
-- Stand By Me - Oasis & Ben E King
-- Sunny Afternoon - The Kinks
+- Beach Boys Medley
+- Best Of My Love - Eagles
+- I Shot The Sheriff - Bob Marley
+- Midnight Special - Lead Belly
 - Take it Easy - The Eagles
 - Titanium - David Guetta ft. Sia
 - TRUSTFALL - P!nk
 - Try A Little Tenderness - Otis Reading
-- Viva La Vida - Coldplay
 - When The Night Feels My Song - Bedouin Soundclash
 - Why Does it Always Rain on Me - Travis
 - Why Don't We Start from Here - Lucy Spraggan
 
 ### Songs sung by Cambridge Ukulele on 25/05/2025
 
+- Viva La Vida - Coldplay
+- Summer In The City - The Lovin' Spoonful
+- Meet Me On The Corner - Lindisfarne
+- Sunny Afternoon - The Kinks
+- Three Little Birds - Bob Marley
+- Blitzkrieg Bop - The Ramones
+- I Predict a Riot - Kaiser Chiefs
+- Summertime Blues - Eddie Cochran
+- This is the Life - Amy MacDonald
 - Bad Moon Rising - Creedence Clearwater Revival
 - Blister in the Sun - The Violent Femmes
-- Blitzkrieg Bop - The Ramones
 - Chelsea Dagger - The Fratellis
 - Cracklin Rosie - Neil Diamond
 - Dreams - Cranberries, The
 - Hard Days Night - The Beatles
 - Have You Ever Seen the Rain - Creedence Clearwater
 - I Only Want to Be With You - Dusty Springfield
-- I Predict a Riot - Kaiser Chiefs
 - Love Shack - The B-52s
-- Meet Me On The Corner - Lindisfarne
 - Mercedes Benz - Janis Joplin
-- Summer In The City - The Lovin' Spoonful
 - Summer of 69 - Bryan Adams
-- Summertime Blues - Eddie Cochran
-- Sunny Afternoon - The Kinks
 - Sympathy For The Devil - The Rolling Stones
 - There She Goes - The La's
 - They're Red Hot - Robert Johnson
 - Think It Over - Buddy Holly
-- This is the Life - Amy MacDonald
 - Thorn in my Side - Eurythmics
-- Three Little Birds - Bob Marley
-- Viva La Vida - Coldplay
 
