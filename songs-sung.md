@@ -2,6 +2,32 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 23/11/2025
+
+- Brown Eyed Girl - Van Morrison
+- Folsom Prison Blues - Johnny Cash
+- I Can See Clearly Now - Johnny Nash
+- I'll Be Your Baby Tonight - Bob Dylan
+- I'll Fly Away - Alison Krauss and Gillian Welch
+- I'm a Believer - The Monkees
+- I'm Gonna Be (500 Miles) - The Proclaimers
+- More Than Words - Extreme
+- Mrs Robinson - Simon And Garfunkel
+- Ob-La-Di Ob-La-Da - The Beatles
+- Obviously - McFly
+- One Day Like This - Elbow
+- Blue Bayou - Roy Orbison
+- Blitzkrieg Bop - The Ramones
+- Blister in the Sun - The Violent Femmes
+- Best Of My Love - Eagles
+- Chiquitita - ABBA
+- Feel it Still - Portugal. The Man
+- Hold Me Now - Thompson Twins
+- Hotel California - The Eagles
+- Valerie - Amy Winehouse
+- She's Electric - Oasis
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 09/11/2025
 
 - Spirit in the Sky - Norman Greenbaum
@@ -237,13 +263,13 @@ title: Songs sung by Cambridge Ukulele
 - Viva La Vida - Coldplay
 - Valerie - Amy Winehouse
 - With A Little Help From My Friends - The Beatles
-- Yellow - Coldplay
 - Dakota - Stereophonics
 - If You Could Read My Mind - Gordon Lightfoot
 - In My Life - The Beatles
 - Total Eclipse of the Heart (abridged) - Bonnie Tyler
 - Wish You Were Here - Pink Floyd
 - Wonderful World - Sam Cooke
+- Yellow - Coldplay
 - Castle On The Hill - Ed Sheeran
 - Charlie Brown & Yakety Yak - Leiber and Stoller
 - Close To You - The Carpenters
@@ -258,22 +284,22 @@ title: Songs sung by Cambridge Ukulele
 ### Songs sung by Cambridge Ukulele on 22/06/2025
 
 - Viva La Vida - Coldplay
-- Make Me Smile - Steve Harley
 - Faith - George Michael
+- Make Me Smile - Steve Harley
 - Fields Of Gold - Sting
-- Stand By Me - Oasis & Ben E King
+- I'll Fly Away - Alison Krauss and Gillian Welch
 - Losing My Religion - REM
 - Meet Me On The Corner - Lindisfarne
+- Stand By Me - Oasis & Ben E King
 - Sunny Afternoon - The Kinks
-- Take it Easy - The Eagles
-- I'll Fly Away - Alison Krauss and Gillian Welch
+- Best Of My Love - Eagles
 - Lola - The Kinks
 - Mad World - Gary Jules
 - Monkey Man - Toots and the Maytals
+- Take it Easy - The Eagles
 - Why Does it Always Rain on Me - Travis
 - Why Don't We Start from Here - Lucy Spraggan
 - Beach Boys Medley
-- Best Of My Love - Eagles
 - I Shot The Sheriff - Bob Marley
 - Midnight Special - Lead Belly
 - Titanium - David Guetta ft. Sia
@@ -284,18 +310,18 @@ title: Songs sung by Cambridge Ukulele
 ### Songs sung by Cambridge Ukulele on 25/05/2025
 
 - Viva La Vida - Coldplay
-- Summer In The City - The Lovin' Spoonful
 - Blitzkrieg Bop - The Ramones
+- Summer In The City - The Lovin' Spoonful
 - Meet Me On The Corner - Lindisfarne
 - Sunny Afternoon - The Kinks
 - Three Little Birds - Bob Marley
-- There She Goes - The La's
+- Blister in the Sun - The Violent Femmes
 - I Predict a Riot - Kaiser Chiefs
 - Summertime Blues - Eddie Cochran
+- There She Goes - The La's
 - They're Red Hot - Robert Johnson
 - This is the Life - Amy MacDonald
 - Bad Moon Rising - Creedence Clearwater Revival
-- Blister in the Sun - The Violent Femmes
 - Chelsea Dagger - The Fratellis
 - Cracklin Rosie - Neil Diamond
 - Dreams - Cranberries, The
