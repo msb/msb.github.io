@@ -2,6 +2,34 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 18/01/2026
+
+- Dirty Old Town - The Pogues
+- 2-4-6-8 Motorway - Tom Robinson Band
+- A Little Respect - Erasure
+- Ain't No Sunshine - Bill Withers
+- Amarillo - Tony Christie
+- Every Breath You Take - The Police
+- What's Up - 4 Non Blondes
+- Build Me Up Buttercup - The Foundations
+- Bye Bye Love - The Everly Brothers
+- Folsom Prison Blues - Johnny Cash
+- Don't Be Cruel - Elvis Presley
+- Hey Soul Sister - Train
+- Hi Ho Silver Lining - Jeff Beck
+- Hold Me Now - Thompson Twins
+- Tell Me Ma - The Dubliners
+- Take Your Mama - Scissor Sisters
+- Dont Marry Her - The Beautiful South
+- Dream A Little Dream Of Me - The Mamas And The Papas
+- Dreaming of You - The Coral
+- Dreams - Cranberries, The
+- Somewhere Over the Rainbow - Israel Kamakawiwo'ole
+- Songbird - Fleetwood Mac
+- Song For Whoever (D) - The Beautiful South
+- Letter, The - The Box Tops
+- Veronica - Elvis Costello
+
 ### Songs sung by Cambridge Ukulele on 21/12/2025
 
 - I Wanna Be Like You - Louis Prima and Phil Harris
@@ -308,78 +336,78 @@ title: Songs sung by Cambridge Ukulele
 
 ### Songs sung by Cambridge Ukulele on 06/07/2025
 
+- Viva La Vida - Coldplay
+- Valerie - Amy Winehouse
+- With A Little Help From My Friends - The Beatles
+- Dakota - Stereophonics
+- If You Could Read My Mind - Gordon Lightfoot
+- In My Life - The Beatles
+- Total Eclipse of the Heart (abridged) - Bonnie Tyler
+- Wish You Were Here - Pink Floyd
+- Wonderful World - Sam Cooke
+- Yellow - Coldplay
 - Castle On The Hill - Ed Sheeran
 - Charlie Brown & Yakety Yak - Leiber and Stoller
 - Close To You - The Carpenters
 - Come on Eileen - Dexy's Midnight Runners
-- Dakota - Stereophonics
 - Daydream - The Lovin' Spoonful
 - Everybody Hurts - REM
 - Half the World Away - Oasis
 - Handbags And Gladrags - Stereophonics
-- If You Could Read My Mind - Gordon Lightfoot
-- In My Life - The Beatles
 - Made Of Stone - The Stone Roses
-- Total Eclipse of the Heart (abridged) - Bonnie Tyler
-- Valerie - Amy Winehouse
-- Viva La Vida - Coldplay
-- Wish You Were Here - Pink Floyd
-- With A Little Help From My Friends - The Beatles
-- Wonderful World - Sam Cooke
 - Word up - Cameo
-- Yellow - Coldplay
 
 ### Songs sung by Cambridge Ukulele on 22/06/2025
 
-- Beach Boys Medley
-- Best Of My Love - Eagles
+- Viva La Vida - Coldplay
 - Faith - George Michael
-- Fields Of Gold - Sting
-- I Shot The Sheriff - Bob Marley
-- I'll Fly Away - Alison Krauss and Gillian Welch
-- Lola - The Kinks
-- Losing My Religion - REM
-- Mad World - Gary Jules
 - Make Me Smile - Steve Harley
+- Fields Of Gold - Sting
+- I'll Fly Away - Alison Krauss and Gillian Welch
+- Losing My Religion - REM
 - Meet Me On The Corner - Lindisfarne
-- Midnight Special - Lead Belly
-- Monkey Man - Toots and the Maytals
 - Stand By Me - Oasis & Ben E King
 - Sunny Afternoon - The Kinks
+- Best Of My Love - Eagles
+- I Shot The Sheriff - Bob Marley
+- Lola - The Kinks
+- Mad World - Gary Jules
+- Monkey Man - Toots and the Maytals
 - Take it Easy - The Eagles
+- Why Does it Always Rain on Me - Travis
+- Why Don't We Start from Here - Lucy Spraggan
+- Beach Boys Medley
+- Midnight Special - Lead Belly
 - Titanium - David Guetta ft. Sia
 - TRUSTFALL - P!nk
 - Try A Little Tenderness - Otis Reading
-- Viva La Vida - Coldplay
 - When The Night Feels My Song - Bedouin Soundclash
-- Why Does it Always Rain on Me - Travis
-- Why Don't We Start from Here - Lucy Spraggan
 
 ### Songs sung by Cambridge Ukulele on 25/05/2025
 
-- Bad Moon Rising - Creedence Clearwater Revival
-- Blister in the Sun - The Violent Femmes
+- Viva La Vida - Coldplay
 - Blitzkrieg Bop - The Ramones
+- Summer In The City - The Lovin' Spoonful
+- Meet Me On The Corner - Lindisfarne
+- Sunny Afternoon - The Kinks
+- Three Little Birds - Bob Marley
+- Dreams - Cranberries, The
+- Blister in the Sun - The Violent Femmes
+- I Predict a Riot - Kaiser Chiefs
+- Summertime Blues - Eddie Cochran
+- There She Goes - The La's
+- They're Red Hot - Robert Johnson
+- This is the Life - Amy MacDonald
+- Bad Moon Rising - Creedence Clearwater Revival
 - Chelsea Dagger - The Fratellis
 - Cracklin Rosie - Neil Diamond
-- Dreams - Cranberries, The
 - Hard Days Night - The Beatles
 - Have You Ever Seen the Rain - Creedence Clearwater
 - I Only Want to Be With You - Dusty Springfield
-- I Predict a Riot - Kaiser Chiefs
 - Love Shack - The B-52s
-- Meet Me On The Corner - Lindisfarne
 - Mercedes Benz - Janis Joplin
-- Summer In The City - The Lovin' Spoonful
 - Summer of 69 - Bryan Adams
-- Summertime Blues - Eddie Cochran
-- Sunny Afternoon - The Kinks
 - Sympathy For The Devil - The Rolling Stones
-- There She Goes - The La's
-- They're Red Hot - Robert Johnson
 - Think It Over - Buddy Holly
-- This is the Life - Amy MacDonald
 - Thorn in my Side - Eurythmics
-- Three Little Birds - Bob Marley
-- Viva La Vida - Coldplay
 
