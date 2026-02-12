@@ -7,7 +7,7 @@ title: Songs sung by Cambridge Ukulele
 - Monkey Man - Toots and the Maytals
 - Walk of Life - Dire Straits
 - Bad Moon Rising - Creedence Clearwater Revival
-- Dont Marry Her - The Beautiful South
+- Don't Marry Her - The Beautiful South
 - Dreams - Fleetwood Mac
 - Don't Look Back in Anger - Oasis
 - Folsom Prison Blues - Johnny Cash
@@ -51,7 +51,7 @@ title: Songs sung by Cambridge Ukulele
 - Hold Me Now - Thompson Twins
 - Tell Me Ma - The Dubliners
 - Take Your Mama - Scissor Sisters
-- Dont Marry Her - The Beautiful South
+- Don't Marry Her - The Beautiful South
 - Dream A Little Dream Of Me - The Mamas And The Papas
 - Dreaming of You - The Coral
 - Dreams - Cranberries, The
@@ -370,8 +370,8 @@ title: Songs sung by Cambridge Ukulele
 - Viva La Vida - Coldplay
 - Valerie - Amy Winehouse
 - With A Little Help From My Friends - The Beatles
-- Half the World Away - Oasis
 - Dakota - Stereophonics
+- Half the World Away - Oasis
 - If You Could Read My Mind - Gordon Lightfoot
 - In My Life - The Beatles
 - Total Eclipse of the Heart (abridged) - Bonnie Tyler
@@ -393,11 +393,11 @@ title: Songs sung by Cambridge Ukulele
 - Viva La Vida - Coldplay
 - Faith - George Michael
 - Make Me Smile - Steve Harley
-- Meet Me On The Corner - Lindisfarne
 - Fields Of Gold - Sting
-- Monkey Man - Toots and the Maytals
+- Meet Me On The Corner - Lindisfarne
 - I'll Fly Away - Alison Krauss and Gillian Welch
 - Losing My Religion - REM
+- Monkey Man - Toots and the Maytals
 - Stand By Me - Oasis & Ben E King
 - Sunny Afternoon - The Kinks
 - Best Of My Love - Eagles
@@ -418,10 +418,10 @@ title: Songs sung by Cambridge Ukulele
 
 - Viva La Vida - Coldplay
 - Summer In The City - The Lovin' Spoonful
-- Meet Me On The Corner - Lindisfarne
 - Blitzkrieg Bop - The Ramones
-- Summertime Blues - Eddie Cochran
+- Meet Me On The Corner - Lindisfarne
 - Blister in the Sun - The Violent Femmes
+- Summertime Blues - Eddie Cochran
 - Sunny Afternoon - The Kinks
 - Three Little Birds - Bob Marley
 - Bad Moon Rising - Creedence Clearwater Revival
