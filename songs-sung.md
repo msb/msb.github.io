@@ -2,6 +2,35 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 01/03/2026
+
+- Have You Ever Seen the Rain - Creedence Clearwater
+- All I Have To Do Is Dream - The Everly Brothers
+- All My Loving - The Beatles
+- Laughter In The Rain - Neil Sedaka
+- Folsom Prison Blues - Johnny Cash
+- Can't Help Falling In Love - Elvis Presley
+- California Dreaming - The Mamas And the Papas
+- Castle On The Hill - Ed Sheeran
+- Cannonball - Damien Rice
+- They're Red Hot - Robert Johnson
+- Kiss Me - Sixpence None The Richer
+- Don't Marry Her - The Beautiful South
+- Song For Whoever (D) - The Beautiful South
+- Annie's Song - John Denver
+- Alright - Supergrass
+- Tubthumping - Chumbawumba
+- Two Princes - Spin Doctors
+- Obviously - McFly
+- Runaround Sue - Dion
+- San Francisco Bay Blues - Jesse Fuller
+- Lion Sleeps Tonight, The - The Tokens
+- Little Lion Man - Mumford And Sons
+- Losing My Religion - REM
+- Love Shack - The B-52s
+- Make Me Smile - Steve Harley
+- Dakota - Stereophonics
+
 ### Songs sung by Cambridge Ukulele on 15/02/2026
 
 - Have You Ever Seen the Rain - Creedence Clearwater
