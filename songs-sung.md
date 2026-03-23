@@ -2,6 +2,36 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 15/03/2026
+
+- Monkey Man - Toots and the Maytals
+- Banana - Dimension Costena
+- Bare Necessities, The - P Harris & B Reitherman
+- Daydream Believer - The Monkees
+- Daydream - The Lovin' Spoonful
+- Bend Me, Shape Me - Amen Corner
+- I'll Fly Away - Alison Krauss and Gillian Welch
+- Mr Jones - Counting Crows
+- Mr Rock And Roll - Amy Macdonald
+- Mr Brightside - The Killers
+- Cecilia - Simon and Garfunkel
+- Sunny Afternoon - The Kinks
+- Super Trouper - Abba
+- Sway - Dean Martin
+- Take it Easy - The Eagles
+- Take on Me - Aha
+- Raindrops Keep Fallin' on my Head - B J Thomas
+- Rainbow Connection, The - Kermit The Frog
+- Stuck in the Middle with You - Stealers Wheel
+- Space Oddity - David Bowie
+- Crazy Little Thing Called Love - Queen
+- Dreams - Fleetwood Mac
+- Can't Take My Eyes Off You - Frankie Valli
+- She's Electric - Oasis
+- Meet Me On The Corner - Lindisfarne
+- Make Me Smile - Steve Harley
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 01/03/2026
 
 - Have You Ever Seen the Rain - Creedence Clearwater
