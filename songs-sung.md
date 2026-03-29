@@ -2,6 +2,39 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 29/03/2026
+
+- Happy Together - The Turtles
+- Hooked On A Feeling - B J Thomas
+- Hold Me Now - Thompson Twins
+- Hotel California - The Eagles
+- House At Pooh Corner - Kenny Loggins
+- Human - The Killers
+- Word up - Cameo
+- Yellow - Coldplay
+- You're So Vain - Carly Simon
+- She's Electric - Oasis
+- Dancing In The Moonlight - Toploader
+- Banjo Song, The - Mumford and Sons
+- Big Yellow Taxi - Joni Mitchell
+- Blister in the Sun - The Violent Femmes
+- You Got What It Takes - Marv Johnson
+- Your Song - Elton John
+- Zombie - The Cranberries
+- May You Never (Single Version) - John Martyn
+- Me and Julio - Paul Simon
+- Price Tag (abridged) - Jessie J
+- No Surprises - Radiohead
+- Bare Necessities, The - P Harris & B Reitherman
+- Golden Brown - The Stranglers
+- I'll Be There For You (Friends theme) - The Rembrandts
+- Valerie - Amy Winehouse
+- Crazy Little Thing Called Love - Queen
+- Crazy - Gnarls Barkley
+- Cracklin Rosie - Neil Diamond
+- Make Me Smile - Steve Harley
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 15/03/2026
 
 - Monkey Man - Toots and the Maytals
