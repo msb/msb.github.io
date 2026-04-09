@@ -179,7 +179,7 @@ title: Songs sung by Cambridge Ukulele
 - Songbird - Fleetwood Mac
 - Song For Whoever (D) - The Beautiful South
 - Letter, The - The Box Tops
-- Veronica - Elvis Costello
+- Valerie - Amy Winehouse
 
 ### Songs sung by Cambridge Ukulele on 21/12/2025
 
