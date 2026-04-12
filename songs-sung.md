@@ -2,6 +2,38 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 12/04/2026
+
+- Proud Mary - Creedence Clearwater Revival
+- 2-4-6-8 Motorway - Tom Robinson Band
+- Jolene - Dolly Parton
+- Under The Boardwalk - The Drifters
+- Good Riddance (Time of Your Life) - Green Day
+- With A Little Help From My Friends - The Beatles
+- Que Sera Sera - Doris Day
+- In Hell I'll Be In Good Company - The Dead South
+- Cannonball - Damien Rice
+- Dancing In The Moonlight - Toploader
+- Dancing in the Street - Martha and the Vandellas
+- Daydream - The Lovin' Spoonful
+- Sunny Afternoon - The Kinks
+- Sweet Georgia Brown - Bing Crosby
+- You Really Got A Hold On Me - The Miracles
+- Better Best Forgotten - Steps
+- Big Yellow Taxi - Joni Mitchell
+- Golden Brown - The Stranglers
+- God Only Knows - The Beach Boys
+- Gold - Spandau Ballet
+- Green Green Grass - George Ezra
+- Half the World Away - Oasis
+- Hallelujah (abridged) - Leonard Cohen
+- Hand In My Pocket - Alanis Morissette
+- Have You Ever Seen the Rain - Creedence Clearwater
+- Stuck in the Middle with You - Stealers Wheel
+- Summer In The City - The Lovin' Spoonful
+- Space Oddity - David Bowie
+- Banana - Dimension Costena
+
 ### Songs sung by Cambridge Ukulele on 29/03/2026
 
 - Happy Together - The Turtles
