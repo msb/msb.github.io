@@ -2,6 +2,36 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 26/04/2026
+
+- Sloop John B - The Beach Boys
+- Folsom Prison Blues - Johnny Cash
+- Coffee And TV - Blur
+- Blue Monday - New Order
+- Wagon Wheel - Old Crow Medicine Show
+- Chapel Of Love - The Dixie Cups
+- Budapest - George Ezra
+- There is a Light that Never Goes Out - The Smiths
+- Don't Look Back in Anger - Oasis
+- Don't Marry Her - The Beautiful South
+- Don't Stop Believin' - Journey
+- Heart Like A Wheel - Kate & Anna McGarrigle
+- Sunny Afternoon - The Kinks
+- Mr Brightside - The Killers
+- True Faith - New Order
+- True Colours (abridged) - Cindy Lauper
+- Tubthumping - Chumbawumba
+- Annie's Song - John Denver
+- Dreams - Fleetwood Mac
+- Feel it Still - Portugal. The Man
+- Fell In Love With a Girl - The White Stripes
+- Fields Of Gold - Sting
+- Flowers On The Wall - The Statler Brothers
+- Friday I'm in Love - The Cure
+- Good Riddance (Time of Your Life) - Green Day
+- Handbags And Gladrags - Stereophonics
+- I Predict a Riot - Kaiser Chiefs
+
 ### Songs sung by Cambridge Ukulele on 12/04/2026
 
 - Proud Mary - Creedence Clearwater Revival
