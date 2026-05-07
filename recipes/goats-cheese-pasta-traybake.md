@@ -14,8 +14,8 @@ title: Goat's Cheese, Red Pepper, Mushroom & Pesto Fusilli Traybake
 * Sea salt and freshly ground black pepper
 * 1/2 tsp chilli flakes
 * 150g fusilli
-* tins of chopped tomatoes
-* 150g green pesto
+* tin of chopped tomatoes
+* 75g green pesto
 * 200g Feta Cheese
 
 ### Method
