@@ -2,6 +2,35 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 10/05/2026
+
+- King of the Road - Roger Miller
+- Johnny B. Goode - Chuck Berry
+- All My Loving - The Beatles
+- Folsom Prison Blues - Johnny Cash
+- Wonderwall - Oasis
+- Word up - Cameo
+- Wonderful World - Sam Cooke
+- Flowers - Miley Cyrus
+- Friday I'm in Love - The Cure
+- Golden Brown - The Stranglers
+- Tell Me Ma - The Dubliners
+- Galaxy Song - Eric Idle
+- Dirty Old Town - The Pogues
+- Rainbow Connection, The - Kermit The Frog
+- Get Down - Gilbert O'Sullivan
+- You Can Get It If You Really Want - Jimmy Cliff
+- Annie's Song - John Denver
+- Perfect Day - Lou Reed
+- House At Pooh Corner - Kenny Loggins
+- Proud Mary - Creedence Clearwater Revival
+- Hey There Delilah - Plain White T's
+- Hi Ho Silver Lining - Jeff Beck
+- Flowers On The Wall - The Statler Brothers
+- Valerie - Amy Winehouse
+- Texas Hold'em - Beyonce
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 26/04/2026
 
 - Sloop John B - The Beach Boys
@@ -595,32 +624,4 @@ title: Songs sung by Cambridge Ukulele
 - When The Night Feels My Song - Bedouin Soundclash
 - Why Does it Always Rain on Me - Travis
 - Why Don't We Start from Here - Lucy Spraggan
-
-### Songs sung by Cambridge Ukulele on 25/05/2025
-
-- Bad Moon Rising - Creedence Clearwater Revival
-- Blister in the Sun - The Violent Femmes
-- Blitzkrieg Bop - The Ramones
-- Chelsea Dagger - The Fratellis
-- Cracklin Rosie - Neil Diamond
-- Dreams - Cranberries, The
-- Hard Days Night - The Beatles
-- Have You Ever Seen the Rain - Creedence Clearwater
-- I Only Want to Be With You - Dusty Springfield
-- I Predict a Riot - Kaiser Chiefs
-- Love Shack - The B-52s
-- Meet Me On The Corner - Lindisfarne
-- Mercedes Benz - Janis Joplin
-- Summer In The City - The Lovin' Spoonful
-- Summer of 69 - Bryan Adams
-- Summertime Blues - Eddie Cochran
-- Sunny Afternoon - The Kinks
-- Sympathy For The Devil - The Rolling Stones
-- There She Goes - The La's
-- They're Red Hot - Robert Johnson
-- Think It Over - Buddy Holly
-- This is the Life - Amy MacDonald
-- Thorn in my Side - Eurythmics
-- Three Little Birds - Bob Marley
-- Viva La Vida - Coldplay
 
