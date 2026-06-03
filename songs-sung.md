@@ -2,6 +2,35 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 24/05/2026
+
+- Till There Was You - The Beatles
+- Tide is High, The - Blondie
+- Three Little Birds - Bob Marley
+- Titanium - David Guetta ft. Sia
+- Time After Time - Cindy Lauper
+- Folsom Prison Blues - Johnny Cash
+- Top Of The World - The Carpenters
+- Torn - Natalie Imbruglia
+- Dance The Night Away - The Mavericks
+- Dancing in the Dark - Bruce Springsteen
+- Dancing In The Moonlight - Toploader
+- Hero - Family Of The Year
+- Heroes - David Bowie
+- Summer In The City - The Lovin' Spoonful
+- Summertime Blues - Eddie Cochran
+- Sway - Dean Martin
+- Sweet Baby James - James Taylor
+- Sweet Caroline - Neil Diamond
+- Take it Easy - The Eagles
+- Take on Me - Aha
+- Total Eclipse of the Heart (abridged) - Bonnie Tyler
+- Rawhide - Frankie Laine
+- Red Red Wine - Neil Diamond
+- Riptide - Vance Joy
+- Chelsea Dagger - The Fratellis
+- Karma Chameleon - Culture Club
+
 ### Songs sung by Cambridge Ukulele on 10/05/2026
 
 - King of the Road - Roger Miller
@@ -598,30 +627,4 @@ title: Songs sung by Cambridge Ukulele
 - Wonderful World - Sam Cooke
 - Word up - Cameo
 - Yellow - Coldplay
-
-### Songs sung by Cambridge Ukulele on 22/06/2025
-
-- Beach Boys Medley
-- Best Of My Love - Eagles
-- Faith - George Michael
-- Fields Of Gold - Sting
-- I Shot The Sheriff - Bob Marley
-- I'll Fly Away - Alison Krauss and Gillian Welch
-- Lola - The Kinks
-- Losing My Religion - REM
-- Mad World - Gary Jules
-- Make Me Smile - Steve Harley
-- Meet Me On The Corner - Lindisfarne
-- Midnight Special - Lead Belly
-- Monkey Man - Toots and the Maytals
-- Stand By Me - Oasis & Ben E King
-- Sunny Afternoon - The Kinks
-- Take it Easy - The Eagles
-- Titanium - David Guetta ft. Sia
-- TRUSTFALL - P!nk
-- Try A Little Tenderness - Otis Reading
-- Viva La Vida - Coldplay
-- When The Night Feels My Song - Bedouin Soundclash
-- Why Does it Always Rain on Me - Travis
-- Why Don't We Start from Here - Lucy Spraggan
 
