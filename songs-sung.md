@@ -2,6 +2,34 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 07/06/2026
+
+- Wagon Wheel - Old Crow Medicine Show
+- Blame It On Me - George Ezra
+- Dance The Night Away - The Mavericks
+- Folsom Prison Blues - Johnny Cash
+- Can't Help Falling In Love - Elvis Presley
+- Fisherman's Blues - The Waterboys
+- Creep - Radiohead
+- Wonderwall - Oasis
+- Wonder Of You, The - Elvis Presley
+- With A Little Help From My Friends - The Beatles
+- What's Up - 4 Non Blondes
+- You're So Vain - Carly Simon
+- Hooked On A Feeling - B J Thomas
+- Hold Me Now - Thompson Twins
+- Dreams - Fleetwood Mac
+- Dreams - Cranberries, The
+- Banjo Song, The - Mumford and Sons
+- Summer In The City - The Lovin' Spoonful
+- Dreaming of You - The Coral
+- Daydream Believer - The Monkees
+- Sunny Afternoon - The Kinks
+- Lola - The Kinks
+- Riptide - Vance Joy
+- Can't Stop (abridged) - Red Hot Chili Peppers
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 24/05/2026
 
 - Till There Was You - The Beatles
@@ -627,4 +655,58 @@ title: Songs sung by Cambridge Ukulele
 - Wonderful World - Sam Cooke
 - Word up - Cameo
 - Yellow - Coldplay
+
+### Songs sung by Cambridge Ukulele on 22/06/2025
+
+- Help Me Make It Through The Night - Kris Kristofferson
+- Dancing in the Dark - Bruce Springsteen
+- Ain't She Sweet - The Beatles
+- All I Have To Do Is Dream - The Everly Brothers
+- Dreams - Cranberries, The
+- Anything Goes - Cole Porter
+- Every Breath You Take - The Police
+- Baby Face - Al Jolson
+- Every Day - Buddy Holly
+- A Little Respect - Erasure
+- Baby, It's You - The Beatles
+- Kokomo - The Beach Boys
+- Baby, Now That I've Found You - The Foundations
+- Cannonball - Damien Rice
+- All You Need is Love - The Beatles
+- Alright - Supergrass
+- Chanson D'Amour - Manhattan Transfer
+- Memories are Made of This - Dean Martin
+- Mercedes Benz - Janis Joplin
+- 99 Red Chameleons Out Of Hell
+- More Than Words - Extreme
+- Golden Brown - The Stranglers
+- Good Riddance (Time of Your Life) - Green Day
+
+### Songs sung by Cambridge Ukulele on 25/05/2025
+
+- Days - The Kinks
+- Creep - Radiohead
+- Crocodile Rock (abridged) - Elton John
+- I Can Help - Billy Swan
+- Always on my Mind - Pet Shop Boys
+- Dedicated Follower of Fashion - The Kinks
+- I'm Yours - Jason Mraz
+- Crying In The Rain - The Everly Brothers
+- Driftwood - Travis
+- Cupid - Sam Cooke
+- Dirty Old Town - The Pogues
+- Hazy Old Moon
+- Buck Rogers - Feeder
+- Always Look on the Bright Side of Life - Monty Python
+- Autumn Leaves - Eric Clapton
+- Blister in the Sun - The Violent Femmes
+- Hard Days Night - The Beatles
+- Kids in America - Kim Wilde
+- Annie's Song - John Denver
+- Dancing in the Street - Martha and the Vandellas
+- Everybody Hurts - REM
+- Another Saturday Night - Sam Cooke
+- Kindling - Elbow
+- Hold Me Now - Thompson Twins
+- Cracklin Rosie - Neil Diamond
 
