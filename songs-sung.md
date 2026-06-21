@@ -2,6 +2,36 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 21/06/2026
+
+- Johnny B. Goode - Chuck Berry
+- Jolene - Dolly Parton
+- Ain't No Sunshine - Bill Withers
+- All My Loving - The Beatles
+- All About You - McFly
+- Bye Bye Love - The Everly Brothers
+- I'll Be Your Baby Tonight - Bob Dylan
+- Mrs Robinson - Simon And Garfunkel
+- Music When The Lights Go Out - The Libertines
+- Folsom Prison Blues - Johnny Cash
+- Don't You Forget About Me - Simple Minds
+- Don't Marry Her - The Beautiful South
+- Daydream - The Lovin' Spoonful
+- Daydream Believer - The Monkees
+- Dream A Little Dream Of Me - The Mamas And The Papas
+- Dock of the Bay - Otis Redding
+- Faith - George Michael
+- Karma Chameleon - Culture Club
+- Kids in America - Kim Wilde
+- Have You Ever Seen the Rain - Creedence Clearwater
+- Valerie - Amy Winehouse
+- Make Me Smile - Steve Harley
+- What's Up - 4 Non Blondes
+- Lola - The Kinks
+- Build Me Up Buttercup - The Foundations
+- Texas Hold'em - Beyonce
+- Don't Look Back in Anger - Oasis
+
 ### Songs sung by Cambridge Ukulele on 07/06/2026
 
 - Wagon Wheel - Old Crow Medicine Show
@@ -21,8 +51,8 @@ title: Songs sung by Cambridge Ukulele
 - Dreams - Fleetwood Mac
 - Dreams - Cranberries, The
 - Banjo Song, The - Mumford and Sons
-- Summer In The City - The Lovin' Spoonful
 - Dreaming of You - The Coral
+- Summer In The City - The Lovin' Spoonful
 - Daydream Believer - The Monkees
 - Sunny Afternoon - The Kinks
 - Lola - The Kinks
@@ -635,78 +665,78 @@ title: Songs sung by Cambridge Ukulele
 
 ### Songs sung by Cambridge Ukulele on 06/07/2025
 
-- Castle On The Hill - Ed Sheeran
+- Daydream Believer - The Monkees
+- I Hear You Knockin' - Smiley Lewis
+- I Just Call To Say I Love You - Stevie Wonder
+- I Predict a Riot - Kaiser Chiefs
+- Birdhouse in your Soul - They Might Be Giants
+- Blister in the Sun - The Violent Femmes
+- Dock of the Bay - Otis Redding
+- Blueberry Hill - Fats Domino
+- Don't Stop Me Now - Queen
+- Emmylou - First Aid Kit
+- End Of The Line - Travelling Wilburys
+- Leavin' On A Jet Plane - John Denver
+- Chapel Of Love - The Dixie Cups
+- Ain't No Sunshine - Bill Withers
+- 99 Red Chameleons Out Of Hell
+- Hard Days Night - The Beatles
+- Ain't That A Shame - Fats Domino
+- Charleston - Mack & Johnson
 - Charlie Brown & Yakety Yak - Leiber and Stoller
-- Close To You - The Carpenters
-- Come on Eileen - Dexy's Midnight Runners
-- Dakota - Stereophonics
-- Daydream - The Lovin' Spoonful
-- Everybody Hurts - REM
-- Half the World Away - Oasis
-- Handbags And Gladrags - Stereophonics
-- If You Could Read My Mind - Gordon Lightfoot
-- In My Life - The Beatles
-- Made Of Stone - The Stone Roses
-- Total Eclipse of the Heart (abridged) - Bonnie Tyler
-- Valerie - Amy Winehouse
-- Viva La Vida - Coldplay
-- Wish You Were Here - Pink Floyd
-- With A Little Help From My Friends - The Beatles
-- Wonderful World - Sam Cooke
-- Word up - Cameo
-- Yellow - Coldplay
+- Chelsea Dagger - The Fratellis
 
 ### Songs sung by Cambridge Ukulele on 22/06/2025
 
-- Help Me Make It Through The Night - Kris Kristofferson
-- Dancing in the Dark - Bruce Springsteen
-- Ain't She Sweet - The Beatles
-- All I Have To Do Is Dream - The Everly Brothers
-- Dreams - Cranberries, The
-- Anything Goes - Cole Porter
-- Every Breath You Take - The Police
-- Baby Face - Al Jolson
+- Don't You Want Me - The Human League
+- Devil And The Deep Blue Sea, The
+- Hazy Old Moon
+- Dance The Night Away - The Mavericks
+- Ballad of Peter Pumpkinhead, The - XTC
+- Hero - Family Of The Year
+- Blue Bayou - Roy Orbison
+- Hey Soul Sister - Train
+- I'll Fly Away - Alison Krauss and Gillian Welch
+- Banjo Song, The - Mumford and Sons
+- Hey There Delilah - Plain White T's
 - Every Day - Buddy Holly
-- A Little Respect - Erasure
-- Baby, It's You - The Beatles
-- Kokomo - The Beach Boys
-- Baby, Now That I've Found You - The Foundations
-- Cannonball - Damien Rice
-- All You Need is Love - The Beatles
-- Alright - Supergrass
-- Chanson D'Amour - Manhattan Transfer
-- Memories are Made of This - Dean Martin
-- Mercedes Benz - Janis Joplin
-- 99 Red Chameleons Out Of Hell
-- More Than Words - Extreme
-- Golden Brown - The Stranglers
-- Good Riddance (Time of Your Life) - Green Day
+- Hey, Baby - Margaret Cobb & Bruce Channel
+- Better Best Forgotten - Steps
+- He's So Fine - The Chiffons
+- Another Saturday Night - Sam Cooke
+- I Can't Give You Anything But Love - McHugh & Fields
+- Letter, The - The Box Tops
+- Lightning Bolt - Jake Bugg
+- Cupid - Sam Cooke
+- Fell In Love With a Girl - The White Stripes
+- Autumn Leaves - Eric Clapton
+- Baby Face - Al Jolson
 
 ### Songs sung by Cambridge Ukulele on 25/05/2025
 
-- Days - The Kinks
-- Creep - Radiohead
-- Crocodile Rock (abridged) - Elton John
-- I Can Help - Billy Swan
-- Always on my Mind - Pet Shop Boys
-- Dedicated Follower of Fashion - The Kinks
-- I'm Yours - Jason Mraz
-- Crying In The Rain - The Everly Brothers
-- Driftwood - Travis
-- Cupid - Sam Cooke
+- I Think We're Alone Now - Tiffany
+- Come on Eileen - Dexy's Midnight Runners
+- I Shall Be Released - Bob Dylan
+- It Doesn't Matter Anymore - Buddy Holly
+- Dancing in the Dark - Bruce Springsteen
+- I Wanna Be Like You - Louis Prima and Phil Harris
+- Echo Beach - Martha and the Muffins
+- I Shot The Sheriff - Bob Marley
+- Blowin' In The Wind - Bob Dylan
+- Demons - Imagine Dragons
+- Blitzkrieg Bop - The Ramones
+- In Hell I'll Be In Good Company - The Dead South
+- Human - The Killers
+- Be My Baby - The Ronettes
+- Hey Jude - The Beatles
+- Anything Goes - Cole Porter
+- If You Could Read My Mind - Gordon Lightfoot
+- Every Breath You Take - The Police
+- Anyone Else But You - The Moldy Peaches
 - Dirty Old Town - The Pogues
-- Hazy Old Moon
-- Buck Rogers - Feeder
-- Always Look on the Bright Side of Life - Monty Python
-- Autumn Leaves - Eric Clapton
-- Blister in the Sun - The Violent Femmes
-- Hard Days Night - The Beatles
-- Kids in America - Kim Wilde
-- Annie's Song - John Denver
-- Dancing in the Street - Martha and the Vandellas
-- Everybody Hurts - REM
-- Another Saturday Night - Sam Cooke
-- Kindling - Elbow
-- Hold Me Now - Thompson Twins
-- Cracklin Rosie - Neil Diamond
+- Dock of the Bay - Otis Redding
+- Help Me Make It Through The Night - Kris Kristofferson
+- Kokomo - The Beach Boys
+- Ain't She Sweet - The Beatles
+- Dedicated Follower of Fashion - The Kinks
 
