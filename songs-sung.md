@@ -2,6 +2,33 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 19/07/2026
+
+- Crazy Little Thing Called Love - Queen
+- Crocodile Rock (abridged) - Elton John
+- Take Me Home, Country Roads - John Denver
+- Dance The Night Away - The Mavericks
+- Dancing In The Moonlight - Toploader
+- Daydream - The Lovin' Spoonful
+- Peaceful Easy Feeling - Eagles
+- Peace, Perfect Peace - Toots and the Maytals
+- Panic Song, The - Natalie Kent
+- Ordinary World - Duran Duran
+- Price Tag (abridged) - Jessie J
+- Only You - Yazoo
+- Mamma Mia - ABBA
+- Mad World - Gary Jules
+- Make Me Smile - Steve Harley
+- Walk of Life - Dire Straits
+- You Got What It Takes - Marv Johnson
+- Karma Chameleon - Culture Club
+- Fields Of Gold - Sting
+- Budapest - George Ezra
+- Buck Rogers - Feeder
+- Boulevard of Broken Dreams - Green Day
+- I Want to Break Free - Queen
+- Hey Jude - The Beatles
+
 ### Songs sung by Cambridge Ukulele on 05/07/2026
 
 - Bad Moon Rising - Creedence Clearwater Revival
@@ -79,8 +106,8 @@ title: Songs sung by Cambridge Ukulele
 - Dreams - Fleetwood Mac
 - Dreams - Cranberries, The
 - Banjo Song, The - Mumford and Sons
-- Dreaming of You - The Coral
 - Summer In The City - The Lovin' Spoonful
+- Dreaming of You - The Coral
 - Daydream Believer - The Monkees
 - Sunny Afternoon - The Kinks
 - Lola - The Kinks
