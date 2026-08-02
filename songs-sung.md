@@ -2,6 +2,35 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 02/08/2026
+
+- You Never Can Tell - Chuck Berry
+- King of the Road - Roger Miller
+- All My Loving - The Beatles
+- Brown Eyed Girl - Van Morrison
+- Folsom Prison Blues - Johnny Cash
+- Can't Take My Eyes Off You - Frankie Valli
+- I'm Yours - Jason Mraz
+- Summertime Blues - Eddie Cochran
+- Sunny Afternoon - The Kinks
+- Don't You Want Me - The Human League
+- Summer In The City - The Lovin' Spoonful
+- Don't Marry Her - The Beautiful South
+- I Don't Want to Talk About It - Rod Stewart
+- Young At Heart - The Bluebells
+- Sit Down - James
+- All Star - Smash Mouth
+- Be My Baby - The Ronettes
+- Dakota - Stereophonics
+- Dreams - Cranberries, The
+- Gambler, The - Kenny Rogers
+- Garden Party - Ricky Nelson
+- Annie's Song - John Denver
+- You Got What It Takes - Marv Johnson
+- Will You Still Love Me Tomorrow - The Shirelles
+- Crazy Little Thing Called Love - Queen
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 19/07/2026
 
 - Crazy Little Thing Called Love - Queen
@@ -106,8 +135,8 @@ title: Songs sung by Cambridge Ukulele
 - Dreams - Fleetwood Mac
 - Dreams - Cranberries, The
 - Banjo Song, The - Mumford and Sons
-- Dreaming of You - The Coral
 - Summer In The City - The Lovin' Spoonful
+- Dreaming of You - The Coral
 - Daydream Believer - The Monkees
 - Sunny Afternoon - The Kinks
 - Lola - The Kinks
