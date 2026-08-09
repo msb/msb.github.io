@@ -24,8 +24,9 @@ title: Goat's Cheese, Red Pepper, Mushroom & Pesto Fusilli Traybake
 Tip the peppers, mushrooms, olive oil, garlic, rosemary, 1 tsp sea salt and the chilli flakes
 into a really large roasting tin and mix well. Transfer to the oven and roast for 20 minutes.
 
-2. Meanwhile, bring a large pan of salted water to the boil, and cook the fusilli for 11 minutes before draining well.
+2. Meanwhile, bring a large pan of salted water to the boil
+and cook the fusilli for 11 minutes before draining well.
 
 3. Add the fusilli and chopped tomatoes to the tin along with a good pinch of sea salt and mix well.
-Dollop over the pesto and scatter of the cheese.
+Dollop over the pesto and scatter the cheese.
 Return to the oven for a futher 30 minutes until golden and bubbling.
