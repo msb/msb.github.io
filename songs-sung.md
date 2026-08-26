@@ -2,6 +2,34 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 16/08/2026
+
+- Me and Bobby McGee - Kris Kristofferson
+- You Never Can Tell - Chuck Berry
+- Stuck in the Middle with You - Stealers Wheel
+- Proud Mary - Creedence Clearwater Revival
+- St James Infirmary Blues - Louis Armstrong
+- South Of The Border - Frank Sinatra
+- I Only Want to Be With You - Dusty Springfield
+- I'll Be Your Baby Tonight - Bob Dylan
+- Help Me Make It Through The Night - Kris Kristofferson
+- Hit the Road - Ray Charles
+- I Don't Want to Talk About It - Rod Stewart
+- I'm Stone In Love With You - The Stylistics
+- Can't Take My Eyes Off You - Frankie Valli
+- Blue Bayou - Roy Orbison
+- Brown Eyed Girl - Van Morrison
+- I Hope That I Don't Fall In Love With You - Tom Waits
+- I Saw Her Standing There - The Beatles
+- I Shot The Sheriff - Bob Marley
+- TRUSTFALL - P!nk
+- I Wanna Be Like You - Louis Prima and Phil Harris
+- Bare Necessities, The - P Harris & B Reitherman
+- Big Yellow Taxi - Joni Mitchell
+- Flowers - Miley Cyrus
+- Go Your Own Way - Fleetwood Mac
+- Sweet Caroline - Neil Diamond
+
 ### Songs sung by Cambridge Ukulele on 02/08/2026
 
 - You Never Can Tell - Chuck Berry
@@ -135,8 +163,8 @@ title: Songs sung by Cambridge Ukulele
 - Dreams - Fleetwood Mac
 - Dreams - Cranberries, The
 - Banjo Song, The - Mumford and Sons
-- Summer In The City - The Lovin' Spoonful
 - Dreaming of You - The Coral
+- Summer In The City - The Lovin' Spoonful
 - Daydream Believer - The Monkees
 - Sunny Afternoon - The Kinks
 - Lola - The Kinks
@@ -659,167 +687,168 @@ title: Songs sung by Cambridge Ukulele
 
 ### Songs sung by Cambridge Ukulele on 31/08/2025
 
-- All You Need is Love - The Beatles
-- A Little Respect - Erasure
-- Baby Face - Al Jolson
-- As It Was - Harry Styles
-- Chanson D'Amour - Manhattan Transfer
-- Charleston - Mack & Johnson
-- Leavin' On A Jet Plane - John Denver
-- Annie's Song - John Denver
-- Another Saturday Night - Sam Cooke
-- Best Of My Love - Eagles
-- Cathy's Clown - The Everly Brothers
-- Fire And Rain - James Taylor
-- Devil And The Deep Blue Sea, The
-- Chiquitita - ABBA
-- Dock of the Bay - Otis Redding
-- Bird On The Wire - Leonard Cohen
-- 2-4-6-8 Motorway - Tom Robinson Band
-- Ain't No Sunshine - Bill Withers
-- Cannonball - Damien Rice
-- I'm Not In Love - 10cc
-- Budapest - George Ezra
-- Bye Bye Love - The Everly Brothers
-- Dizzy - Tommy Roe
-- Always Look on the Bright Side of Life - Monty Python
-- Complicated - Avril Lavigne
-- Back in the USSR - The Beatles
+- Blitzkrieg Bop - The Ramones
+- All My Loving - The Beatles
+- Alright - Supergrass
+- Peaceful Easy Feeling - Eagles
+- Price Tag (abridged) - Jessie J
+- Riptide - Vance Joy
+- It Doesn't Matter Anymore - Buddy Holly
+- Karma Chameleon - Culture Club
+- King of the Road - Roger Miller
 - Lion Sleeps Tonight, The - The Tokens
+- Loco-motion, The - Little Eva
+- Losing My Religion - REM
+- Dock of the Bay - Otis Redding
+- Texas Hold'em - Beyonce
+- Echo Beach - Martha and the Muffins
+- Monkey Man - Toots and the Maytals
+- Folsom Prison Blues - Johnny Cash
+- Faith - George Michael
+- Human - The Killers
+- Emmylou - First Aid Kit
+- Dream A Little Dream Of Me - The Mamas And The Papas
+- Every Breath You Take - The Police
+- Driftwood - Travis
+- Dreams - Fleetwood Mac
+- Wagon Wheel - Old Crow Medicine Show
+- Can't Stop (abridged) - Red Hot Chili Peppers
+- Kokomo - The Beach Boys
 
 ### Songs sung by Cambridge Ukulele on 17/08/2025
 
-- Crazy - Seal
-- Crocodile Rock (abridged) - Elton John
-- Ain't That A Shame - Fats Domino
-- All You Need is Love - The Beatles
-- House At Pooh Corner - Kenny Loggins
-- Hit the Road - Ray Charles
-- Dedicated Follower of Fashion - The Kinks
-- Fields Of Gold - Sting
-- Dancing Queen - Abba
-- California Dreaming - The Mamas And the Papas
-- I Wanna Dance with Somebody - Whitney Houston
-- Baby Face - Al Jolson
-- Brimful of Asha (abridged) - Cornershop
-- I Think We're Alone Now - Tiffany
-- Brown Eyed Girl - Van Morrison
-- Dreaming of You - The Coral
-- A Whole New World - Peabo Bryson & Regina Belle
+- Summer In The City - The Lovin' Spoonful
+- Sunny Afternoon - The Kinks
+- Summertime Blues - Eddie Cochran
 - A Little Respect - Erasure
-- Be-Bop-A-Lula - Gene Vincent
-- Blue Monday - New Order
-- Last Night - The Traveling Wilburys
-- Crazy Little Thing Called Love - Queen
-- Better Best Forgotten - Steps
-- Another Saturday Night - Sam Cooke
-- Hit Me Baby One More Time - Britney Spears
-- Crazy - Gnarls Barkley
-- I Can Help - Billy Swan
-- Autumn Leaves - Eric Clapton
+- Ain't No Sunshine - Bill Withers
+- All My Loving - The Beatles
+- Always Look on the Bright Side of Life - Monty Python
+- In My Life - The Beatles
+- Three Little Birds - Bob Marley
+- Que Sera Sera - Doris Day
+- Rainbow Connection, The - Kermit The Frog
+- Lion Sleeps Tonight, The - The Tokens
+- Lola - The Kinks
+- Losing My Religion - REM
+- Mad World - Gary Jules
+- Whistle For The Choir - The Fratellis
+- Wish You Were Here - Pink Floyd
+- With A Little Help From My Friends - The Beatles
+- Wonderful World - Sam Cooke
+- Folsom Prison Blues - Johnny Cash
+- For No One - The Beatles
+- Friday I'm in Love - The Cure
+- Moon River - Andy Williams
+- I'm Yours - Jason Mraz
+- Make Me Smile - Steve Harley
+- Viva La Vida - Coldplay
+- Wagon Wheel - Old Crow Medicine Show
+- Valerie - Amy Winehouse
 
 ### Songs sung by Cambridge Ukulele on 03/08/2025
 
-- All Star - Smash Mouth
-- Bring It On Home To Me - Sam Cooke
-- A Little Respect - Erasure
-- Blueberry Hill - Fats Domino
-- Anyone Else But You - The Moldy Peaches
-- House of the Rising Sun (abridged) - The Animals
-- I Will - The Beatles
-- Mamma Mia - ABBA
-- Folsom Prison Blues - Johnny Cash
-- Anything Goes - Cole Porter
-- May You Never (Single Version) - John Martyn
-- Ain't That A Shame - Fats Domino
-- Don't Look Back in Anger - Oasis
-- Can't Take My Eyes Off You - Frankie Valli
-- Ballad of Peter Pumpkinhead, The - XTC
-- Dreams - Cranberries, The
-- A Whole New World - Peabo Bryson & Regina Belle
-- Made Of Stone - The Stone Roses
-- Don't Marry Her - The Beautiful South
-- For No One - The Beatles
-- Losing My Religion - REM
-- Jolene - Dolly Parton
-- Days - The Kinks
-- Beach Boys Medley
 - Johnny B. Goode - Chuck Berry
-- Follow You Follow Me - Genesis
+- It's A Heartache - Bonnie Tyler
+- I'll Fly Away - Alison Krauss and Gillian Welch
+- I'll Never Fall In Love Again - Burt Bacharach
+- I'm a Believer - The Monkees
+- I'm An Old Cow Hand - Johnny Mercer
+- I'm Gonna Be (500 Miles) - The Proclaimers
+- Whistle For The Choir - The Fratellis
+- Wicked Game - Chris Isaak
+- Wild Mountain Thyme - Traditional
+- Space Oddity - David Bowie
+- One Day Like This - Elbow
+- Gambler, The - Kenny Rogers
+- Friday I'm in Love - The Cure
+- Folsom Prison Blues - Johnny Cash
+- Fields Of Gold - Sting
+- I Predict a Riot - Kaiser Chiefs
+- Here Comes The Sun - The Beatles
+- Help Me Make It Through The Night - Kris Kristofferson
+- Hi Ho Silver Lining - Jeff Beck
+- Hit Me Baby One More Time - Britney Spears
+- Can't Help Falling In Love - Elvis Presley
+- Riptide - Vance Joy
+- Make Me Smile - Steve Harley
+- Price Tag (abridged) - Jessie J
+- Moon River - Andy Williams
 
 ### Songs sung by Cambridge Ukulele on 06/07/2025
 
-- House of Fun - Madness
-- Castle On The Hill - Ed Sheeran
-- Bad Moon Rising - Creedence Clearwater Revival
-- A Whole New World - Peabo Bryson & Regina Belle
-- 2-4-6-8 Motorway - Tom Robinson Band
-- Dreaming of You - The Coral
-- Boulevard of Broken Dreams - Green Day
-- In The Mood - Glenn Miller
-- All I Have To Do Is Dream - The Everly Brothers
-- Big Yellow Taxi - Joni Mitchell
-- If I Fell - The Beatles
-- Man of Constant Sorrow - Soggy Bottom Boys
-- Flowers - Miley Cyrus
-- All You Need is Love - The Beatles
-- Bad Romance - Lady Gaga
-- Bare Necessities, The - P Harris & B Reitherman
-- Faith - George Michael
-- Fell In Love With a Girl - The White Stripes
-- Letter, The - The Box Tops
-- Daydream - The Lovin' Spoonful
+- Daydream Believer - The Monkees
+- I Hear You Knockin' - Smiley Lewis
+- I Just Call To Say I Love You - Stevie Wonder
+- I Predict a Riot - Kaiser Chiefs
+- Birdhouse in your Soul - They Might Be Giants
+- Blister in the Sun - The Violent Femmes
+- Dock of the Bay - Otis Redding
+- Blueberry Hill - Fats Domino
+- Don't Stop Me Now - Queen
+- Emmylou - First Aid Kit
+- End Of The Line - Travelling Wilburys
+- Leavin' On A Jet Plane - John Denver
+- Chapel Of Love - The Dixie Cups
+- Ain't No Sunshine - Bill Withers
+- 99 Red Chameleons Out Of Hell
+- Hard Days Night - The Beatles
+- Ain't That A Shame - Fats Domino
+- Charleston - Mack & Johnson
+- Charlie Brown & Yakety Yak - Leiber and Stoller
+- Chelsea Dagger - The Fratellis
 
 ### Songs sung by Cambridge Ukulele on 22/06/2025
 
-- Don't Be Cruel - Elvis Presley
-- Bye Bye Love - The Everly Brothers
-- Dream Lover - Bobby Darin
-- Dock of the Bay - Otis Redding
-- Bird On The Wire - Leonard Cohen
-- Bohemian Like You - The Dandy Warhols
-- Maggie May - Rod Stewart
-- A Little Respect - Erasure
-- Human - The Killers
-- Daydream Believer - The Monkees
-- Ain't No Sunshine - Bill Withers
-- Look, The - Roxette
-- In My Life - The Beatles
-- Carolina In My Mind - James Taylor
-- I Shot The Sheriff - Bob Marley
-- Back in the USSR - The Beatles
-- For Once In My Life - Stevie Wonder
-- Hi Ho Silver Lining - Jeff Beck
-- Dancing in the Street - Martha and the Vandellas
-- Kansas City - Wilbert Harrison
-- Angels - Robbie Williams
-- Let It Go - Idina Menzel
+- Don't You Want Me - The Human League
+- Devil And The Deep Blue Sea, The
+- Hazy Old Moon
+- Dance The Night Away - The Mavericks
+- Ballad of Peter Pumpkinhead, The - XTC
+- Hero - Family Of The Year
+- Blue Bayou - Roy Orbison
+- Hey Soul Sister - Train
+- I'll Fly Away - Alison Krauss and Gillian Welch
+- Banjo Song, The - Mumford and Sons
+- Hey There Delilah - Plain White T's
+- Every Day - Buddy Holly
+- Hey, Baby - Margaret Cobb & Bruce Channel
+- Better Best Forgotten - Steps
+- He's So Fine - The Chiffons
+- Another Saturday Night - Sam Cooke
+- I Can't Give You Anything But Love - McHugh & Fields
+- Letter, The - The Box Tops
+- Lightning Bolt - Jake Bugg
+- Cupid - Sam Cooke
+- Fell In Love With a Girl - The White Stripes
+- Autumn Leaves - Eric Clapton
+- Baby Face - Al Jolson
 
 ### Songs sung by Cambridge Ukulele on 25/05/2025
 
-- It's Only A Paper Moon - Ella Fitzgerald
-- I'm Stone In Love With You - The Stylistics
-- Always on my Mind - Pet Shop Boys
-- Cecilia - Simon and Garfunkel
-- I Want to Break Free - Queen
-- Make Me Smile - Steve Harley
-- Creep - Radiohead
-- Flowers On The Wall - The Statler Brothers
-- Lucky Man - The Verve
-- I'm Yours - Jason Mraz
-- Can't Stop (abridged) - Red Hot Chili Peppers
-- Don't Stop Believin' - Journey
-- I'll Be There For You (Friends theme) - The Rembrandts
-- Baby, Now That I've Found You - The Foundations
+- I Think We're Alone Now - Tiffany
+- Come on Eileen - Dexy's Midnight Runners
+- I Shall Be Released - Bob Dylan
 - It Doesn't Matter Anymore - Buddy Holly
-- Dakota - Stereophonics
-- Caught By The Fuzz - Supergrass
-- Birdhouse in your Soul - They Might Be Giants
-- Don't Fence Me In - Bing Crosby
-- It Must Be Love - Madness
-- Boulevard of Broken Dreams - Green Day
-- Don't Marry Her - The Beautiful South
-- Chain, The - Fleetwood Mac
-- Everybody Hurts - REM
-- Little Lion Man - Mumford And Sons
+- Dancing in the Dark - Bruce Springsteen
+- I Wanna Be Like You - Louis Prima and Phil Harris
+- Echo Beach - Martha and the Muffins
+- I Shot The Sheriff - Bob Marley
+- Blowin' In The Wind - Bob Dylan
+- Demons - Imagine Dragons
+- Blitzkrieg Bop - The Ramones
+- In Hell I'll Be In Good Company - The Dead South
+- Human - The Killers
+- Be My Baby - The Ronettes
+- Hey Jude - The Beatles
+- Anything Goes - Cole Porter
+- If You Could Read My Mind - Gordon Lightfoot
+- Every Breath You Take - The Police
+- Anyone Else But You - The Moldy Peaches
+- Dirty Old Town - The Pogues
+- Dock of the Bay - Otis Redding
+- Help Me Make It Through The Night - Kris Kristofferson
+- Kokomo - The Beach Boys
+- Ain't She Sweet - The Beatles
+- Dedicated Follower of Fashion - The Kinks
 
