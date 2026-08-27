@@ -4,7 +4,7 @@ title: Songs sung by Cambridge Ukulele
 
 ### Songs sung by Cambridge Ukulele on 16/08/2026
 
-- Me and Bobby McGee - Kris Kristofferson
+- Me And Bobby McGee - Kris Kristofferson
 - You Never Can Tell - Chuck Berry
 - Stuck in the Middle with You - Stealers Wheel
 - Proud Mary - Creedence Clearwater Revival
@@ -606,249 +606,249 @@ title: Songs sung by Cambridge Ukulele
 
 ### Songs sung by Cambridge Ukulele on 12/10/2025
 
+- Summer In The City - The Lovin' Spoonful
+- Stuck in the Middle with You - Stealers Wheel
+- Stand By Me - Oasis & Ben E King
+- Johnny B. Goode - Chuck Berry
+- Jolene - Dolly Parton
+- All About You - McFly
+- Obviously - McFly
+- Oh, Pretty Woman - Roy Orbison
+- Two Princes - Spin Doctors
+- Peaceful Easy Feeling - Eagles
+- Super Trouper - Abba
 - You've Got A Friend - Carole King
-- You're So Vain - Carly Simon
-- Sloop John B - The Beach Boys
-- Wonderwall - Oasis
-- Wake Me Up Before You Go-Go - Wham!
-- Suspicious Minds (abridged) - Elvis Presley
-- Torn - Natalie Imbruglia
-- Kids in America - Kim Wilde
-- Spanish Harlem - Ben E King
-- You Can Get It If You Really Want - Jimmy Cliff
-- Something - The Beatles
-- Monkey Man - Toots and the Maytals
-- Moon River - Andy Williams
-- You Do Something To Me - Cole Porter
-- You're The Reason I Don't Sleep At Night - Bobby Edwards
-- People Are Strange - The Doors
-- Too Much Love Will Kill You - Queen
-- Is She Really Going Out With Him - Joe Jackson
-- Ring of Fire - Johnny Cash
-- Walk Right Back - The Everly Brothers
-- Tide is High, The - Blondie
-- Yes Sir That's My Baby - Ricky Nelson
-- Moon River - Andy Williams
+- You've Got A Friend In Me - Randy Newman
+- Faith - George Michael
+- Make Me Smile - Steve Harley
+- Gold - Spandau Ballet
+- Meet Me On The Corner - Lindisfarne
+- It Must Be Love - Madness
+- It's A Heartache - Bonnie Tyler
+- No Surprises - Radiohead
+- Little Lion Man - Mumford And Sons
+- Lion Sleeps Tonight, The - The Tokens
+- You've Got A Friend In Me - Randy Newman
 
 ### Songs sung by Cambridge Ukulele on 28/09/2025
 
-- My Girl - The Temptations
-- Hallelujah (abridged) - Leonard Cohen
-- Wonderwall - Oasis
-- Wake Me Up Before You Go-Go - Wham!
-- Word up - Cameo
-- Riptide - Vance Joy
-- Yellow - Coldplay
-- Only You - Yazoo
-- Kokomo - The Beach Boys
-- Let It Go - Idina Menzel
-- Leavin' On A Jet Plane - John Denver
-- She's Electric - Oasis
-- Shimmy Like My Sister Kate - Armand J Piron
-- Mad World - Gary Jules
-- Sail Away - David Gray
-- True Faith - New Order
-- TRUSTFALL - P!nk
-- Tubthumping - Chumbawumba
-- Try A Little Tenderness - Otis Reading
-- Songbird - Fleetwood Mac
-- SPACE MAN - Sam Ryder
-- Maggie May - Rod Stewart
-- SOS - Abba
-- South Of The Border - Frank Sinatra
-- You've Got A Friend In Me - Randy Newman
+- Always Look on the Bright Side of Life - Monty Python
+- Always on my Mind - Pet Shop Boys
+- Johnny B. Goode - Chuck Berry
+- Jolene - Dolly Parton
+- Karma Chameleon - Culture Club
+- Kids in America - Kim Wilde
+- King of the Road - Roger Miller
+- Don't Fence Me In - Bing Crosby
+- Paint it Black - The Rolling Stones
+- Save The Last Dance For Me - The Drifters
+- Rolling in the Deep - Adele
+- Route 66 - Chuck Berry
+- Runaround Sue - Dion
+- This is the Life - Amy MacDonald
+- Mr Rock And Roll - Amy Macdonald
+- Three Little Birds - Bob Marley
+- Tide is High, The - Blondie
+- Time After Time - Cindy Lauper
+- Till There Was You - The Beatles
+- Top Of The World - The Carpenters
+- True Colours (abridged) - Cindy Lauper
+- True Blue - Madonna
+- Torn - Natalie Imbruglia
+- Total Eclipse of the Heart (abridged) - Bonnie Tyler
+- Viva La Vida - Coldplay
 
 ### Songs sung by Cambridge Ukulele on 14/09/2025
 
-- Shotgun - George Ezra
-- Letter, The - The Box Tops
-- Lightning Bolt - Jake Bugg
-- Should I Stay or Should I Go - The Clash
-- Side By Side - Kay Starr
-- Young At Heart - The Bluebells
-- You're Gonna Miss Me (The Cup Song) - Anna Kendrick
-- Killing Me Softly with his Song - Roberta Flack
-- Walking On Sunshine - Katrina And The Waves
-- Kiss Me - Sixpence None The Richer
+- San Francisco Bay Blues - Jesse Fuller
 - Save Tonight - Eagle Eye Cherry
-- Lady Madonna - The Beatles
-- Handbags And Gladrags - Stereophonics
-- My Guy - Mary Wells
-- Happy Together - The Turtles
-- I Don't Want to Talk About It - Rod Stewart
-- New Shoes - Paolo Nutini
-- Walk of Life - Dire Straits
-- Poison - Alice Cooper
-- There is a Light that Never Goes Out - The Smiths
-- There's A Guy .. Swears He's Elvis - Kirsty MacColl
-- Tainted Love - Soft Cell
-- Raining In My Heart - Buddy Holly
-- What's Up - 4 Non Blondes
+- Should I Stay or Should I Go - The Clash
+- Sit Down - James
+- Sitting On Top Of The World - Doc Watson
+- Folsom Prison Blues - Johnny Cash
+- Friday I'm in Love - The Cure
+- One For Sorrow - Steps
+- Only You - Yazoo
+- Our House - Crosby, Stills, Nash, Young
+- Peace, Perfect Peace - Toots and the Maytals
+- People Are Strange - The Doors
+- Angels - Robbie Williams
+- Anyone Else But You - The Moldy Peaches
+- As It Was - Harry Styles
+- Five Foot Two - Lewis, Young And Henderson
+- Bad Romance - Lady Gaga
+- Mr Brightside - The Killers
+- Heart Like A Wheel - Kate & Anna McGarrigle
+- Heroes - David Bowie
+- Hey There Delilah - Plain White T's
+- Cecilia - Simon and Garfunkel
+- If You Could Read My Mind - Gordon Lightfoot
+- Sweet Caroline - Neil Diamond
 
 ### Songs sung by Cambridge Ukulele on 31/08/2025
 
-- Ukulele Lady - Arlo Guthrie
-- You Really Got A Hold On Me - The Miracles
-- Sway - Dean Martin
-- You Can Get It If You Really Want - Jimmy Cliff
-- Was A Sunny Day - Paul Simon
-- Wave Over Wave - Great Big Sea
-- Red Red Wine - Neil Diamond
-- Word up - Cameo
-- Yellow - Coldplay
-- Yes Sir That's My Baby - Ricky Nelson
-- Till There Was You - The Beatles
-- Titanium - David Guetta ft. Sia
-- Valerie - Amy Winehouse
-- True Colours (abridged) - Cindy Lauper
-- Paint it Black - The Rolling Stones
-- Top Of The World - The Carpenters
-- Young At Heart - The Bluebells
-- You Do Something To Me - Cole Porter
-- Video Killed the Radio Star - The Buggles
-- Panic Song, The - Natalie Kent
-- Take on Me - Aha
-- Teenage Kicks - The Undertones
-- Our House - Madness
-- With A Little Help From My Friends - The Beatles
-- When I Need You - Leo Sayer
-- Sympathy For The Devil - The Rolling Stones
-- Rolling in the Deep - Adele
+- Blitzkrieg Bop - The Ramones
+- All My Loving - The Beatles
+- Alright - Supergrass
+- Peaceful Easy Feeling - Eagles
+- Price Tag (abridged) - Jessie J
+- Riptide - Vance Joy
+- It Doesn't Matter Anymore - Buddy Holly
+- Karma Chameleon - Culture Club
+- King of the Road - Roger Miller
+- Lion Sleeps Tonight, The - The Tokens
+- Loco-motion, The - Little Eva
+- Losing My Religion - REM
+- Dock of the Bay - Otis Redding
+- Texas Hold'em - Beyonce
+- Echo Beach - Martha and the Muffins
+- Monkey Man - Toots and the Maytals
+- Folsom Prison Blues - Johnny Cash
+- Faith - George Michael
+- Human - The Killers
+- Emmylou - First Aid Kit
+- Dream A Little Dream Of Me - The Mamas And The Papas
+- Every Breath You Take - The Police
+- Driftwood - Travis
+- Dreams - Fleetwood Mac
+- Wagon Wheel - Old Crow Medicine Show
+- Can't Stop (abridged) - Red Hot Chili Peppers
+- Kokomo - The Beach Boys
 
 ### Songs sung by Cambridge Ukulele on 17/08/2025
 
-- You've Got A Friend - Carole King
-- You Got What It Takes - Marv Johnson
-- Weight, The - The Band
-- Music When The Lights Go Out - The Libertines
-- Why Does it Always Rain on Me - Travis
-- You Really Got A Hold On Me - The Miracles
-- My Girl - The Temptations
-- In My Life - The Beatles
-- True Faith - New Order
-- Seven Nation Army - The White Stripes
-- Total Eclipse of the Heart (abridged) - Bonnie Tyler
-- Yes Sir That's My Baby - Ricky Nelson
-- Time After Time - Cindy Lauper
-- Titanium - David Guetta ft. Sia
-- Tonight You Belong To Me -  Patience and Prudence
-- Stand By Me - Oasis & Ben E King
-- Me and Julio - Paul Simon
-- Where Do You Go to My Lovely - Peter Sarstedt
 - Summer In The City - The Lovin' Spoonful
-- Young At Heart - The Bluebells
-- I Hear You Knockin' - Smiley Lewis
-- You're Gonna Miss Me (The Cup Song) - Anna Kendrick
-- Run For Your Life - The Beatles
-- Raindrops Keep Fallin' on my Head - B J Thomas
-- You're The Reason I Don't Sleep At Night - Bobby Edwards
-- You've Got A Friend In Me - Randy Newman
-- When I Need You - Leo Sayer
-- You're Still The One - Shania Twain
+- Sunny Afternoon - The Kinks
+- Summertime Blues - Eddie Cochran
+- A Little Respect - Erasure
+- Ain't No Sunshine - Bill Withers
+- All My Loving - The Beatles
+- Always Look on the Bright Side of Life - Monty Python
+- In My Life - The Beatles
+- Three Little Birds - Bob Marley
+- Que Sera Sera - Doris Day
+- Rainbow Connection, The - Kermit The Frog
+- Lion Sleeps Tonight, The - The Tokens
+- Lola - The Kinks
+- Losing My Religion - REM
+- Mad World - Gary Jules
+- Whistle For The Choir - The Fratellis
+- Wish You Were Here - Pink Floyd
+- With A Little Help From My Friends - The Beatles
+- Wonderful World - Sam Cooke
+- Folsom Prison Blues - Johnny Cash
+- For No One - The Beatles
+- Friday I'm in Love - The Cure
+- Moon River - Andy Williams
+- I'm Yours - Jason Mraz
+- Make Me Smile - Steve Harley
+- Viva La Vida - Coldplay
+- Wagon Wheel - Old Crow Medicine Show
+- Valerie - Amy Winehouse
 
 ### Songs sung by Cambridge Ukulele on 03/08/2025
 
-- Wonderwall - Oasis
-- Ring of Fire - Johnny Cash
-- Waitin' For The Robert E. Lee - Muir & Gilbert
-- If I Fell - The Beatles
-- Que Sera Sera - Doris Day
-- If It Makes You Happy - Sheryl Crowe
-- Rainbow Connection, The - Kermit The Frog
-- Stand By Me - Oasis & Ben E King
-- Starman - David Bowie
-- Stuck in the Middle with You - Stealers Wheel
-- Toxic - Britney Spears
-- Save The Last Dance For Me - The Drifters
-- Ten Out Of Ten - Paolo Nutini
-- You're Gonna Miss Me (The Cup Song) - Anna Kendrick
-- Young At Heart - The Bluebells
-- Wonder Of You, The - Elvis Presley
-- Viva La Vida - Coldplay
-- Poison Ivy - The Coasters
-- There Ain't No Pleasing You - Chas & Dave
-- There's No Other Way - Blur
-- I'll Be There For You (Friends theme) - The Rembrandts
-- Umbrella - Rihanna
-- Wave Over Wave - Great Big Sea
-- You're The Reason I Don't Sleep At Night - Bobby Edwards
-- Was A Sunny Day - Paul Simon
-- Run For Your Life - The Beatles
+- Johnny B. Goode - Chuck Berry
+- It's A Heartache - Bonnie Tyler
+- I'll Fly Away - Alison Krauss and Gillian Welch
+- I'll Never Fall In Love Again - Burt Bacharach
+- I'm a Believer - The Monkees
+- I'm An Old Cow Hand - Johnny Mercer
+- I'm Gonna Be (500 Miles) - The Proclaimers
+- Whistle For The Choir - The Fratellis
+- Wicked Game - Chris Isaak
+- Wild Mountain Thyme - Traditional
+- Space Oddity - David Bowie
+- One Day Like This - Elbow
+- Gambler, The - Kenny Rogers
+- Friday I'm in Love - The Cure
+- Folsom Prison Blues - Johnny Cash
+- Fields Of Gold - Sting
+- I Predict a Riot - Kaiser Chiefs
+- Here Comes The Sun - The Beatles
+- Help Me Make It Through The Night - Kris Kristofferson
+- Hi Ho Silver Lining - Jeff Beck
+- Hit Me Baby One More Time - Britney Spears
+- Can't Help Falling In Love - Elvis Presley
+- Riptide - Vance Joy
+- Make Me Smile - Steve Harley
+- Price Tag (abridged) - Jessie J
+- Moon River - Andy Williams
 
 ### Songs sung by Cambridge Ukulele on 06/07/2025
 
-- Urban Spaceman - Bonzo Dog Doo-Dah Band
-- I'll Never Fall In Love Again - Burt Bacharach
-- I'm a Believer - The Monkees
-- Viva La Vida - Coldplay
-- O'Brien's Tryin' .. to Talk Hawaiian - Cormack & Dubin
-- Wild Mountain Thyme - Traditional
+- Castle On The Hill - Ed Sheeran
+- Charlie Brown & Yakety Yak - Leiber and Stoller
+- Close To You - The Carpenters
+- Come on Eileen - Dexy's Midnight Runners
+- Dakota - Stereophonics
+- Daydream - The Lovin' Spoonful
+- Everybody Hurts - REM
+- Half the World Away - Oasis
+- Handbags And Gladrags - Stereophonics
+- If You Could Read My Mind - Gordon Lightfoot
+- In My Life - The Beatles
+- Made Of Stone - The Stone Roses
+- Total Eclipse of the Heart (abridged) - Bonnie Tyler
 - Valerie - Amy Winehouse
-- Oh, Pretty Woman - Roy Orbison
-- Ordinary World - Duran Duran
-- Panic Song, The - Natalie Kent
-- I Can Help - Billy Swan
-- Thorn in my Side - Eurythmics
-- One For Sorrow - Steps
-- Why Does it Always Rain on Me - Travis
-- Mrs Robinson - Simon And Garfunkel
-- I Wanna Dance with Somebody - Whitney Houston
-- Green Green Grass - George Ezra
-- Hey Jude - The Beatles
-- Hey Soul Sister - Train
-- Take it Easy - The Eagles
+- Viva La Vida - Coldplay
+- Wish You Were Here - Pink Floyd
+- With A Little Help From My Friends - The Beatles
+- Wonderful World - Sam Cooke
+- Word up - Cameo
+- Yellow - Coldplay
 
 ### Songs sung by Cambridge Ukulele on 22/06/2025
 
-- Our House - Crosby, Stills, Nash, Young
-- House At Pooh Corner - Kenny Loggins
-- I Want to Break Free - Queen
-- Under The Boardwalk - The Drifters
-- Hazy Old Moon
-- Pompeii - Bastille
-- Sweet Caroline - Neil Diamond
-- Price Tag (abridged) - Jessie J
-- Waitin' For The Robert E. Lee - Muir & Gilbert
-- Sweet Baby James - James Taylor
-- There's A Guy .. Swears He's Elvis - Kirsty MacColl
-- Passenger, The (abridged) - Iggy Pop
-- I Will Survive - Gloria Gaynor
-- No Surprises - Radiohead
-- I Will - The Beatles
-- Handle With Care - Traveling Wilburys
+- Beach Boys Medley
+- Best Of My Love - Eagles
+- Faith - George Michael
+- Fields Of Gold - Sting
+- I Shot The Sheriff - Bob Marley
 - I'll Fly Away - Alison Krauss and Gillian Welch
-- Three Little Birds - Bob Marley
-- Rotterdam - The Beautiful South
-- One Love - Bob Marley
-- Vegas - Sleeper
-- Hard Days Night - The Beatles
-- Have You Ever Seen the Rain - Creedence Clearwater
+- Lola - The Kinks
+- Losing My Religion - REM
+- Mad World - Gary Jules
+- Make Me Smile - Steve Harley
+- Meet Me On The Corner - Lindisfarne
+- Midnight Special - Lead Belly
+- Monkey Man - Toots and the Maytals
+- Stand By Me - Oasis & Ben E King
+- Sunny Afternoon - The Kinks
+- Take it Easy - The Eagles
+- Titanium - David Guetta ft. Sia
+- TRUSTFALL - P!nk
+- Try A Little Tenderness - Otis Reading
+- Viva La Vida - Coldplay
+- When The Night Feels My Song - Bedouin Soundclash
+- Why Does it Always Rain on Me - Travis
+- Why Don't We Start from Here - Lucy Spraggan
 
 ### Songs sung by Cambridge Ukulele on 25/05/2025
 
-- Think It Over - Buddy Holly
-- Hi Ho Silver Lining - Jeff Beck
-- I'm Not In Love - 10cc
-- Red Red Wine - Neil Diamond
-- Only The Lonely - -Roy Orbison
-- Wagon Wheel - Old Crow Medicine Show
-- Paint it Black - The Rolling Stones
-- They're Red Hot - Robert Johnson
-- Obviously - McFly
-- Hotel California - The Eagles
-- Ukulele Lady - Arlo Guthrie
-- Rawhide - Frankie Laine
-- Video Killed the Radio Star - The Buggles
-- Nine to Five - Dolly Parton
+- Bad Moon Rising - Creedence Clearwater Revival
+- Blister in the Sun - The Violent Femmes
+- Blitzkrieg Bop - The Ramones
+- Chelsea Dagger - The Fratellis
+- Cracklin Rosie - Neil Diamond
+- Dreams - Cranberries, The
+- Hard Days Night - The Beatles
+- Have You Ever Seen the Rain - Creedence Clearwater
+- I Only Want to Be With You - Dusty Springfield
+- I Predict a Riot - Kaiser Chiefs
+- Love Shack - The B-52s
+- Meet Me On The Corner - Lindisfarne
+- Mercedes Benz - Janis Joplin
+- Summer In The City - The Lovin' Spoonful
+- Summer of 69 - Bryan Adams
+- Summertime Blues - Eddie Cochran
+- Sunny Afternoon - The Kinks
+- Sympathy For The Devil - The Rolling Stones
 - There She Goes - The La's
-- Handy Man - Jimmy Jones
-- Raining In My Heart - Buddy Holly
-- Teenage Kicks - The Undertones
-- My Guy - Mary Wells
-- Take Me Out - Franz Ferdinand
-- Valerie - Amy Winehouse
-- There Ain't No Pleasing You - Chas & Dave
-- Rolling in the Deep - Adele
-- Goodnight Irene - Eric Clapton
-- Hopelessly Devoted To You - Olivia Newton-John
+- They're Red Hot - Robert Johnson
+- Think It Over - Buddy Holly
+- This is the Life - Amy MacDonald
+- Thorn in my Side - Eurythmics
+- Three Little Birds - Bob Marley
+- Viva La Vida - Coldplay
 
