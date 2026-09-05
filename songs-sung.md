@@ -2,6 +2,33 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 30/08/2026
+
+- Me And Bobby McGee - Kris Kristofferson
+- Johnny B. Goode - Chuck Berry
+- Leavin' On A Jet Plane - John Denver
+- Jolene - Dolly Parton
+- House At Pooh Corner - Kenny Loggins
+- I'll Fly Away - Alison Krauss and Gillian Welch
+- Folsom Prison Blues - Johnny Cash
+- Meet Me On The Corner - Lindisfarne
+- Moondance - Van Morrison
+- Young At Heart - The Bluebells
+- Zombie - The Cranberries
+- Look, The - Roxette
+- Dreams - Fleetwood Mac
+- Annie's Song - John Denver
+- Nine to Five - Dolly Parton
+- Total Eclipse of the Heart (abridged) - Bonnie Tyler
+- I Will Survive - Gloria Gaynor
+- Dreams - Cranberries, The
+- Feel it Still - Portugal. The Man
+- Bare Necessities, The - P Harris & B Reitherman
+- Night You Can't Remember, The - Magnetic Fields
+- I Wanna Be Like You - Louis Prima and Phil Harris
+- Crazy Little Thing Called Love - Queen
+- Dancing Queen - Abba
+
 ### Songs sung by Cambridge Ukulele on 16/08/2026
 
 - Me And Bobby McGee - Kris Kristofferson
