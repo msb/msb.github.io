@@ -2,6 +2,33 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 13/09/2026
+
+- Bye Bye Love - The Everly Brothers
+- Folsom Prison Blues - Johnny Cash
+- Friday I'm in Love - The Cure
+- Bad Moon Rising - Creedence Clearwater Revival
+- Banjo Song, The - Mumford and Sons
+- Annie's Song - John Denver
+- I Predict a Riot - Kaiser Chiefs
+- It Doesn't Matter Anymore - Buddy Holly
+- Look, The - Roxette
+- Losing My Religion - REM
+- All My Loving - The Beatles
+- Crocodile Rock (abridged) - Elton John
+- Alright - Supergrass
+- Rawhide - Frankie Laine
+- Red Red Wine - Neil Diamond
+- Chelsea Dagger - The Fratellis
+- Meet Me On The Corner - Lindisfarne
+- Karma Chameleon - Culture Club
+- You Got What It Takes - Marv Johnson
+- You Never Can Tell - Chuck Berry
+- Tonight You Belong To Me -  Patience and Prudence
+- Johnny B. Goode - Chuck Berry
+- You're Gonna Miss Me (The Cup Song) - Anna Kendrick
+- Valerie - Amy Winehouse
+
 ### Songs sung by Cambridge Ukulele on 30/08/2026
 
 - Me And Bobby McGee - Kris Kristofferson
