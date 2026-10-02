@@ -16,7 +16,8 @@ export function parseFolderId(value) {
 
 export function createFolderReader(token, fetcher = fetch) {
   let selected = null;
-  async function get(path, params, signal) {
+  let images = new Set();
+  async function get(path, params, signal, media = false) {
     const url = new URL('https://www.googleapis.com/drive/v3/' + path);
     url.search = new URLSearchParams(params).toString();
     const response = await fetcher(url, {
@@ -33,11 +34,12 @@ export function createFolderReader(token, fetcher = fetch) {
       error.status = response.status;
       throw error;
     }
-    return response.json();
+    return media ? response.blob() : response.json();
   }
   return {
     async select(value, signal) {
       selected = null;
+      images.clear();
       const id = parseFolderId(value);
       const folder = await get('files/' + encodeURIComponent(id),
         {fields:'id,name,mimeType,trashed',supportsAllDrives:'true'}, signal);
@@ -45,18 +47,26 @@ export function createFolderReader(token, fetcher = fetch) {
       selected = {id, name:folder.name};
       return {...selected};
     },
-    async list(pageToken = '', signal) {
+    async list(signal) {
       if (!selected) throw new Error('Choose a folder before reading files.');
+      images.clear();
       const result = await get('files', {
         q: "'" + selected.id + "' in parents and trashed = false",
-        fields: 'nextPageToken,files(id,name,mimeType,parents)',
-        pageSize:'100', orderBy:'folder,name', supportsAllDrives:'true',
-        includeItemsFromAllDrives:'true', ...(pageToken ? {pageToken} : {}),
+        fields: 'nextPageToken,files(id,name,mimeType,parents,capabilities(canDownload))',
+        pageSize:'100', orderBy:'name', supportsAllDrives:'true',
+        includeItemsFromAllDrives:'true',
       }, signal);
-      return {
-        files:(result.files || []).filter(file => file.parents?.includes(selected.id)),
-        nextPageToken: result.nextPageToken || '',
-      };
+      const files = (result.files || []).filter(file =>
+        file.parents?.includes(selected.id) && file.mimeType?.startsWith('image/'));
+      images = new Set(files.filter(file => file.capabilities?.canDownload !== false).map(file => file.id));
+      return {files, hasMore:Boolean(result.nextPageToken)};
+    },
+    async image(id, signal) {
+      if (!selected || !images.has(id)) throw new Error('Image is not readable in the selected folder results.');
+      const blob = await get('files/' + encodeURIComponent(id),
+        {alt:'media',supportsAllDrives:'true'}, signal, true);
+      if (!blob.type.startsWith('image/')) throw new Error('Drive did not return an image.');
+      return blob;
     },
   };
 }
@@ -92,3 +102,5 @@ export function createSessionStore(clientId, getStorage = () => localStorage, no
     },
   };
 }
+
+

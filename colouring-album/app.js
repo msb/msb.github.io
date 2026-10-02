@@ -1,5 +1,5 @@
 import {GOOGLE_CLIENT_ID} from './config.js';
-import {DRIVE_SCOPE, FOLDER_MIME, createFolderReader, createSessionStore} from './drive.js';
+import {DRIVE_SCOPE, createFolderReader, createSessionStore} from './drive.js';
 
 const $ = id => document.getElementById(id);
 let client;
@@ -8,12 +8,12 @@ let expiresAt = 0;
 let expiryTimer;
 let reader;
 let folder;
-let nextPage = '';
+const imageUrls = new Set();
 let busy = false;
 let authorizing = false;
 let controller;
 let generation = 0;
-let itemCount = 0;
+
 const session = createSessionStore(GOOGLE_CLIENT_ID);
 const status = message => { $('status').textContent = message; };
 
@@ -27,7 +27,6 @@ function update() {
   $('folder').disabled = !token || busy || authorizing;
   $('load').disabled = !token || busy || authorizing;
   $('refresh').disabled = !token || busy || authorizing;
-  $('more').disabled = !token || busy || authorizing;
 }
 function reset() {
   session.clear();
@@ -36,10 +35,9 @@ function reset() {
   controller = null;
   clearTimeout(expiryTimer);
   token = ''; expiresAt = 0; reader = null; folder = null;
-  nextPage = ''; busy = false; itemCount = 0;
+  busy = false;
   $('folder').value = '';
-  $('files').replaceChildren();
-  $('album').hidden = true; $('more').hidden = true;
+  clearGrid();
   update();
 }
 function persist() {
@@ -58,19 +56,57 @@ function requireConnection() {
     throw new Error('Google connection expired. Connect again.');
   }
 }
-function renderFiles(files) {
-  for (const file of files) {
-    const li = document.createElement('li');
-    const name = document.createElement('strong');
-    name.textContent = file.name;
-    const type = document.createElement('span');
-    type.textContent = file.mimeType === FOLDER_MIME ? 'Subfolder · not opened' : file.mimeType;
-    li.append(name,type); $('files').append(li);
-  }
-  itemCount += files.length;
-  $('count').textContent = itemCount ? itemCount + ' items loaded from this folder.' : 'This folder is empty.';
+function clearGrid() {
+  $('files').replaceChildren();
+  for (const url of imageUrls) URL.revokeObjectURL(url);
+  imageUrls.clear();
 }
-async function readFolder(newSelection = false, append = false) {
+async function renderImages(files, run, signal) {
+  clearGrid();
+  const tiles = files.map(file => {
+    const tile = document.createElement('li');
+    const image = document.createElement('img');
+    image.alt = file.name;
+    image.decoding = 'async';
+    image.hidden = true;
+    const caption = document.createElement('span');
+    caption.className = 'image-caption';
+    caption.textContent = file.name;
+    const message = document.createElement('span');
+    message.className = 'image-state';
+    message.textContent = 'Loading image...';
+    tile.append(image,message,caption);
+    $('files').append(tile);
+    return {file,image,message};
+  });
+  let index = 0;
+  // Limit simultaneous downloads for large folders.
+  async function worker() {
+    while (index < tiles.length && run === generation && !signal.aborted) {
+      const {file,image,message} = tiles[index++];
+      try {
+        if (file.capabilities?.canDownload === false) throw new Error('Preview restricted by owner.');
+        const blob = await reader.image(file.id, signal);
+        if (run !== generation || signal.aborted) return;
+        const url = URL.createObjectURL(blob);
+        imageUrls.add(url);
+        image.onload = () => { image.hidden = false; message.hidden = true; };
+        image.onerror = () => {
+          image.hidden = true; message.hidden = false;
+          message.textContent = 'This image format cannot be displayed.';
+          URL.revokeObjectURL(url); imageUrls.delete(url);
+        };
+        image.src = url;
+      } catch(error) {
+        if (run !== generation || error.name === 'AbortError') return;
+        if (error.status === 401) throw error;
+        message.textContent = error.message;
+      }
+    }
+  }
+  await Promise.all(Array.from({length:Math.min(4,tiles.length)},worker));
+}
+async function readFolder(newSelection = false) {
   const run = ++generation;
   controller?.abort();
   controller = new AbortController();
@@ -78,7 +114,7 @@ async function readFolder(newSelection = false, append = false) {
   try {
     requireConnection();
     if (newSelection) {
-      folder = null; persist(); $('album').hidden = true;
+      folder = null; persist(); clearGrid(); $('album').hidden = true;
       status('Checking your folder…');
       const selected = await reader.select($('folder').value, controller.signal);
       if (run !== generation) return;
@@ -87,14 +123,15 @@ async function readFolder(newSelection = false, append = false) {
     }
     if (!folder) throw new Error('Choose a folder first.');
     status('Reading ' + folder.name + '…');
-    const result = await reader.list(append ? nextPage : '', controller.signal);
+    const result = await reader.list(controller.signal);
     if (run !== generation) return;
-    if (!append) { $('files').replaceChildren(); itemCount = 0; }
-    renderFiles(result.files);
-    nextPage = result.nextPageToken;
     $('folder-title').textContent = folder.name;
     $('album').hidden = false;
-    $('more').hidden = !nextPage;
+    $('count').textContent = result.files.length
+      ? result.files.length + ' images on the first page.' + (result.hasMore ? ' More images are not shown.' : '')
+      : 'No images found on the first page.';
+    await renderImages(result.files, run, controller.signal);
+    if (run !== generation) return;
     status('Connected. Reading only the selected folder.');
   } catch(error) {
     if (run !== generation || error.name === 'AbortError') return;
@@ -132,7 +169,6 @@ $('revoke').addEventListener('click', () => {
 });
 $('folder-form').addEventListener('submit', event => { event.preventDefault(); if (!busy) void readFolder(true); });
 $('refresh').addEventListener('click', () => { if (!busy) void readFolder(); });
-$('more').addEventListener('click', () => { if (!busy) void readFolder(false,true); });
 window.addEventListener('focus', () => {
   if (token && Date.now() >= expiresAt) { reset(); status('Google connection expired. Connect again.'); }
 });
@@ -200,4 +236,6 @@ async function initialize() {
   } catch(error) { status(error.message); }
 }
 void initialize();
+
+
 
