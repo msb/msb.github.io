@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Read your colouring album from a selected Google Drive folder.">
+<title>Colouring Album</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./styles.css"><script type="module" src="./app.js"></script>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="./">Colouring Album</a></header>
+<main id="app"><section class="welcome" aria-labelledby="welcome-title">
+<p class="eyebrow">A SPACE FOR COLOUR</p><h1 id="welcome-title">Bring your album from Google Drive.</h1>
+<p class="intro">Connect your Google account, then choose the folder containing your colouring pages.</p>
+<section class="drive-panel" aria-labelledby="drive-title">
+<h2 id="drive-title">Connect your album</h2>
+<p class="permission-note"><strong>Read-only permission.</strong> Google grants read access to your entire Drive. Colouring Album only reads the folder you choose and lists its direct contents. It never changes your files.</p>
+<div class="buttons"><button id="connect" disabled>Connect with Google</button><button id="disconnect" class="secondary" hidden>Disconnect</button><button id="revoke" class="secondary" hidden>Revoke Google access</button></div>
+<form id="folder-form">
+<label for="folder">Google Drive folder link or ID</label>
+<input id="folder" name="folder" placeholder="https://drive.google.com/drive/folders/…" required disabled autocomplete="off">
+<p class="hint">Copy the folder link from Google Drive. Only one folder is active at a time; subfolders are not opened.</p>
+<button id="load" type="submit" disabled>Open folder</button>
+</form>
+<p id="status" role="status" aria-live="polite">Preparing Google sign-in…</p>
+<p id="storage-note" class="hint" hidden>Browser storage is unavailable. This connection will be forgotten when the page reloads.</p>
+<p id="setup" class="hint" hidden>Google sign-in needs a web OAuth client ID in config.local.json. See the README for setup instructions.</p>
+</section>
+<section id="album" aria-labelledby="folder-title" hidden>
+<div class="album-heading"><h2 id="folder-title"></h2><button id="refresh" class="secondary">Refresh</button></div>
+<p id="count" class="hint"></p><ul id="files" class="file-list"></ul><button id="more" class="secondary" hidden>Load more</button>
+</section>
+</section></main>
+<footer>Colouring Album · Connection and folder saved in this browser until the token expires. Disconnect clears them.</footer>
+</body></html>
+
+
