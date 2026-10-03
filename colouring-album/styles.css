@@ -66,3 +66,7 @@ main#app { position: fixed; inset: 0; width: 100%; height: 100dvh; max-width: no
 .grid-settings select { width: 100%; font: inherit; padding: 12px; border: 1px solid #cbc5d4; border-radius: 8px; margin-bottom: 14px; background: #fcfbfd; }
 .grid-settings button { margin-top: 14px; }
 .grid-settings select:focus-visible { outline: 3px solid #7966a4; outline-offset: 3px; }
+
+.pool-count { position: fixed; top: 18px; left: 18px; z-index: 19; padding: 10px 14px; border-radius: 999px; background: #faf8f3e8; color: #514263; font-size: 13px; font-weight: 650; pointer-events: none; }
+
+.drive-toggle { width: 46px; height: 46px; padding: 0; display: grid; place-items: center; font-size: 26px; line-height: 1; }

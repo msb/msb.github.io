@@ -47,19 +47,21 @@ export function createFolderReader(token, fetcher = fetch) {
       selected = {id, name:folder.name};
       return {...selected};
     },
-    async list(signal) {
+    async list(signal, pageToken = '') {
       if (!selected) throw new Error('Choose a folder before reading files.');
-      images.clear();
+      if (!pageToken) images.clear();
+      const folderId = selected.id;
       const result = await get('files', {
         q: "'" + selected.id + "' in parents and trashed = false",
         fields: 'nextPageToken,files(id,name,mimeType,parents,capabilities(canDownload))',
         pageSize:'100', orderBy:'name', supportsAllDrives:'true',
-        includeItemsFromAllDrives:'true',
+        includeItemsFromAllDrives:'true', ...(pageToken ? {pageToken} : {}),
       }, signal);
+      if (selected?.id !== folderId) throw new Error('Folder changed during listing.');
       const files = (result.files || []).filter(file =>
         file.parents?.includes(selected.id) && file.mimeType?.startsWith('image/'));
-      images = new Set(files.filter(file => file.capabilities?.canDownload !== false).map(file => file.id));
-      return {files, hasMore:Boolean(result.nextPageToken)};
+      for (const file of files) if (file.capabilities?.canDownload !== false) images.add(file.id);
+      return {files, hasMore:Boolean(result.nextPageToken), nextPageToken:result.nextPageToken || ''};
     },
     async image(id, signal) {
       if (!selected || !images.has(id)) throw new Error('Image is not readable in the selected folder results.');
@@ -148,3 +150,64 @@ export function viewportGrid(width, height, preferences = {}) {
   const columns = settings.axis === 'columns' ? settings.columns : Math.floor(width / tileSize + 1e-9);
   return {tileSize, rows, columns, capacity:rows * columns};
 }
+
+// Collect metadata pages serially while consumers draw from the growing pool.
+export function createFilePool(reader, signal, random = Math.random, onProgress = () => {}) {
+  const files = new Map();
+  const waiters = new Set();
+  let finished = false;
+  let error = null;
+  const wake = () => { for (const resolve of waiters) resolve(); waiters.clear(); };
+  const completion = (async () => {
+    const seenPages = new Set();
+    let pageToken = '';
+    try {
+      do {
+        signal.throwIfAborted();
+        const page = await reader.list(signal, pageToken);
+        signal.throwIfAborted();
+        for (const file of page.files) {
+          if (file.capabilities?.canDownload !== false) files.set(file.id, file);
+        }
+        onProgress(files.size);
+        wake();
+        pageToken = page.nextPageToken || '';
+        if (pageToken && seenPages.has(pageToken)) throw new Error('Drive returned a repeated page token.');
+        seenPages.add(pageToken);
+      } while (pageToken);
+    } catch (cause) { error = cause; }
+    finally { finished = true; wake(); }
+  })();
+  return {
+    completion,
+    get size() { return files.size; },
+    get error() { return error; },
+    async pick(used, consumerSignal = signal) {
+      while (true) {
+        signal.throwIfAborted();
+        consumerSignal.throwIfAborted();
+        const available = [...files.values()].filter(file => !used.has(file.id));
+        if (available.length) {
+          const file = available[Math.floor(random() * available.length)];
+          used.add(file.id);
+          return file;
+        }
+        if (finished) {
+          if (error) throw error;
+          return null;
+        }
+        await new Promise(resolve => {
+          const done = () => { signal.removeEventListener('abort',done); consumerSignal.removeEventListener('abort',done); waiters.delete(done); resolve(); };
+          waiters.add(done);
+          signal.addEventListener('abort',done,{once:true});
+          consumerSignal.addEventListener('abort',done,{once:true});
+        });
+      }
+    },
+  };
+}
+
+
+
+
+

@@ -1,5 +1,5 @@
 import {GOOGLE_CLIENT_ID} from './config.js';
-import {DRIVE_SCOPE, createFolderReader, createSessionStore, viewportGrid, createGridStore} from './drive.js';
+import {DRIVE_SCOPE, createFolderReader, createSessionStore, viewportGrid, createGridStore, createFilePool} from './drive.js';
 
 const $ = id => document.getElementById(id);
 let client;
@@ -8,6 +8,8 @@ let expiresAt = 0;
 let expiryTimer;
 let reader;
 let folder;
+let filePool;
+let poolController;
 const imageUrls = new Set();
 let busy = false;
 let authorizing = false;
@@ -56,7 +58,7 @@ const driveToggle = $('drive-toggle');
 function toggleDrivePanel(open) {
   drivePanel.hidden = !open;
   driveToggle.setAttribute('aria-expanded', String(open));
-  driveToggle.textContent = open ? 'Close Drive settings' : 'Drive settings';
+  driveToggle.setAttribute('aria-label', open ? 'Close Drive settings' : 'Drive settings');
   if (open) drivePanel.focus();
 }
 driveToggle.addEventListener('click', () => toggleDrivePanel(drivePanel.hidden));
@@ -84,6 +86,8 @@ function update() {
   $('refresh').disabled = !token || busy || authorizing;
 }
 function reset() {
+  poolController?.abort(); filePool = null;
+      $('pool-count').textContent = 'Pool: 0 files';
   session.clear();
   generation++;
   controller?.abort();
@@ -116,50 +120,124 @@ function clearGrid() {
   for (const url of imageUrls) URL.revokeObjectURL(url);
   imageUrls.clear();
 }
-async function renderImages(files, run, signal) {
-  clearGrid();
-  const tiles = files.map(file => {
-    const tile = document.createElement('li');
-    const image = document.createElement('img');
-    image.alt = file.name;
-    image.decoding = 'async';
-    image.hidden = true;
-    const caption = document.createElement('span');
-    caption.className = 'image-caption';
-    caption.textContent = file.name;
-    const message = document.createElement('span');
-    message.className = 'image-state';
-    message.textContent = 'Loading image...';
-    tile.append(image,message,caption);
-    $('files').append(tile);
-    return {file,image,message};
+function cyclePause(signal) {
+  return new Promise((resolve,reject) => {
+    signal.throwIfAborted();
+    const timer = setTimeout(() => { signal.removeEventListener('abort',abort); resolve(); },1000);
+    function abort() { clearTimeout(timer); reject(signal.reason); }
+    signal.addEventListener('abort',abort,{once:true});
   });
-  let index = 0;
-  // Limit simultaneous downloads for large folders.
-  async function worker() {
-    while (index < tiles.length && run === generation && !signal.aborted) {
-      const {file,image,message} = tiles[index++];
+}
+async function loadImage(file, signal) {
+  const blob = await reader.image(file.id, signal);
+  signal.throwIfAborted();
+  const url = URL.createObjectURL(blob);
+  imageUrls.add(url);
+  const image = document.createElement('img');
+  image.alt = file.name;
+  image.decoding = 'async';
+  image.src = url;
+  try {
+    await image.decode();
+    signal.throwIfAborted();
+    return {image,url};
+  } catch(error) {
+    URL.revokeObjectURL(url); imageUrls.delete(url);
+    throw error;
+  }
+}
+async function crossfade(tile, next, signal) {
+  const previous = tile.querySelector('img');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  tile.append(next.image);
+  if (reducedMotion || !previous) {
+    signal.throwIfAborted();
+    tile.replaceChildren(next.image);
+    return;
+  }
+  const options = {duration:600, easing:'ease-in-out', fill:'forwards'};
+  const animations = [
+    previous.animate([{opacity:1},{opacity:0}], options),
+    next.image.animate([{opacity:0},{opacity:1}], options),
+  ];
+  const cancel = () => animations.forEach(animation => animation.cancel());
+  signal.addEventListener('abort',cancel,{once:true});
+  try {
+    signal.throwIfAborted();
+    await Promise.all(animations.map(animation => animation.finished));
+    signal.throwIfAborted();
+    tile.replaceChildren(next.image);
+  } catch(error) {
+    next.image.remove();
+    URL.revokeObjectURL(next.url); imageUrls.delete(next.url);
+    throw error;
+  } finally {
+    signal.removeEventListener('abort',cancel);
+    cancel();
+  }
+}
+async function renderImages(pool, capacity, run, signal) {
+  clearGrid();
+  const used = new Set();
+  const failed = new Set();
+  const slots = [];
+  async function pick() {
+    // Selection reserves in this temporary set; used represents displayed images only.
+    return pool.pick(new Set([...used,...failed]),signal);
+  }
+  async function cycle() {
+    while (run === generation && !signal.aborted) {
+      await cyclePause(signal);
+      const slot = slots[Math.floor(Math.random()*slots.length)];
+      const file = await pick();
+      if (!file) return; // No unseen image available: keep the current grid.
       try {
-        if (file.capabilities?.canDownload === false) throw new Error('Preview restricted by owner.');
-        const blob = await reader.image(file.id, signal);
-        if (run !== generation || signal.aborted) return;
-        const url = URL.createObjectURL(blob);
-        imageUrls.add(url);
-        image.onload = () => { image.hidden = false; message.hidden = true; };
-        image.onerror = () => {
-          image.hidden = true; message.hidden = false;
-          message.textContent = 'This image format cannot be displayed.';
-          URL.revokeObjectURL(url); imageUrls.delete(url);
-        };
-        image.src = url;
+        const next = await loadImage(file,signal);
+        if (run !== generation || signal.aborted) {
+          URL.revokeObjectURL(next.url); imageUrls.delete(next.url); return;
+        }
+        await crossfade(slot.tile, next, signal);
+        used.delete(slot.file.id);
+        used.add(file.id);
+        URL.revokeObjectURL(slot.url); imageUrls.delete(slot.url);
+        Object.assign(slot,{file,url:next.url});
       } catch(error) {
-        if (run !== generation || error.name === 'AbortError') return;
-        if (error.status === 401) throw error;
-        message.textContent = error.message;
+        if (signal.aborted || error.status===401) throw error;
+        failed.add(file.id);
       }
     }
   }
-  await Promise.all(Array.from({length:Math.min(4,tiles.length)},worker));
+  for (let index=0; index<capacity; index++) {
+    const tile=document.createElement('li');
+    const message=document.createElement('span');
+    message.className='image-state'; message.textContent='Loading image...';
+    tile.append(message); $('files').append(tile);
+    while (true) {
+      const file=await pick();
+      if (!file || run!==generation || signal.aborted) { tile.remove(); return slots.length; }
+      try {
+        const next=await loadImage(file,signal);
+        if (run!==generation || signal.aborted) {
+          URL.revokeObjectURL(next.url); imageUrls.delete(next.url); return slots.length;
+        }
+        tile.replaceChildren(next.image);
+        used.add(file.id);
+        slots.push({tile,file,url:next.url});
+        break;
+      } catch(error) {
+        if (signal.aborted || error.status===401) throw error;
+        failed.add(file.id);
+      }
+    }
+  }
+  if (slots.length) {
+    void cycle().catch(error => {
+      if (run!==generation || signal.aborted) return;
+      if (error.status===401) reset();
+      status(error.message);
+    });
+  }
+  return slots.length;
 }
 async function readFolder(newSelection = false) {
   const run = ++generation;
@@ -169,6 +247,8 @@ async function readFolder(newSelection = false) {
   try {
     requireConnection();
     if (newSelection) {
+      poolController?.abort(); filePool = null;
+      $('pool-count').textContent = 'Pool: 0 files';
       folder = null; persist(); clearGrid(); $('album').hidden = true;
       status('Checking your folder…');
       const selected = await reader.select($('folder').value, controller.signal);
@@ -179,17 +259,28 @@ async function readFolder(newSelection = false) {
       persist();
     }
     if (!folder) throw new Error('Choose a folder first.');
-    status('Reading ' + folder.name + '…');
-    const result = await reader.list(controller.signal);
-    if (run !== generation) return;
+    if (!filePool) {
+      poolController = new AbortController();
+      const collectionController = poolController;
+      const pool = createFilePool(reader, collectionController.signal, Math.random, count => {
+        if (!collectionController.signal.aborted) {
+          $('pool-count').textContent = 'Pool: ' + count + (count === 1 ? ' file' : ' files');
+        }
+      });
+      filePool = pool;
+      void pool.completion.then(() => {
+        if (filePool !== pool || !pool.error || poolController.signal.aborted) return;
+        if (pool.error.status === 401) reset();
+        status(pool.error.message);
+      });
+    }
+    status('Collecting folder files and filling images one at a time...');
     const layout = applyGridLayout();
     displayedCapacity = layout.capacity;
-
     $('album').hidden = false;
-    const visible = result.files.slice(0, layout.capacity);
-    await renderImages(visible, run, controller.signal);
+    const shown = await renderImages(filePool, layout.capacity, run, controller.signal);
     if (run !== generation) return;
-    status(visible.length ? 'Showing ' + visible.length + ' images from the selected folder.' : 'No images found on the first page.');
+    status(shown ? 'Showing ' + shown + ' randomly selected images. Folder collection continues in the background.' : 'No readable images found.');
   } catch(error) {
     if (run !== generation || error.name === 'AbortError') return;
     if (error.status === 401) reset();
@@ -310,6 +401,11 @@ function resizeGrid() {
   }, 200);
 }
 window.addEventListener('resize', resizeGrid);
+
+
+
+
+
 
 
 

@@ -8,7 +8,8 @@
 <link rel="stylesheet" href="./styles.css"><script type="module" src="./app.js"></script>
 </head>
 <body>
-<button id="drive-toggle" class="drive-toggle" type="button" aria-controls="drive-panel" aria-expanded="false">Drive settings</button>
+<output id="pool-count" class="pool-count" aria-label="Files collected in the image pool">Pool: 0 files</output>
+<button id="drive-toggle" class="drive-toggle" type="button" aria-controls="drive-panel" aria-expanded="false" aria-label="Drive settings" title="Drive settings"><span aria-hidden="true">&#9881;</span></button>
 <section id="drive-panel" class="drive-panel" role="dialog" aria-labelledby="drive-title" tabindex="-1" hidden>
 <h2 id="drive-title">Connect your album</h2>
 <p class="permission-note"><strong>Read-only permission.</strong> Google grants read access to your entire Drive. Colouring Album only reads the folder you choose and shows images from its direct contents. It never changes your files.</p>
@@ -36,6 +37,8 @@
 <ul id="files" class="image-grid"></ul>
 </section></main>
 </body></html>
+
+
 
 
 
