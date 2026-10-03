@@ -72,9 +72,26 @@ export function createFolderReader(token, fetcher = fetch) {
 }
 
 // Persist only this app's session and retain Google's original absolute expiry.
+export const FOLDER_KEY = 'colouring-album.folder.v1';
 export const SESSION_KEY = 'colouring-album.google-session.v1';
 export function createSessionStore(clientId, getStorage = () => localStorage, now = () => Date.now()) {
+  function saveFolder(folderId) {
+    if (typeof folderId !== 'string' || !/^[A-Za-z0-9_-]+$/.test(folderId)) return false;
+    try { getStorage().setItem(FOLDER_KEY, folderId); return true; } catch { return false; }
+  }
+  function loadFolder() {
+    try {
+      const storage = getStorage();
+      const cached = storage.getItem(FOLDER_KEY);
+      if (cached && /^[A-Za-z0-9_-]+$/.test(cached)) return cached;
+      // Migrate the folder out of an existing session, even if its token expired.
+      const old = JSON.parse(storage.getItem(SESSION_KEY) || 'null');
+      if (old?.folderId && saveFolder(old.folderId)) return old.folderId;
+    } catch { /* Storage may be disabled or contain invalid data. */ }
+    return '';
+  }
   function clear() {
+    loadFolder();
     try { getStorage().removeItem(SESSION_KEY); } catch { /* Storage may be disabled. */ }
   }
   function valid(value) {
@@ -84,7 +101,7 @@ export function createSessionStore(clientId, getStorage = () => localStorage, no
       (value.folderId === '' || (typeof value.folderId === 'string' && /^[A-Za-z0-9_-]+$/.test(value.folderId)));
   }
   return {
-    clear,
+    clear, loadFolder, saveFolder,
     load() {
       try {
         const raw = getStorage().getItem(SESSION_KEY);
@@ -95,6 +112,7 @@ export function createSessionStore(clientId, getStorage = () => localStorage, no
       } catch { clear(); return null; }
     },
     save({token, expiresAt, folderId = ''}) {
+      if (folderId) saveFolder(folderId);
       const value = {clientId,scope:DRIVE_SCOPE,token,expiresAt,folderId};
       if (!valid(value)) { clear(); return false; }
       try { getStorage().setItem(SESSION_KEY,JSON.stringify(value)); return true; }
@@ -104,3 +122,29 @@ export function createSessionStore(clientId, getStorage = () => localStorage, no
 }
 
 
+
+
+export const GRID_KEY = 'colouring-album.grid.v1';
+export function gridPreferences(value = {}) {
+  const count = (input, fallback) => Number.isInteger(input) && input >= 1 && input <= 100 ? input : fallback;
+  return {axis:value?.axis === 'rows' ? 'rows' : 'columns', rows:count(value?.rows,3), columns:count(value?.columns,4)};
+}
+export function createGridStore(getStorage = () => localStorage) {
+  return {
+    load() {
+      try { return gridPreferences(JSON.parse(getStorage().getItem(GRID_KEY) || '{}')); }
+      catch { return gridPreferences(); }
+    },
+    save(value) {
+      try { getStorage().setItem(GRID_KEY,JSON.stringify(gridPreferences(value))); return true; }
+      catch { return false; }
+    },
+  };
+}
+export function viewportGrid(width, height, preferences = {}) {
+  const settings = gridPreferences(preferences);
+  const tileSize = settings.axis === 'rows' ? height / settings.rows : width / settings.columns;
+  const rows = settings.axis === 'rows' ? settings.rows : Math.floor(height / tileSize + 1e-9);
+  const columns = settings.axis === 'columns' ? settings.columns : Math.floor(width / tileSize + 1e-9);
+  return {tileSize, rows, columns, capacity:rows * columns};
+}

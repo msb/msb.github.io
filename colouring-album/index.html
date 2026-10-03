@@ -8,14 +8,20 @@
 <link rel="stylesheet" href="./styles.css"><script type="module" src="./app.js"></script>
 </head>
 <body>
-<header class="site-header"><a class="brand" href="./">Colouring Album</a></header>
-<main id="app"><section class="welcome" aria-labelledby="welcome-title">
-<p class="eyebrow">A SPACE FOR COLOUR</p><h1 id="welcome-title">Bring your album from Google Drive.</h1>
-<p class="intro">Connect your Google account, then choose the folder containing your colouring pages.</p>
-<section class="drive-panel" aria-labelledby="drive-title">
+<button id="drive-toggle" class="drive-toggle" type="button" aria-controls="drive-panel" aria-expanded="false">Drive settings</button>
+<section id="drive-panel" class="drive-panel" role="dialog" aria-labelledby="drive-title" tabindex="-1" hidden>
 <h2 id="drive-title">Connect your album</h2>
 <p class="permission-note"><strong>Read-only permission.</strong> Google grants read access to your entire Drive. Colouring Album only reads the folder you choose and shows images from its direct contents. It never changes your files.</p>
-<div class="buttons"><button id="connect" disabled>Connect with Google</button><button id="disconnect" class="secondary" hidden>Disconnect</button><button id="revoke" class="secondary" hidden>Revoke Google access</button></div>
+<div class="buttons"><button id="refresh" class="secondary" disabled>Refresh images</button><button id="connect" disabled>Connect with Google</button><button id="disconnect" class="secondary" hidden>Disconnect</button><button id="revoke" class="secondary" hidden>Revoke Google access</button></div>
+<form id="grid-form" class="grid-settings">
+<h2>Image layout</h2>
+<label for="grid-axis">Fill the viewport by</label>
+<select id="grid-axis"><option value="columns">Number of columns</option><option value="rows">Number of rows</option></select>
+<label id="grid-count-label" for="grid-count">Columns</label>
+<input id="grid-count" type="number" min="1" max="100" step="1" value="4" required>
+<button type="submit">Apply layout</button>
+<p id="grid-note" class="hint" role="status">Square images fill the chosen axis and are centered on the other.</p>
+</form>
 <form id="folder-form">
 <label for="folder">Google Drive folder link or ID</label>
 <input id="folder" name="folder" placeholder="https://drive.google.com/drive/folders/…" required disabled autocomplete="off">
@@ -26,13 +32,14 @@
 <p id="storage-note" class="hint" hidden>Browser storage is unavailable. This connection will be forgotten when the page reloads.</p>
 <p id="setup" class="hint" hidden>Google sign-in needs a web OAuth client ID in config.local.json. See the README for setup instructions.</p>
 </section>
-<section id="album" aria-labelledby="folder-title" hidden>
-<div class="album-heading"><h2 id="folder-title"></h2><button id="refresh" class="secondary">Refresh</button></div>
-<p id="count" class="hint"></p><ul id="files" class="image-grid"></ul>
-</section>
+<main id="app"><section id="album" aria-label="Colouring images" hidden>
+<ul id="files" class="image-grid"></ul>
 </section></main>
-<footer>Colouring Album · Connection and folder saved in this browser until the token expires. Disconnect clears them.</footer>
 </body></html>
+
+
+
+
 
 
 
