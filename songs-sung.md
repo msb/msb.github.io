@@ -2,6 +2,34 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 27/09/2026
+
+- Sloop John B - The Beach Boys
+- Folsom Prison Blues - Johnny Cash
+- Wagon Wheel - Old Crow Medicine Show
+- Half the World Away - Oasis
+- Flowers - Miley Cyrus
+- Faith - George Michael
+- Fisherman's Blues - The Waterboys
+- Five Foot Two - Lewis, Young And Henderson
+- St James Infirmary Blues - Louis Armstrong
+- Take it Easy - The Eagles
+- Skyfall - Adele
+- Blue Moon - Traditional
+- Bad Moon Rising - Creedence Clearwater Revival
+- Sunshine On Leith - The Proclaimers
+- Look, The - Roxette
+- Dakota - Stereophonics
+- Dancing in the Dark - Bruce Springsteen
+- Dancing In The Moonlight - Toploader
+- Dancing in the Street - Martha and the Vandellas
+- Daydream Believer - The Monkees
+- Daydream - The Lovin' Spoonful
+- Three Little Birds - Bob Marley
+- Tide is High, The - Blondie
+- Don't Stop Believin' - Journey
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 13/09/2026
 
 - Bye Bye Love - The Everly Brothers
@@ -217,8 +245,8 @@ title: Songs sung by Cambridge Ukulele
 - Dreams - Fleetwood Mac
 - Dreams - Cranberries, The
 - Banjo Song, The - Mumford and Sons
-- Dreaming of You - The Coral
 - Summer In The City - The Lovin' Spoonful
+- Dreaming of You - The Coral
 - Daydream Believer - The Monkees
 - Sunny Afternoon - The Kinks
 - Lola - The Kinks
