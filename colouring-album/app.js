@@ -1,8 +1,12 @@
-import {GOOGLE_CLIENT_ID} from './config.js';
-import {DRIVE_SCOPE, createFolderReader, createSessionStore, viewportGrid, createGridStore, createFilePool} from './drive.js';
+import {DRIVE_SCOPE, createFolderReader, createSessionStore, viewportGrid, createGridStore, createFilePool, parseFolderId} from './drive.js';
 
 const $ = id => document.getElementById(id);
 let client;
+const CLIENT_ID_KEY = 'colouring-album.client-id.v1';
+let clientId = '';
+try { clientId = localStorage.getItem(CLIENT_ID_KEY) || ''; } catch {}
+let authVersion = 0;
+let googleScript;
 let token = '';
 let expiresAt = 0;
 let expiryTimer;
@@ -48,10 +52,16 @@ $('grid-form').addEventListener('submit', event => {
   resizeGrid();
 });
 
-const session = createSessionStore(GOOGLE_CLIENT_ID);
+let session = createSessionStore(clientId);
+$('client-id').value = clientId;
 let rememberedFolderId = session.loadFolder();
 $('folder').value = rememberedFolderId;
 const status = message => { $('status').textContent = message; };
+function promptForClientId() {
+  status($('folder').value.trim()
+    ? 'Enter your Google OAuth client ID to start.'
+    : 'Enter your Google OAuth client ID and Drive folder to start.');
+}
 
 const drivePanel = $('drive-panel');
 const driveToggle = $('drive-toggle');
@@ -75,15 +85,10 @@ document.addEventListener('click', event => {
 });
 
 function update() {
-  $('connect').disabled = !client || busy || authorizing;
-  $('connect').textContent = token ? 'Change Google account' : 'Connect with Google';
-  $('disconnect').hidden = !token;
-  $('revoke').hidden = !token;
-  $('disconnect').disabled = authorizing;
-  $('revoke').disabled = authorizing;
-  $('folder').disabled = !token || busy || authorizing;
-  $('load').disabled = !token || busy || authorizing;
-  $('refresh').disabled = !token || busy || authorizing;
+  $('folder').disabled = authorizing;
+  $('client-id').disabled = authorizing;
+  $('load').disabled = !client || authorizing || busy;
+  $('load').hidden = !rememberedFolderId || !client || authorizing || Boolean(token && Date.now() < expiresAt);
 }
 function reset() {
   poolController?.abort(); filePool = null;
@@ -97,22 +102,23 @@ function reset() {
   busy = false;
   $('folder').value = rememberedFolderId;
   clearGrid();
+  $('album').hidden = true;
   update();
 }
 function persist() {
-  const saved = session.save({token, expiresAt, folderId:folder?.id || ''});
+  const saved = session.save({token, expiresAt, folderId:rememberedFolderId});
   $('storage-note').hidden = saved;
 }
 function armExpiry() {
   clearTimeout(expiryTimer);
   expiryTimer = setTimeout(() => {
-    reset(); status('Google connection expired. Connect again.');
+    reset(); status('Google connection expired. Choose Continue with Google in settings.');
   }, Math.max(0, expiresAt - Date.now()));
 }
 function requireConnection() {
   if (!token || Date.now() >= expiresAt) {
     reset();
-    throw new Error('Google connection expired. Connect again.');
+    throw new Error('Google connection expired. Choose Continue with Google in settings.');
   }
 }
 function clearGrid() {
@@ -290,78 +296,151 @@ async function readFolder(newSelection = false) {
   }
 }
 
-$('connect').addEventListener('click', () => {
-  reset(); authorizing = true; update();
-  status('Complete the Google permission prompt.');
-  try { client.requestAccessToken({prompt:'select_account', include_granted_scopes:false}); }
-  catch(error) { authorizing = false; status(error.message); update(); }
-});
-$('disconnect').addEventListener('click', () => {
-  reset(); status('Disconnected. Token cleared; folder remembered. Google permission remains until revoked.');
-});
-$('revoke').addEventListener('click', () => {
-  const accessToken = token;
+function authFailed(message) {
+  authorizing = false;
+  status(message);
+  toggleDrivePanel(true);
+  update();
+}
+function startAuth() {
+  if (!rememberedFolderId || !client || authorizing) return;
   reset();
   authorizing = true; update();
-  status('Revoking Google access…');
+  status('Complete the Google permission prompt.');
+  try { client.requestAccessToken({prompt:'', include_granted_scopes:false}); }
+  catch { authFailed('Google sign-in needs a click. Choose Continue with Google.'); }
+}
+function clearFolder() {
+  const accessToken = token;
+  reset();
+  rememberedFolderId = '';
+  session.forgetFolder();
+  $('folder').value = '';
+  toggleDrivePanel(true);
+  if (!accessToken || !window.google?.accounts?.oauth2) {
+    status('Folder forgotten. No active token is available to revoke; remove any remaining grant in your Google Account connections.');
+    return;
+  }
+  authorizing = true; update();
+  status('Folder forgotten. Revoking Google access...');
   let completed = false;
   const timeout = setTimeout(() => {
-    completed = true; authorizing = false; update();
-    status('Disconnected. Could not confirm revocation; remove access in your Google Account settings.');
-  }, 10000);
-  google.accounts.oauth2.revoke(accessToken, response => {
-    if (completed) return;
-    clearTimeout(timeout); authorizing = false; update();
-    status(response?.successful ? 'Google access revoked.' : 'Disconnected. Remove access in Google Account settings if revocation failed.');
-  });
+    completed = true;
+    authFailed('Folder forgotten. Could not confirm revocation; remove access in Google Account connections.');
+  },10000);
+  try {
+    google.accounts.oauth2.revoke(accessToken,response => {
+      if (completed) return;
+      completed = true; clearTimeout(timeout);
+      authorizing = false; update();
+      status(response?.successful ? 'Folder forgotten and Google access revoked.' : 'Folder forgotten. Revocation failed; remove access in Google Account connections.');
+    });
+  } catch {
+    completed = true; clearTimeout(timeout);
+    authFailed('Folder forgotten. Revocation failed; remove access in Google Account connections.');
+  }
+}
+function acceptFolder() {
+  const value = $('folder').value.trim();
+  if (!value) { clearFolder(); return; }
+  let id;
+  try { id = parseFolderId(value); }
+  catch(error) { status(error.message); return; }
+  rememberedFolderId = id;
+  session.saveFolder(id);
+  $('folder').value = id;
+  if (!clientId) { promptForClientId(); return; }
+  if (!token || Date.now() >= expiresAt) startAuth();
+  else { persist(); toggleDrivePanel(false); void readFolder(true); }
+}
+$('folder-form').addEventListener('submit',event => {
+  event.preventDefault();
+  if (!authorizing && !busy) acceptFolder();
 });
-$('folder-form').addEventListener('submit', event => { event.preventDefault(); if (!busy) void readFolder(true); });
-$('refresh').addEventListener('click', () => { if (!busy) void readFolder(); });
+$('folder').addEventListener('input', () => {
+  if (!$('folder').value.trim() && rememberedFolderId) clearFolder();
+  else if (!clientId) promptForClientId();
+});
+$('folder').addEventListener('change', () => {
+  if ($('folder').value.trim() && !authorizing && !busy) acceptFolder();
+});
+$('folder').addEventListener('paste',event => {
+  const value = event.clipboardData?.getData('text').trim();
+  if (!value || authorizing || busy) return;
+  try { parseFolderId(value); } catch { return; }
+  event.preventDefault();
+  $('folder').value = value;
+  acceptFolder();
+});
+$('client-id').addEventListener('change', () => {
+  const value = $('client-id').value.trim();
+  if (value === clientId) return;
+  if (value && !/^[A-Za-z0-9_-]+\.apps\.googleusercontent\.com$/.test(value)) {
+    status('Enter a Google OAuth web client ID ending in .apps.googleusercontent.com.');
+    return;
+  }
+  authVersion++;
+  reset();
+  client = undefined;
+  clientId = value;
+  $('client-id').value = value;
+  try {
+    if (value) localStorage.setItem(CLIENT_ID_KEY,value);
+    else localStorage.removeItem(CLIENT_ID_KEY);
+  } catch { $('storage-note').hidden = false; }
+  session = createSessionStore(clientId);
+  void initialize();
+});
 window.addEventListener('focus', () => {
-  if (token && Date.now() >= expiresAt) { reset(); status('Google connection expired. Connect again.'); }
+  if (token && Date.now() >= expiresAt) { reset(); status('Google connection expired. Choose Continue with Google in settings.'); }
 });
 
 async function initialize() {
-  if (!GOOGLE_CLIENT_ID) {
-    $('setup').hidden = false;
-    status('Google connection has not been configured yet.');
+  const version = authVersion;
+  toggleDrivePanel(!rememberedFolderId || !clientId);
+  update();
+  if (!clientId) {
+    promptForClientId();
     return;
   }
   try {
-    await new Promise((resolve,reject) => {
+    googleScript ??= new Promise((resolve,reject) => {
       const script = document.createElement('script');
       script.src = 'https://accounts.google.com/gsi/client';
       script.async = true;
       script.onload = resolve;
-      script.onerror = () => reject(new Error('Could not load Google sign-in. Check your connection or browser settings.'));
+      script.onerror = () => { googleScript = undefined; reject(new Error('Could not load Google sign-in. Check your connection or browser settings.')); };
       document.head.append(script);
     });
+    await googleScript;
+    if (version !== authVersion) return;
     client = google.accounts.oauth2.initTokenClient({
-      client_id: GOOGLE_CLIENT_ID,
+      client_id: clientId,
       scope: DRIVE_SCOPE,
       include_granted_scopes: false,
       callback: response => {
+        if (version !== authVersion) return;
         authorizing = false;
-        if (response.error) { status('Google connection was not completed: ' + response.error); update(); return; }
+        if (response.error) { authFailed('Google connection was not completed: ' + response.error); return; }
         if (!google.accounts.oauth2.hasGrantedAllScopes(response, DRIVE_SCOPE)) {
-          status('Read-only Drive permission was not granted.'); update(); return;
+          authFailed('Read-only Drive permission was not granted.'); return;
         }
         const lifetime = Number(response.expires_in);
         if (!response.access_token || !Number.isFinite(lifetime) || lifetime <= 0) {
-          status('Google returned an invalid connection. Try again.'); update(); return;
+          authFailed('Google returned an invalid connection. Choose Continue with Google.'); return;
         }
         token = response.access_token;
         expiresAt = Date.now() + lifetime * 1000;
         reader = createFolderReader(token);
         armExpiry();
         persist();
-        status('Connected to Google. Paste your album folder link to continue.');
         update();
+        if (rememberedFolderId) { toggleDrivePanel(false); void readFolder(true); }
+        else { clearFolder(); }
       },
       error_callback: error => {
-        authorizing = false;
-        status(error.type === 'popup_closed' ? 'Google sign-in was cancelled.' : 'Could not open Google sign-in. Allow popups and try again.');
-        update();
+        if (version !== authVersion) return;
+        authFailed(error.type === 'popup_closed' ? 'Google sign-in was cancelled. Choose Continue with Google to retry.' : 'Google sign-in needs a click. Choose Continue with Google.');
       },
     });
     const saved = session.load();
@@ -371,17 +450,18 @@ async function initialize() {
       reader = createFolderReader(token);
       armExpiry();
       update();
-      if (saved.folderId) {
-        $('folder').value = saved.folderId;
+      if (rememberedFolderId) {
+        $('folder').value = rememberedFolderId;
         await readFolder(true);
       } else {
         status('Google connection restored. Paste your album folder link to continue.');
       }
     } else {
-      status('Connect with Google to choose your album folder.');
+      status('Enter your Google Drive folder to start.');
       update();
+      if (rememberedFolderId) startAuth();
     }
-  } catch(error) { status(error.message); }
+  } catch(error) { if (version === authVersion) authFailed(error.message); }
 }
 void initialize();
 
@@ -401,11 +481,3 @@ function resizeGrid() {
   }, 200);
 }
 window.addEventListener('resize', resizeGrid);
-
-
-
-
-
-
-
-

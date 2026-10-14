@@ -24,7 +24,6 @@ a:focus-visible { outline: 3px solid #7966a4; outline-offset: 5px; }
 .drive-panel { background: white; border: 1px solid #e3e0d9; border-radius: 18px; padding: 28px; margin-top: 30px; }
 .drive-panel h2 { margin-top: 0; }
 .permission-note { background: #f2edf8; padding: 16px; border-radius: 10px; font-size: 14px; line-height: 1.65; }
-.buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-block: 24px; }
 button, input { font: inherit; }
 button { background: #7966a4; color: white; border: 0; border-radius: 8px; padding: 12px 18px; font-weight: 650; cursor: pointer; }
 button:hover:enabled { background: #65528f; }

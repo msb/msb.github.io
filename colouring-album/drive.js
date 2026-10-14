@@ -96,6 +96,11 @@ export function createSessionStore(clientId, getStorage = () => localStorage, no
     loadFolder();
     try { getStorage().removeItem(SESSION_KEY); } catch { /* Storage may be disabled. */ }
   }
+  function forgetFolder() {
+    // Remove the session too, so legacy migration cannot restore a deleted folder.
+    try { getStorage().removeItem(SESSION_KEY); getStorage().removeItem(FOLDER_KEY); }
+    catch { /* Storage may be disabled. */ }
+  }
   function valid(value) {
     return value?.clientId === clientId && value?.scope === DRIVE_SCOPE &&
       typeof value.token === 'string' && value.token.length > 0 &&
@@ -103,7 +108,7 @@ export function createSessionStore(clientId, getStorage = () => localStorage, no
       (value.folderId === '' || (typeof value.folderId === 'string' && /^[A-Za-z0-9_-]+$/.test(value.folderId)));
   }
   return {
-    clear, loadFolder, saveFolder,
+    clear, loadFolder, saveFolder, forgetFolder,
     load() {
       try {
         const raw = getStorage().getItem(SESSION_KEY);

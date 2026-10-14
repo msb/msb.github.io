@@ -13,7 +13,6 @@
 <section id="drive-panel" class="drive-panel" role="dialog" aria-labelledby="drive-title" tabindex="-1" hidden>
 <h2 id="drive-title">Connect your album</h2>
 <p class="permission-note"><strong>Read-only permission.</strong> Google grants read access to your entire Drive. Colouring Album only reads the folder you choose and shows images from its direct contents. It never changes your files.</p>
-<div class="buttons"><button id="refresh" class="secondary" disabled>Refresh images</button><button id="connect" disabled>Connect with Google</button><button id="disconnect" class="secondary" hidden>Disconnect</button><button id="revoke" class="secondary" hidden>Revoke Google access</button></div>
 <form id="grid-form" class="grid-settings">
 <h2>Image layout</h2>
 <label for="grid-axis">Fill the viewport by</label>
@@ -25,13 +24,15 @@
 </form>
 <form id="folder-form">
 <label for="folder">Google Drive folder link or ID</label>
-<input id="folder" name="folder" placeholder="https://drive.google.com/drive/folders/…" required disabled autocomplete="off">
-<p class="hint">Copy the folder link from Google Drive. Only one folder is active at a time; subfolders are not opened.</p>
-<button id="load" type="submit" disabled>Open folder</button>
+<input id="folder" name="folder" placeholder="https://drive.google.com/drive/folders/…" autocomplete="off">
+<p class="hint">Paste your folder link to start. Clear it to forget the folder and revoke Google access. Subfolders are not opened.</p>
+<label for="client-id">Google OAuth client ID</label>
+<input id="client-id" name="client-id" placeholder="Your client ID.apps.googleusercontent.com" autocomplete="off" spellcheck="false">
+<p class="hint">Use a Web application client ID with this site's origin authorized in Google Cloud. The ID is public and remembered in this browser.</p>
+<button id="load" type="submit" hidden disabled>Continue with Google</button>
 </form>
 <p id="status" role="status" aria-live="polite">Preparing Google sign-in…</p>
 <p id="storage-note" class="hint" hidden>Browser storage is unavailable. This connection will be forgotten when the page reloads.</p>
-<p id="setup" class="hint" hidden>Google sign-in needs a web OAuth client ID in config.local.json. See the README for setup instructions.</p>
 </section>
 <main id="app"><section id="album" aria-label="Colouring images" hidden>
 <ul id="files" class="image-grid"></ul>
