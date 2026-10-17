@@ -2,6 +2,34 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 11/10/2026
+
+- Bad Moon Rising - Creedence Clearwater Revival
+- Take Me Home, Country Roads - John Denver
+- You Never Can Tell - Chuck Berry
+- Folsom Prison Blues - Johnny Cash
+- Friday I'm in Love - The Cure
+- Good Riddance (Time of Your Life) - Green Day
+- Brown Eyed Girl - Van Morrison
+- One Love - Bob Marley
+- One Day Like This - Elbow
+- Wagon Wheel - Old Crow Medicine Show
+- What's Up - 4 Non Blondes
+- Faith - George Michael
+- Always Look on the Bright Side of Life - Monty Python
+- Alright - Supergrass
+- Stuck in the Middle with You - Stealers Wheel
+- Summer In The City - The Lovin' Spoonful
+- Summer of 69 - Bryan Adams
+- Summertime Blues - Eddie Cochran
+- Sunny Afternoon - The Kinks
+- Sunshine On Leith - The Proclaimers
+- No Surprises - Radiohead
+- Nine to Five - Dolly Parton
+- Space Oddity - David Bowie
+- Make Me Smile - Steve Harley
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 27/09/2026
 
 - Sloop John B - The Beach Boys
@@ -245,8 +273,8 @@ title: Songs sung by Cambridge Ukulele
 - Dreams - Fleetwood Mac
 - Dreams - Cranberries, The
 - Banjo Song, The - Mumford and Sons
-- Dreaming of You - The Coral
 - Summer In The City - The Lovin' Spoonful
+- Dreaming of You - The Coral
 - Daydream Believer - The Monkees
 - Sunny Afternoon - The Kinks
 - Lola - The Kinks
