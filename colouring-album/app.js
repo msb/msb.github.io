@@ -20,6 +20,74 @@ let authorizing = false;
 let controller;
 let generation = 0;
 let displayedCapacity = 0;
+let selectedTag = '';
+let activeTagOption = -1;
+let showTagOptions = false;
+function closeTagOptions() {
+  showTagOptions = false;
+  activeTagOption = -1;
+  $('tag-options').hidden = true;
+  $('tag-search').setAttribute('aria-expanded', 'false');
+  $('tag-search').setAttribute('aria-activedescendant', '');
+}
+function chooseTag(tag) {
+  $('tag-search').value = tag;
+  closeTagOptions();
+  if (tag === selectedTag) return;
+  selectedTag = tag;
+  if (folder && token) void readFolder();
+}
+function updateTagOptions() {
+  const tags = filePool?.tags || [];
+  const query = $('tag-search').value.trim().toLowerCase();
+  const matches = query ? tags.filter(tag => tag.includes(query)).slice(0,4) : [];
+  activeTagOption = -1;
+  $('tag-search').setAttribute('aria-activedescendant', '');
+  $('tag-options').replaceChildren(...matches.map((tag,index) => {
+    const option = document.createElement('button');
+    option.type = 'button';
+    option.tabIndex = -1;
+    option.id = 'tag-option-' + index;
+    option.setAttribute('role', 'option');
+    option.setAttribute('aria-selected', 'false');
+    option.textContent = tag;
+    option.value = tag;
+    option.addEventListener('mousedown', event => event.preventDefault());
+    option.addEventListener('click', () => chooseTag(tag));
+    return option;
+  }));
+  $('tag-options').hidden = !showTagOptions || !matches.length;
+  $('tag-search').setAttribute('aria-expanded', String(!$('tag-options').hidden));
+  $('tag-search').disabled = !tags.length;
+}
+$('tag-search').addEventListener('focus', () => { showTagOptions = true; updateTagOptions(); });
+$('tag-search').addEventListener('blur', closeTagOptions);
+$('tag-search').addEventListener('keydown', event => {
+  if (event.key === 'Escape') { closeTagOptions(); event.stopPropagation(); return; }
+  if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+    event.preventDefault();
+    if ($('tag-options').hidden) { showTagOptions = true; updateTagOptions(); }
+    const options = [...$('tag-options').children];
+    if (!options.length) return;
+    activeTagOption = activeTagOption < 0 ? (event.key === 'ArrowDown' ? 0 : options.length - 1)
+      : (activeTagOption + (event.key === 'ArrowDown' ? 1 : -1) + options.length) % options.length;
+    options.forEach((option,index) => option.setAttribute('aria-selected', String(index === activeTagOption)));
+    $('tag-search').setAttribute('aria-activedescendant', options[activeTagOption].id);
+  } else if (event.key === 'Enter' && !$('tag-options').hidden && activeTagOption >= 0) {
+    event.preventDefault();
+    chooseTag($('tag-options').children[activeTagOption].value);
+  }
+});
+$('tag-search').addEventListener('input', () => {
+  showTagOptions = true;
+  updateTagOptions();
+  const value = $('tag-search').value.trim().toLowerCase();
+  // Typing a partial suggestion does not interrupt the currently selected filter.
+  if (value && !filePool?.tags.includes(value)) return;
+  if (value === selectedTag) return;
+  selectedTag = value;
+  if (folder && token) void readFolder();
+});
 const gridStore = createGridStore();
 let gridSettings = gridStore.load();
 function gridControls() {
@@ -92,6 +160,7 @@ function update() {
 }
 function reset() {
   poolController?.abort(); filePool = null;
+  selectedTag = ''; $('tag-search').value = ''; updateTagOptions();
       $('pool-count').textContent = 'Pool: 0 files';
   session.clear();
   generation++;
@@ -187,9 +256,11 @@ async function renderImages(pool, capacity, run, signal) {
   const used = new Set();
   const failed = new Set();
   const slots = [];
+  const tag = selectedTag;
+  const matching = pool.count(tag);
   async function pick() {
     // Selection reserves in this temporary set; used represents displayed images only.
-    return pool.pick(new Set([...used,...failed]),signal);
+    return pool.pick(new Set([...used,...failed]),signal,tag);
   }
   async function cycle() {
     while (run === generation && !signal.aborted) {
@@ -213,7 +284,7 @@ async function renderImages(pool, capacity, run, signal) {
       }
     }
   }
-  for (let index=0; index<capacity; index++) {
+  for (let index=0; index<Math.min(capacity,matching); index++) {
     const tile=document.createElement('li');
     const message=document.createElement('span');
     message.className='image-state'; message.textContent='Loading image...';
@@ -236,7 +307,7 @@ async function renderImages(pool, capacity, run, signal) {
       }
     }
   }
-  if (slots.length) {
+  if (slots.length && matching > slots.length + failed.size) {
     void cycle().catch(error => {
       if (run!==generation || signal.aborted) return;
       if (error.status===401) reset();
@@ -254,6 +325,7 @@ async function readFolder(newSelection = false) {
     requireConnection();
     if (newSelection) {
       poolController?.abort(); filePool = null;
+      selectedTag = ''; $('tag-search').value = ''; updateTagOptions();
       $('pool-count').textContent = 'Pool: 0 files';
       folder = null; persist(); clearGrid(); $('album').hidden = true;
       status('Checking your folder…');
@@ -280,13 +352,17 @@ async function readFolder(newSelection = false) {
         status(pool.error.message);
       });
     }
-    status('Collecting folder files and filling images one at a time...');
+    status('Loading tags.json and filling images one at a time...');
+    await filePool.completion;
+    if (run !== generation) return;
+    if (filePool.error) throw filePool.error;
+    updateTagOptions();
     const layout = applyGridLayout();
     displayedCapacity = layout.capacity;
     $('album').hidden = false;
     const shown = await renderImages(filePool, layout.capacity, run, controller.signal);
     if (run !== generation) return;
-    status(shown ? 'Showing ' + shown + ' randomly selected images. Folder collection continues in the background.' : 'No readable images found.');
+    status(shown ? 'Showing ' + shown + ' images' + (selectedTag ? ' tagged “' + selectedTag + '”' : ' from tags.json') + '.' : 'No readable images found.');
   } catch(error) {
     if (run !== generation || error.name === 'AbortError') return;
     if (error.status === 401) reset();

@@ -47,21 +47,30 @@ export function createFolderReader(token, fetcher = fetch) {
       selected = {id, name:folder.name};
       return {...selected};
     },
-    async list(signal, pageToken = '') {
+    async list(signal) {
       if (!selected) throw new Error('Choose a folder before reading files.');
-      if (!pageToken) images.clear();
-      const folderId = selected.id;
-      const result = await get('files', {
-        q: "'" + selected.id + "' in parents and trashed = false",
-        fields: 'nextPageToken,files(id,name,mimeType,parents,capabilities(canDownload))',
-        pageSize:'100', orderBy:'name', supportsAllDrives:'true',
-        includeItemsFromAllDrives:'true', ...(pageToken ? {pageToken} : {}),
-      }, signal);
-      if (selected?.id !== folderId) throw new Error('Folder changed during listing.');
-      const files = (result.files || []).filter(file =>
-        file.parents?.includes(selected.id) && file.mimeType?.startsWith('image/'));
-      for (const file of files) if (file.capabilities?.canDownload !== false) images.add(file.id);
-      return {files, hasMore:Boolean(result.nextPageToken), nextPageToken:result.nextPageToken || ''};
+      const selection = selected;
+      images.clear();
+      // Same-origin catalogue requests must never carry the Google bearer token.
+      const response = await fetcher('./tags.json', {method:'GET', cache:'no-store', signal});
+      if (!response.ok) throw new Error('Could not load tags.json (' + response.status + '). Export it into the public folder.');
+      let catalogue;
+      try { catalogue = await response.json(); }
+      catch { throw new Error('tags.json is not valid JSON. Export the image tags again.'); }
+      if (selected !== selection) throw new Error('Folder changed during catalogue loading.');
+      if (catalogue?.schema_version !== 1 || !Array.isArray(catalogue.images)) {
+        throw new Error('tags.json must be a version 1 image tag export.');
+      }
+      const files = new Map();
+      for (const file of catalogue.images) {
+        if (file?.source !== 'drive:' + selection.id || file.error ||
+            typeof file.id !== 'string' || !/^[A-Za-z0-9_-]+$/.test(file.id) ||
+            typeof file.name !== 'string' || !file.name.trim()) continue;
+        files.set(file.id, {id:file.id, name:file.name, tags:Array.isArray(file.tags) ? file.tags : []});
+      }
+      if (!files.size) throw new Error('tags.json has no images for this Drive folder. Export tags for the selected folder.');
+      for (const id of files.keys()) images.add(id);
+      return {files:[...files.values()], hasMore:false, nextPageToken:''};
     },
     async image(id, signal) {
       if (!selected || !images.has(id)) throw new Error('Image is not readable in the selected folder results.');
@@ -156,7 +165,17 @@ export function viewportGrid(width, height, preferences = {}) {
   return {tileSize, rows, columns, capacity:rows * columns};
 }
 
-// Collect metadata pages serially while consumers draw from the growing pool.
+export function fileTags(file) {
+  return [...new Set((Array.isArray(file.tags) ? file.tags : [])
+    .map(value => typeof value === 'string' ? value : value?.tag)
+    .filter(value => typeof value === 'string' && value.trim())
+    .map(value => value.trim().toLowerCase()))];
+}
+export function matchesTag(file, tag = '') {
+  return !tag || fileTags(file).includes(tag.trim().toLowerCase());
+}
+
+// Load the catalogue while consumers wait for the image pool.
 export function createFilePool(reader, signal, random = Math.random, onProgress = () => {}) {
   const files = new Map();
   const waiters = new Set();
@@ -186,12 +205,14 @@ export function createFilePool(reader, signal, random = Math.random, onProgress 
   return {
     completion,
     get size() { return files.size; },
+    get tags() { return [...new Set([...files.values()].flatMap(fileTags))].sort((a,b) => a.localeCompare(b)); },
+    count(tag = '') { return [...files.values()].filter(file => matchesTag(file, tag)).length; },
     get error() { return error; },
-    async pick(used, consumerSignal = signal) {
+    async pick(used, consumerSignal = signal, tag = '') {
       while (true) {
         signal.throwIfAborted();
         consumerSignal.throwIfAborted();
-        const available = [...files.values()].filter(file => !used.has(file.id));
+        const available = [...files.values()].filter(file => !used.has(file.id) && matchesTag(file, tag));
         if (available.length) {
           const file = available[Math.floor(random() * available.length)];
           used.add(file.id);

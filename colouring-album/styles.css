@@ -66,6 +66,13 @@ main#app { position: fixed; inset: 0; width: 100%; height: 100dvh; max-width: no
 .grid-settings button { margin-top: 14px; }
 .grid-settings select:focus-visible { outline: 3px solid #7966a4; outline-offset: 3px; }
 
-.pool-count { position: fixed; top: 18px; left: 18px; z-index: 19; padding: 10px 14px; border-radius: 999px; background: #faf8f3e8; color: #514263; font-size: 13px; font-weight: 650; pointer-events: none; }
+.pool-count { display: block; margin-block: 8px 16px; color: #514263; font-size: 13px; }
 
 .drive-toggle { width: 46px; height: 46px; padding: 0; display: grid; place-items: center; font-size: 26px; line-height: 1; }
+.tag-search { position: fixed; top: 18px; left: 18px; z-index: 21; width: min(320px, calc(100vw - 100px)); }
+.tag-search input, .tag-options { background: #faf8f3f2; border: 1px solid #cbc5d4; border-radius: 8px; box-shadow: 0 4px 18px #30334426; }
+.tag-search input { height: 46px; }
+.tag-options { position: absolute; top: calc(100% + 6px); left: 0; width: 100%; overflow: hidden; padding: 4px; }
+.tag-options button { display: block; width: 100%; text-align: left; padding: 10px 8px; background: transparent; color: inherit; font-weight: 400; border-radius: 5px; overflow-wrap: anywhere; }
+.tag-options button:hover:enabled, .tag-options button[aria-selected="true"] { background: #eee9f4; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
