@@ -2,6 +2,36 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 25/10/2026
+
+- Monkey Man - Toots and the Maytals
+- Bad Moon Rising - Creedence Clearwater Revival
+- Bare Necessities, The - P Harris & B Reitherman
+- Big Yellow Taxi - Joni Mitchell
+- Blister in the Sun - The Violent Femmes
+- Don't Fence Me In - Bing Crosby
+- Tubthumping - Chumbawumba
+- Under The Boardwalk - The Drifters
+- As The World Falls Down - David Bowie
+- Look, The - Roxette
+- Valerie - Amy Winehouse
+- Unbearable - The Wonder Stuff
+- Don't Be Cruel - Elvis Presley
+- Dock of the Bay - Otis Redding
+- Dakota - Stereophonics
+- Dance The Night Away - The Mavericks
+- Daydream - The Lovin' Spoonful
+- Joy To The World - Three Dog Night
+- Losing My Religion - REM
+- Crazy Little Thing Called Love - Queen
+- Son Of A Preacher Man - Dusty Springfield
+- You Got What It Takes - Marv Johnson
+- Sunshine On Leith - The Proclaimers
+- Sunny Afternoon - The Kinks
+- I Wanna Be Like You - Louis Prima and Phil Harris
+- Letter, The - The Box Tops
+- Viva La Vida - Coldplay
+
 ### Songs sung by Cambridge Ukulele on 11/10/2026
 
 - Bad Moon Rising - Creedence Clearwater Revival
