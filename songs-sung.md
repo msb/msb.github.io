@@ -303,8 +303,8 @@ title: Songs sung by Cambridge Ukulele
 - Dreams - Fleetwood Mac
 - Dreams - Cranberries, The
 - Banjo Song, The - Mumford and Sons
-- Dreaming of You - The Coral
 - Summer In The City - The Lovin' Spoonful
+- Dreaming of You - The Coral
 - Daydream Believer - The Monkees
 - Sunny Afternoon - The Kinks
 - Lola - The Kinks
