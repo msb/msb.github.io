@@ -2,6 +2,35 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 08/11/2026
+
+- Hi Ho Silver Lining - Jeff Beck
+- Folsom Prison Blues - Johnny Cash
+- Friday I'm in Love - The Cure
+- Runaway - Del Shannon
+- It Doesn't Matter Anymore - Buddy Holly
+- Raining In My Heart - Buddy Holly
+- Golden Touch - Razorlight
+- Golden Brown - The Stranglers
+- Good Riddance (Time of Your Life) - Green Day
+- Pompeii - Bastille
+- Price Tag (abridged) - Jessie J
+- Proud Mary - Creedence Clearwater Revival
+- Psycho Killer - Talking Heads
+- Manhattan - Ella Fitzgerald
+- These Boots Are Made for Walkin' - Nancy Sinatra
+- Time After Time - Cindy Lauper
+- Three Little Birds - Bob Marley
+- Tide is High, The - Blondie
+- All You Need is Love - The Beatles
+- Alright - Supergrass
+- Always Look on the Bright Side of Life - Monty Python
+- Valerie - Amy Winehouse
+- Video Killed the Radio Star - The Buggles
+- Viva La Vida - Coldplay
+- Wagon Wheel - Old Crow Medicine Show
+- Sweet Caroline - Neil Diamond
+
 ### Songs sung by Cambridge Ukulele on 25/10/2026
 
 - Monkey Man - Toots and the Maytals
