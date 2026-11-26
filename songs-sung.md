@@ -2,6 +2,37 @@
 title: Songs sung by Cambridge Ukulele
 ---
 
+### Songs sung by Cambridge Ukulele on 22/11/2026
+
+- Take Me Home, Country Roads - John Denver
+- Take it Easy - The Eagles
+- Sweet Georgia Brown - Bing Crosby
+- Blitzkrieg Bop - The Ramones
+- Blister in the Sun - The Violent Femmes
+- Ruby - Kaiser Chiefs
+- Route 66 - Chuck Berry
+- Wagon Wheel - Old Crow Medicine Show
+- Killing Me Softly with his Song - Roberta Flack
+- Ain't She Sweet - The Beatles
+- It's Only A Paper Moon - Ella Fitzgerald
+- It's A Heartache - Bonnie Tyler
+- Sweet Dreams - Eurythmics
+- Sunny Afternoon - The Kinks
+- There She Goes - The La's
+- You Got What It Takes - Marv Johnson
+- Love Shack - The B-52s
+- Look, The - Roxette
+- Losing My Religion - REM
+- Crazy Little Thing Called Love - Queen
+- Creep - Radiohead
+- Crocodile Rock (abridged) - Elton John
+- Karma Chameleon - Culture Club
+- Alright - Supergrass
+- Dakota - Stereophonics
+- Daydream Believer - The Monkees
+- Daydream - The Lovin' Spoonful
+- I'm a Believer - The Monkees
+
 ### Songs sung by Cambridge Ukulele on 08/11/2026
 
 - Hi Ho Silver Lining - Jeff Beck
@@ -332,8 +363,8 @@ title: Songs sung by Cambridge Ukulele
 - Dreams - Fleetwood Mac
 - Dreams - Cranberries, The
 - Banjo Song, The - Mumford and Sons
-- Dreaming of You - The Coral
 - Summer In The City - The Lovin' Spoonful
+- Dreaming of You - The Coral
 - Daydream Believer - The Monkees
 - Sunny Afternoon - The Kinks
 - Lola - The Kinks
